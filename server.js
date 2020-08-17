@@ -1,17 +1,24 @@
 const express = require("express");
-const bodyParser = require("body-parser")
-
+const mongoose = require("mongoose");
+const bodyParser = require("body-parser");
 const app = express();
 
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({
-    extended: true
-}))
+app.use(
+  bodyParser.urlencoded({
+    extended: false
+  })
+);
 
-app.get('/', (req,res) => {
-    res.send("API up")
-})
+app.use(bodyParser.json());
 
-app.listen(3000, () => {
-    console.log("Servidor para Landing Urquieta corriendo")
-})
+const db = require("./config/keys").mongoURI;
+
+mongoose
+  .connect(
+    db,
+    { useNewUrlParser: true }
+  )
+  .then(() => console.log("Base de datos corriendo correctamente"))
+  .catch(err => console.log(err));
+const port = process.env.PORT || 5000; 
+app.listen(port, () => console.log(`Servidor para Landing Urquieta corriendo en el puerto ${port} !`));
