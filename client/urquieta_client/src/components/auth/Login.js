@@ -15,6 +15,12 @@ class Login extends Component {
     };
   }
 
+  componentDidMount() {
+    if (this.props.auth.isAuthenticated) {
+      this.props.history.push("/dashboard");
+    }
+  }
+
   componentWillReceiveProps(nextProps) {
     if (nextProps.auth.isAuthenticated) {
       this.props.history.push("/dashboard"); 
@@ -52,7 +58,7 @@ class Login extends Component {
             </Link>
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
               <h4>
-                <b>Ingresar</b> below
+                <b>Ingresar</b> 
               </h4>
               <p className="grey-text text-darken-1">
                 ¿Aún no tienes cuenta? <Link to="/register">Creala aqui</Link>
@@ -116,7 +122,7 @@ Login.propTypes = {
     auth: state.auth,
     errors: state.errors
   });
-  
+
   export default connect(
     mapStateToProps,
     { loginUser }
