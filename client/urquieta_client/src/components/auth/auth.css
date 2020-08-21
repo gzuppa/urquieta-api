@@ -58,15 +58,15 @@
       border: none;
   }
   
-  input:focus::-webkit-input-placeholder { color:transparent; }
+  input:focus::-webkit-input-placeholder { color:transparent; text-align: center; }
   input:focus:-moz-placeholder { color:transparent; }
   input:focus::-moz-placeholder { color:transparent; }
   input:focus:-ms-input-placeholder { color:transparent; }
 
-  input::-webkit-input-placeholder { color: #adadad;}
-  input:-moz-placeholder { color: #adadad;}
-  input::-moz-placeholder { color: #adadad;}
-  input:-ms-input-placeholder { color: #adadad;}
+  input::-webkit-input-placeholder { color: #28285b; text-align: center}
+  input:-moz-placeholder { color: #28285b; text-align: center}
+  input::-moz-placeholder { color: #28285b; text-align: center}
+  input:-ms-input-placeholder { color: #28285b; text-align: center}
   
   /*---------------------------------------------*/
   .logo{
@@ -156,13 +156,14 @@
   .wrap-input {
     width: 100%;
     position: relative;
-    border-bottom: 2px solid #d9d9d9;
+    border-bottom: 2px solid #28285b;
   }
   
   .input {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    color: #555555;
+    font-weight: bold;
+    color: #28285b;
     line-height: 1.2;
   
     display: block;

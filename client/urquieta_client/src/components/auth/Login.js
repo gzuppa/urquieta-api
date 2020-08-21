@@ -5,6 +5,7 @@ import { connect } from "react-redux";
 import { loginUser } from "../../actions/authActions";
 import './auth.css'
 import Assets from '../../assets/Assets'
+import classnames from "classnames";
 
 class Login extends Component {
   constructor() {
@@ -54,41 +55,63 @@ class Login extends Component {
         <div className="limiter">
 		<div className="container-login">
 			<div className="wrap-login">
-				<form className="login-form validate-form">
-                    <span className="logo">
-						<img src={Assets.authImgs.avatar} alt="logo" className="avatar"/>
+        <form noValidate 
+              onSubmit={this.onSubmit} 
+              className="login-form validate-form">
+          <span className="logo">
+            <img src={Assets.authImgs.avatar} 
+                 alt="logo" 
+                 className="avatar"/>
 					</span>
-                    <span className="login-form-title">
+          <span className="login-form-title">
 						Bienvenido
 					</span>
 
 					<div className="wrap-input validate-input" data-validate = "Enter username">
-						<input className="input" type="text" name="email" />
-						<span className="focus-input" data-placeholder="Email"></span>
+            <input 
+                  onChange={this.onChange}
+                  value={this.state.email}
+                  error={errors.email}
+                  id="email"
+                  className={classnames("input", {
+                    invalid: errors.email || errors.emailnotfound
+                  })}
+                  type="email"
+                  placeholder="Email" />
+                <span className="red-text">
+                  {errors.email}
+                  {errors.emailnotfound}
+                </span>
 					</div>
 
 					<div className="wrap-input validate-input m-b-50" data-validate="Enter password">
-						<input className="input" type="password" name="password" />
-						<span className="focus-input" data-placeholder="Password"></span>
+            <input 
+                   placeholder="Password"
+                   className={classnames("input", {
+                    invalid: errors.password || errors.passwordincorrect
+                  })}
+                   type="password" 
+                   id="password"
+                   onChange={this.onChange}
+                   value={this.state.password}
+                   error={errors.password} />
+                <span className="red-text">
+                  {errors.password}
+                  {errors.passwordincorrect}
+                </span>
 					</div>
 
 					<div className="container-login-form-btn">
-						<button className="login-form-btn">
+						<button className="login-form-btn" type="submit">
 							Login
 						</button>
 					</div>
 
 					<ul className="login-more">
 						<li>
-							<a href="#" className="txt2">
-								¿Olvidaste tu password?
-							</a>
-						</li>
-
-						<li>
-							<a href="#" className="txt2">
-								Registrate
-							</a>
+							<p className="txt2">
+              ¿Aún no tienes cuenta? <Link to='/register'>Regístrate aquí</Link>
+							</p>
 						</li>
 					</ul>
 				</form>
