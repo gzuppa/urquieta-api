@@ -7,8 +7,15 @@ const layoutImages = {
     logo: require('./layout/Logo.jpg'),
     agendacita: require('./layout/Agendatucita.png')
 }
+
+const carouselImages = {
+    image1: require('./carousel/carousel1.png'),
+    image2: require('./carousel/carousel2.jpg'),
+    image3: require('./carousel/carousel3.jpg')
+}
   
   export default {
     authImgs: authImages,
-    layoutImgs: layoutImages
+    layoutImgs: layoutImages,
+    carouselImgs: carouselImages
   }
