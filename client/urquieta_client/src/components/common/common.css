@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
 .navbar {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     background-color: #1c1c1c;
   }
   
@@ -19,7 +21,7 @@
   .menuItems {
   display: block;
   padding: 8px;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
   color: #FFFFFF;
   }
@@ -27,16 +29,18 @@
   .menuItemsBlue {
   display: block;
   padding: 8px;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
-  color: #00ACC8;
+  font-weight: bolder;
+  color:black;
+  margin-left: 50px;
   }
   
   .menuItems:hover {
   display: block;
   text-decoration: none;
   padding: 8px;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.5) ;
   }
@@ -45,9 +49,11 @@
   display: block;
   text-decoration: none;
   padding: 8px;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.7);
+  background-color: #b1f5ff;
+  border-radius: 15px;
+  color: black;
   }
   
   .icon {
@@ -65,4 +71,13 @@
   .nav2{
       margin-top: 150px;
       margin-left: -100px;
+  }
+
+  .agenda{
+      width: 185px;
+      height: 100px;
+  }
+
+  .listItem{
+      margin-right: 60px;
   }

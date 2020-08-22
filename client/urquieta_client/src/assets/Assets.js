@@ -4,7 +4,8 @@ const authImages = {
 }  
 
 const layoutImages = {
-    logo: require('./layout/Logo.jpg')
+    logo: require('./layout/Logo.jpg'),
+    agendacita: require('./layout/Agendatucita.png')
 }
   
   export default {

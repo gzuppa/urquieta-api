@@ -22,51 +22,51 @@ class Navbar extends React.Component {
     const { navBackground } = this.state
     return (
         <nav className={`navbar sticky-top navbar-expand-lg ${navBackground === '#FFFFFF' ? 'navbar-dark' : 'navbar-light'} color-nav`} style={{ backgroundColor: `${navBackground}` }}>
-        <div class="navbar-toggler-right">
+        <div className="navbar-toggler-right">
         <a className='navbar-brand' href='/#home'>
             <img src={navBackground === '#FFFFFF' ? Assets.layoutImgs.logo : Assets.layoutImgs.logo} alt='logo navbar' />
           </a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                   </button>
         </div>
 
-        <div class="collapse navbar-collapse flex-column " id="navbar">
+        <div className="collapse navbar-collapse flex-column" id="navbar">
       
-          <ul class="navbar-nav  w-100 justify-content-center px-3">
-            <li class="nav-item active">
+          <ul className="navbar-nav w-100 justify-content-center px-3 listItem">
+            <li className="nav-item active">
               <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Quienes somos <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
+            <li className="nav-item active">
               <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Solicitar una devolución de llamada <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
+            <li className="nav-item active">
               <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Contacto <span class="sr-only">(current)</span></a>
             </li>
           </ul>
       
-          <ul class="navbar-nav  w-100 justify-content-center px-3">
-            <li class="nav-item active">
+          <ul className="navbar-nav w-100 justify-content-center px-3 listItem">
+            <li className="nav-item active">
               <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Servicios <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
+            <li className="nav-item active">
               <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Pérdida auditiva <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
+            <li className="nav-item active">
               <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Kids <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
+            <li className="nav-item active">
               <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Solicitar cotización <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
+            <li className="nav-item active">
               <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Compra online <span class="sr-only">(current)</span></a>
             </li>   
           
           </ul>
         </div>
         <a className='navbar-brand' href='/#home'>
-            <img src={navBackground === '#FFFFFF' ? Assets.layoutImgs.logo : Assets.layoutImgs.logo} alt='logo navbar' />
+            <img src={navBackground === '#FFFFFF' ? Assets.layoutImgs.agendacita : Assets.layoutImgs.agendacita} className='agenda' alt='logo navbar' />
           </a>
 
       </nav>
