@@ -2,6 +2,9 @@
   "name": "urquieta",
   "version": "1.0.0",
   "description": "Webpage for Auditivos Urquieta",
+  "engines": {
+    "node": "12.18.3"
+  },
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",

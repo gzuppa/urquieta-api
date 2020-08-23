@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
 .carousel-item{
     height: 500px;
 } 
@@ -6,10 +9,50 @@
 }
 
 .AccessMenu {
-    height: 100px;
+    height: 75px;
 }
 
 .btnAccessMenu{
-    font-size: 30px !important;
-    background-color: #228ba6 !important
+    font-size: 24px !important;
+    color: #ffffff !important;
+    font-weight: bolder !important;
+    background-color: #2ab9d0 !important;
+}
+
+.btnAccessMenu:hover {
+    background-color: #228ba6 !important;
+    cursor: pointer !important;
+    -webkit-transition: background-color 1s ease-out !important;
+    -moz-transition: background-color 1s ease-out !important;
+    -o-transition: background-color 1s ease-out !important;
+    transition: background-color 1s ease-out !important;
+}
+
+.advisory {
+    text-align: center;
+    font-size: 85px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #245d8e;
+    margin-top: 30px !important;
+}
+
+.advisory-sub {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Dosis', sans-serif;
+    color: #245d8e;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: -50px;
+}
+
+.advisory-2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    color: #245d8e;
+}
+
+.img-advisory {
+    padding: 20px;
 }
