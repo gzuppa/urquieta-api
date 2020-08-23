@@ -15,7 +15,10 @@ const carouselImages = {
 }
 
 const generalLandingImages = {
-    advisory: require('./general-landing/otorrino.jpg')
+    advisory: require('./general-landing/otorrino.jpg'),
+    card1: require('./general-landing/intracanal.png'),
+    card2: require('./general-landing/curveta.png'),
+    card3: require('./general-landing/conduccionosea.jpg')
 }
   
   export default {

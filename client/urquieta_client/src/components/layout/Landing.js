@@ -3,6 +3,7 @@ import Navbar from '../common/Navbar'
 import CarouselComponent from '../landing/CarouselComponent'
 import AccessMenu from '../landing/AccessMenu'
 import FreeAdvisory from '../landing/FreeAdvisory'
+import CardSection from '../landing/CardSection'
 
 class Landing extends Component {
   render() {
@@ -12,6 +13,7 @@ class Landing extends Component {
      <CarouselComponent />
      <AccessMenu />
      <FreeAdvisory />
+     <CardSection />
         </div>
     );
   }

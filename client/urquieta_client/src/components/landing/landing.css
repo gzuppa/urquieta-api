@@ -56,3 +56,20 @@
 .img-advisory {
     padding: 20px;
 }
+
+.card-header {
+    text-align: center !important;
+    background-color: transparent !important;
+    color: #245d8e !important;
+    font-weight: bolder !important;
+    font-size: 19px !important;
+}
+
+.card-devices {
+    margin-left: 100px !important;
+}
+
+.card-desc {
+    font-weight: bold !important;
+    text-align: center !important;
+}
