@@ -31,5 +31,9 @@ app.use(passport.initialize());
 require("./config/passport")(passport);
 app.use("/api/users", users);
 
+if(process.env.NODE_ENV === 'production') {
+  app.use(express.static)
+}
+
 const port = process.env.PORT || 5000; 
 app.listen(port, () => console.log(`Servidor para Landing Urquieta corriendo en el puerto ${port} !`));
