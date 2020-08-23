@@ -4,3 +4,12 @@
 .carousel-item img{
     height: 500px;
 }
+
+.AccessMenu {
+    height: 100px;
+}
+
+.btnAccessMenu{
+    font-size: 30px !important;
+    background-color: #228ba6 !important
+}

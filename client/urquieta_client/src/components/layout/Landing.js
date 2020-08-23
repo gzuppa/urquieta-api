@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from '../common/Navbar'
 import CarouselComponent from '../landing/CarouselComponent'
+import AccessMenu from '../landing/AccessMenu'
 
 class Landing extends Component {
   render() {
@@ -8,6 +9,7 @@ class Landing extends Component {
         <div>
      <Navbar />
      <CarouselComponent />
+     <AccessMenu />
         </div>
     );
   }
