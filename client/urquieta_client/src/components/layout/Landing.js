@@ -5,6 +5,7 @@ import AccessMenu from '../landing/AccessMenu'
 import FreeAdvisory from '../landing/FreeAdvisory'
 import CardSection from '../landing/CardSection'
 import OurClients from '../landing/OurClients'
+import Services from '../landing/Services'
 
 class Landing extends Component {
   render() {
@@ -16,6 +17,7 @@ class Landing extends Component {
      <FreeAdvisory />
      <CardSection />
      <OurClients />
+     <Services />
         </div>
     );
   }
