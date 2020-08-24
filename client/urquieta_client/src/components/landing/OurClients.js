@@ -4,6 +4,7 @@ import {Card, Image, Grid} from 'semantic-ui-react'
 import Assets from '../../assets/Assets'
 import {v4 as uuid} from 'uuid'
 import { config } from "react-spring";
+import './landing.css'
 
 export default class OurClients extends Component {
   state = {
@@ -45,7 +46,7 @@ export default class OurClients extends Component {
           src={Assets.generalImgs.avatar2}
         />
         <Card.Header>Peter "Spiderman" Parker</Card.Header>
-        <Card.Meta>Immortal Mutant</Card.Meta>
+        <Card.Meta>Friendly Neighbor</Card.Meta>
         <Card.Description>
           This is a grateful <strong>experience!</strong>.
           <br></br>
@@ -65,7 +66,7 @@ export default class OurClients extends Component {
           src={Assets.generalImgs.avatar3}
         />
         <Card.Header>Bruce "Hulk" Banner</Card.Header>
-        <Card.Meta>Immortal Mutant</Card.Meta>
+        <Card.Meta>Gamma Scientist</Card.Meta>
         <Card.Description>
           This is a grateful <strong>experience!</strong>.
           <br></br>
@@ -73,7 +74,27 @@ export default class OurClients extends Component {
         </Card.Description>
       </Card.Content>
       </Card>
-    }
+    },
+    {
+        key: uuid(),
+        content: 
+        <Card>
+        <Card.Content>
+          <Image
+            floated='right'
+            size='mini'
+            src={Assets.generalImgs.avatar4}
+          />
+          <Card.Header>Thor</Card.Header>
+          <Card.Meta>God of Thunder</Card.Meta>
+          <Card.Description>
+            This is a grateful <strong>experience!</strong>.
+            <br></br>
+            DUMMY TEXT
+          </Card.Description>
+        </Card.Content>
+        </Card>
+      }
   ].map((slide, index) => {
     return { ...slide, onClick: () => this.setState({ goToSlide: index }) };
   });
@@ -89,30 +110,15 @@ export default class OurClients extends Component {
         <Grid columns='equal'>
     <Grid.Row>
       <Grid.Column>
-        <Segment>1</Segment>
-      </Grid.Column>
-      <Grid.Column>
-        <Segment>2</Segment>
-      </Grid.Column>
-      <Grid.Column>
-        <Segment>3</Segment>
-      </Grid.Column>
-      <Grid.Column>
-        <Segment>4</Segment>
+        <p className="advisory">Nuestros clientes...</p>
       </Grid.Column>
     </Grid.Row>
     <Grid.Row>
       <Grid.Column>
-        <Segment>1</Segment>
+        <img src={Assets.generalImgs.clients} className="clients" alt="clients"/>
       </Grid.Column>
       <Grid.Column>
-        <Segment>2</Segment>
-      </Grid.Column>
-      <Grid.Column>
-        <Segment>3</Segment>
-      </Grid.Column>
-    </Grid.Row>
-      <div style={{ width: "80%", height: "500px", margin: "0 auto" }}>
+      <div style={{ width: "80%", height: "300px", margin: "0 auto" }}>
         <Carousel
           slides={this.slides}
           goToSlide={this.state.goToSlide}
@@ -131,6 +137,9 @@ export default class OurClients extends Component {
         >
           </div>
         </div>
+      </Grid.Column>
+    </Grid.Row>
+        </Grid>
     );
   }
 }

@@ -73,3 +73,10 @@
     font-weight: bold !important;
     text-align: center !important;
 }
+
+.clients {
+    width: 350px;
+    height: 350px;
+    border-radius: 500px;
+    margin-left: 230px;
+}

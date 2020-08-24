@@ -16,12 +16,14 @@ const carouselImages = {
 
 const generalLandingImages = {
     advisory: require('./general-landing/otorrino.jpg'),
+    clients: require('./general-landing/otoriino2.jpg'),
     card1: require('./general-landing/intracanal.png'),
     card2: require('./general-landing/curveta.png'),
     card3: require('./general-landing/conduccionosea.jpg'),
     avatar1: require('./general-landing/wolverine-avatar.png'),
     avatar2: require('./general-landing/spiderman-avatar.png'),
-    avatar3: require('./general-landing/hulk-avatar.jpg')
+    avatar3: require('./general-landing/hulk-avatar.jpg'),
+    avatar4: require('./general-landing/thor-avatar.jpg')
 }
   
   export default {
