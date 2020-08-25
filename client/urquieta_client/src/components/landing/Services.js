@@ -3,7 +3,7 @@ import { Grid } from 'semantic-ui-react'
 import Assets from '../../assets/Assets'
 import './landing.css'
 
-const FreeAdvisory = () => (
+const Services = () => (
     <Grid columns="equal">
     <Grid.Row>
         <Grid.Column>
@@ -32,4 +32,4 @@ const FreeAdvisory = () => (
     </Grid>
 )
 
-export default FreeAdvisory
+export default Services
