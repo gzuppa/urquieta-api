@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 .carousel-item{
     height: 500px;
@@ -104,4 +105,16 @@
     font-weight: lighter;
     color: #245d8e;
     margin-top: -40px;
+}
+
+.contact-segment-1 {
+    background-color: #00acc8 !important;
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+}
+
+.text-segment-1 {
+    font-family: 'Nunito Sans', sans-serif !important;
+    color: #ffffff !important;
+    font-weight: bolder !important;
 }
