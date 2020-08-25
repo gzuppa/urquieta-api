@@ -80,3 +80,28 @@
     border-radius: 500px;
     margin-left: 230px;
 }
+
+.services-img {
+    border-radius: 250px;
+    width: 300px;
+    height: 300px;
+    margin-left: 35px;
+}
+
+.services-title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    color: #245d8e;
+    margin-top: 10px;
+}
+
+.services-subtitle {
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: lighter;
+    color: #245d8e;
+    margin-top: -40px;
+}

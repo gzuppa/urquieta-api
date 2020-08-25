@@ -28,8 +28,10 @@
     "mysql2": "^2.1.0",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
+    "request": "^2.88.2",
     "sequelize": "^6.3.4",
-    "validator": "^13.1.1"
+    "validator": "^13.1.1",
+    "zip-folder": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
