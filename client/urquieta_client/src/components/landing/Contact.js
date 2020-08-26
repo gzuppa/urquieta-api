@@ -1,20 +1,32 @@
 import React from 'react'
-import { Grid, Segment, Icon } from 'semantic-ui-react'
+import { Grid } from 'semantic-ui-react'
 import Assets from '../../assets/Assets'
 import './landing.css'
+
+const description = [
+    '01 800 28 68 471'
+  ].join(' ')
 
 const Contact = () => (
     <Grid columns="equal">
     <Grid.Row>
         <Grid.Column>
-            <Segment.Group compact>
-             <Segment className="contact-segment-1">
-                 <p className="text-segment-1">Atención telefónica</p>
-             </Segment>
-             <Segment>
-                <Icon name="phone" /> 01800 28 68 471
-             </Segment>
-            </Segment.Group>
+        <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src={Assets.generalImgs.telephone} />
+                    <h3>Atención telefónica</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>01800 2868 471</p>
+                        <a href="#"></a>
+                </div>
+            </div>
+        </div>
+        </div>
         </Grid.Column>
         <Grid.Column>
         
