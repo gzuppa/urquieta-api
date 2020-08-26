@@ -56,7 +56,21 @@ const Contact = () => (
         </div>
         </Grid.Column>
         <Grid.Column>
-        
+        <div class="container">
+        <div class="card">
+            <div class="face face5">
+                <div class="content">
+                    <img src={Assets.generalImgs.clock} />
+                    <h3>Horarios de atención</h3>
+                </div>
+            </div>
+            <div class="face face6">
+                <div class="content">
+                    <p>01 800 2868 471</p>
+                </div>
+            </div>
+        </div>
+        </div>
         </Grid.Column>
     </Grid.Row>
     <Grid.Row>

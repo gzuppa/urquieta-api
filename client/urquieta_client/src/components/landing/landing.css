@@ -224,7 +224,7 @@
 
 .container .card .face.face3{
     position: relative;
-    background: #294999;
+    background: #245d8e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,4 +320,100 @@
 
 .contact-whatsapp {
     margin-left: 49px !important;
+}
+
+.container .card .face.face5{
+    position: relative;
+    background: #294999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+    border-top-left-radius: 20px !important;
+    border-top-rIght-radius: 20px !important;
+}
+
+.container .card:hover .face.face5{
+    background: #78acdb;
+    transform: translateY(0);
+}
+
+.container .card .face.face5 .content{
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face5 .content{
+    opacity: 1;
+}
+
+.container .card .face.face5 .content img{
+    width: 77px;
+    height: 73px;
+    margin-left: 70px;
+}
+
+.container .card .face.face5 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+}
+
+.container .card .face.face5 .content h5{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.container .card .face.face6{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container .card:hover .face.face6{
+    transform: translateY(0);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.container .card .face.face6 .content p{
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    color: #78acdb;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container .card .face.face6 .content a{
+    margin: 15px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+.container .card .face.face6 .content a:hover{
+    background: #333;
+    color: #fff;
 }
