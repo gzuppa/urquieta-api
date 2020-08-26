@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Header, Image } from 'semantic-ui-react'
+import { Grid, Header, Image, Button } from 'semantic-ui-react'
 import Assets from '../../assets/Assets'
 import './landing.css'
 
@@ -45,8 +45,8 @@ const Contact = () => (
                         </Header.Subheader>
                     </Header>      
                     <Header as='h3'>
-                        <Image circular src={Assets.generalImgs.mail} /> Enviar Correo
-                        <Header.Subheader>
+                        <Image circular src={Assets.generalImgs.mail} className="icon-mail"/> Enviar Correo
+                        <Header.Subheader className="contact-mail">
                         info@auditivosurquieta.com.mx
                         </Header.Subheader>
                     </Header>   
@@ -65,9 +65,19 @@ const Contact = () => (
                 </div>
             </div>
             <div class="face face6">
-                <div class="content">
-                    <p>01 800 2868 471</p>
-                </div>
+            <div class="content">
+            <Button.Group widths='3'>
+                <Button className="venue">CDMX</Button>
+                <Button className="venue">Cuernavaca</Button>
+                <Button className="venue">Querétaro</Button>
+            </Button.Group>
+            <Header as='h3'>
+                 Lunes a Viernes 09:00-18:00 hrs
+            </Header> 
+            <Header as='h3'>
+                 Sábado 10:00-14:00 hrs
+            </Header>   
+            </div>  
             </div>
         </div>
         </div>

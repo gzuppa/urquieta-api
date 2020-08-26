@@ -139,7 +139,6 @@
 }
 
 .container .card:hover .face.face1{
-    background: #78acdb;
     transform: translateY(0);
 }
 
@@ -180,7 +179,7 @@
 
 .container .card .face.face2{
     position: relative;
-    background: #fff;
+    background: #228ba6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,30 +197,11 @@
     border-top-right-radius: 0px;
 }
 
-.container .card .face.face2 .content p{
-    margin: 0;
-    padding: 0;
-    font-size: 34px;
-    color: #78acdb;
-    font-weight: bold;
-    font-family: 'Dosis', sans-serif;
-}
-
-.container .card .face.face2 .content a{
-    margin: 15px 0 0;
-    display:  inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
-}
-
-.container .card .face.face2 .content a:hover{
-    background: #333;
+.container .card:hover .face.face2 .content p{
     color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
 }
-
 .container .card .face.face3{
     position: relative;
     background: #245d8e;
@@ -235,7 +215,6 @@
 }
 
 .container .card:hover .face.face3{
-    background: #78acdb;
     transform: translateY(0);
 }
 
@@ -276,7 +255,7 @@
 
 .container .card .face.face4{
     position: relative;
-    background: #fff;
+    background: #245d8e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -294,32 +273,17 @@
     border-top-right-radius: 0px;
 }
 
-.container .card .face.face4 .content p{
-    margin: 0;
-    padding: 0;
-    font-size: 34px;
-    color: #78acdb;
-    font-weight: bold;
-    font-family: 'Dosis', sans-serif;
-}
-
-.container .card .face.face4 .content a{
-    margin: 15px 0 0;
-    display:  inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
-}
-
-.container .card .face.face4 .content a:hover{
-    background: #333;
-    color: #fff;
+.container .card .face.face4 .content h3, h5{
+    color: #ffffff;
 }
 
 .contact-whatsapp {
     margin-left: 49px !important;
+    color: #fff !important;
+}
+
+.contact-mail {
+    color: #fff !important;
 }
 
 .container .card .face.face5{
@@ -335,7 +299,7 @@
 }
 
 .container .card:hover .face.face5{
-    background: #78acdb;
+    background: #294999;
     transform: translateY(0);
 }
 
@@ -364,19 +328,9 @@
     font-size: 32px;
 }
 
-.container .card .face.face5 .content h5{
-    margin: 10px 0 0;
-    padding: 0;
-    color: #ffffff;
-    font-family: 'Dosis', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: 24px;
-}
-
 .container .card .face.face6{
     position: relative;
-    background: #fff;
+    background: #294999;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -394,26 +348,14 @@
     border-top-right-radius: 0px;
 }
 
-.container .card .face.face6 .content p{
-    margin: 0;
-    padding: 0;
-    font-size: 34px;
-    color: #78acdb;
-    font-weight: bold;
-    font-family: 'Dosis', sans-serif;
+.container .card .face.face6 .content h3{
+    color: #ffffff;
+    text-align: center;
 }
 
-.container .card .face.face6 .content a{
-    margin: 15px 0 0;
-    display:  inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
+.venue {
+    font-size: 10px !important;
+    background-color: #78acdb !important;
+    color: #ffffff !important;
 }
 
-.container .card .face.face6 .content a:hover{
-    background: #333;
-    color: #fff;
-}
