@@ -24,7 +24,9 @@ const generalLandingImages = {
     avatar2: require('./general-landing/spiderman-avatar.png'),
     avatar3: require('./general-landing/hulk-avatar.jpg'),
     avatar4: require('./general-landing/thor-avatar.jpg'),
-    telephone: require('./general-landing/phone.png')
+    telephone: require('./general-landing/phone.png'),
+    whatsapp: require('./general-landing/whatsapp.png'),
+    mail: require('./general-landing/mail.png')
 }
   
   export default {
