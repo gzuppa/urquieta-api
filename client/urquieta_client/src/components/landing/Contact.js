@@ -83,9 +83,6 @@ const Contact = () => (
         </div>
         </Grid.Column>
     </Grid.Row>
-    <Grid.Row>
-    
-    </Grid.Row>
     </Grid>
 )
 

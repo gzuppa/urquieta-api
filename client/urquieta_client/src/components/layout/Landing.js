@@ -7,6 +7,7 @@ import CardSection from '../landing/CardSection'
 import OurClients from '../landing/OurClients'
 import Services from '../landing/Services'
 import Contact from '../landing/Contact'
+import FormAndMap from '../landing/FormAndMap'
 
 class Landing extends Component {
   render() {
@@ -20,6 +21,7 @@ class Landing extends Component {
      <OurClients />
      <Services />
      <Contact />
+     <FormAndMap />
         </div>
     );
   }
