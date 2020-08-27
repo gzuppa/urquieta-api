@@ -5,7 +5,7 @@ const authImages = {
 
 const layoutImages = {
     logo: require('./layout/Logo.jpg'),
-    agendacita: require('./layout/Agendatucita.png')
+    agendacita: require('./layout/agenda.png')
 }
 
 const carouselImages = {
