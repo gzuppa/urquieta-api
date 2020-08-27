@@ -1,10 +1,10 @@
 import React from 'react'
-import { Grid, Form, Checkbox, Button } from 'semantic-ui-react'
+import { Grid, Form, Checkbox, Button, Image } from 'semantic-ui-react'
 import Assets from '../../assets/Assets'
 import './landing.css'
 
 const FormAndMap = () => (
-    <Grid columns="equal">
+    <Grid columns="equal" className="formap-grid">
     <Grid.Row>
         <Grid.Column>
         <div class="formap 1">
@@ -35,8 +35,50 @@ const FormAndMap = () => (
             </div>
         </div>
         </Grid.Column>
-        <Grid.Column>
-      
+        <Grid.Column columns="equal">
+            <Grid columns={2} divided>
+                <Grid.Row>
+                <Grid.Column>
+                    <Image src={Assets.generalImgs.miramontes} className="map-img"/>
+                    <span className="map-title">Miramontes</span>
+                    <br/>
+                    <span className="map-subtitle">Av. Canal de Miramontes 2761 Loc. D PB Col.
+                        Jardínes de Coyoacán C.P. 04890, CDMX.</span>
+                    <br/>
+                    <span className="map-title">(55) 5677 9396</span>
+                </Grid.Column>
+                <Grid.Column>
+                    <Image src={Assets.generalImgs.avante} className="map-img"/>
+                    <span className="map-title">Avante</span>
+                    <br/>
+                    <span className="map-subtitle">Av. Canal de Miramontes 2332a Col. Avante C.P.
+                        04406, CDMX</span>
+                    <br/>
+                    <span className="map-title">(55) 5679 8390</span>
+                </Grid.Column>
+                </Grid.Row>
+
+                <Grid.Row>
+                <Grid.Column>
+                    <Image src={Assets.generalImgs.cuernavaca} className="map-img"/>
+                    <span className="map-title">Cuernavaca</span>
+                    <br/>
+                    <span className="map-subtitle">Blvd. Benito Juárez 58 Loc. 9 y 10 Col. Palmas, C.P.
+                        62050, Cuernavaca, Morelos.</span>
+                    <br/>
+                    <span className="map-title">(777) 318 2339</span>
+                </Grid.Column>
+                <Grid.Column>
+                    <Image src={Assets.generalImgs.queretaro} className="map-img"/>
+                    <span className="map-title">Querétaro</span>
+                    <br/>
+                    <span className="map-subtitle">Av. Constituyentes 7 8c Col. Alameda C.P. 76040,
+                        Querétaro, Querétaro.</span>
+                    <br/>
+                    <span className="map-title">(442) 212 9891</span>   
+                </Grid.Column>
+                </Grid.Row>
+            </Grid>
         </Grid.Column>
     </Grid.Row>
     </Grid>

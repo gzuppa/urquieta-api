@@ -27,7 +27,11 @@ const generalLandingImages = {
     telephone: require('./general-landing/phone.png'),
     whatsapp: require('./general-landing/whatsapp.png'),
     mail: require('./general-landing/mail.png'),
-    clock: require('./general-landing/clock.png')
+    clock: require('./general-landing/clock.png'),
+    miramontes: require('./general-landing/miramontes.PNG'),
+    avante: require('./general-landing/avante.PNG'),
+    cuernavaca: require('./general-landing/cuernavaca.PNG'),
+    queretaro: require('./general-landing/queretaro.PNG')
 }
   
   export default {

@@ -361,7 +361,9 @@
     background-color: #78acdb !important;
     color: #ffffff !important;
 }
-
+.formap-grid {
+    background-color: rgb(243, 243, 243);
+}
 .formap {
     margin: 30px auto;
     width: 550px;
@@ -432,6 +434,24 @@
       -5px -5px 30px 15px rgba(0,0,0,0.22);
   }
   
+  .map-title {
+      text-align: center !important;
+      color: #245d8e !important;
+      font-weight: 900;
+      font-size: 15px;
+  }
+
+  .map-subtitle {
+    text-align: center !important;
+    color: #245d8e !important;
+    font-size: 13px;
+}
+
+.map-img {
+    width: 400px;
+    height: 200px;
+}
+
   @media all and (max-width: 500px) {
     .formap-list {
       flex-direction: column;
