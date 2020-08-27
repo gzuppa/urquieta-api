@@ -457,4 +457,27 @@
       flex-direction: column;
     }
   }
+
+.footer-cont {
+    width: 100% !important;
+    height: 180px;
+    margin-top: 15px;
+    background-color: #294999;
+}
+
+.footer-pay {
+    font-size: 16px;
+    color: white;
+    margin-left: 220px;
+}
+
+.footer-social {
+    width: 100px;
+    height: 100px;
+}
+
+.social-media {
+    margin-top: 28px !important;
+    margin-left: 200px !important;
+}
   

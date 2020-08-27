@@ -31,7 +31,15 @@ const generalLandingImages = {
     miramontes: require('./general-landing/miramontes.PNG'),
     avante: require('./general-landing/avante.PNG'),
     cuernavaca: require('./general-landing/cuernavaca.PNG'),
-    queretaro: require('./general-landing/queretaro.PNG')
+    queretaro: require('./general-landing/queretaro.PNG'),
+    amex: require('./general-landing/amex.png'),
+    dollar: require('./general-landing/dollar.png'),
+    mastercard: require('./general-landing/mastercard.png'),
+    visa: require('./general-landing/visa.png'),
+    instagram: require('./general-landing/instagram-blanco.png'),
+    fb: require('./general-landing/fb-blanco.png'),
+    twitter: require('./general-landing/twitter-blanco.png'),
+    whatsappwhite: require('./general-landing/whatsapp-blanco.png')
 }
   
   export default {
