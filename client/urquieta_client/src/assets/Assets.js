@@ -41,10 +41,15 @@ const generalLandingImages = {
     twitter: require('./general-landing/twitter-blanco.png'),
     whatsappwhite: require('./general-landing/whatsapp-blanco.png')
 }
+
+const serviceImages = {
+  ear: require('./services/ear.png')
+}
   
   export default {
     authImgs: authImages,
     layoutImgs: layoutImages,
     carouselImgs: carouselImages,
-    generalImgs: generalLandingImages
+    generalImgs: generalLandingImages,
+    servicesImgs: serviceImages
   }

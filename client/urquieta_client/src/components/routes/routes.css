@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.ear {
+    border-top-width: 10px;
+    border-top-color: green;
+}
+
+.header-services {
+    font-size: 24px;
+    background-color: #408ccb !important;
+    width: 200px !important;
+    height: 45px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.header-text {
+    padding-top: 5px !important;
+    padding-left: 15px !important;
+    color: #fff !important;
+}
