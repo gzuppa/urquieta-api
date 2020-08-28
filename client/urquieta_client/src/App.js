@@ -12,6 +12,7 @@ import Login from './components/auth/Login'
 import PrivateRoute from "./components/private-route/PrivateRoute";
 import Dashboard from "./components/dashboard/Dashboard";
 import Services from './components/routes/Services'
+import Auxiliars from './components/routes/Auxiliars'
 
 //Validar login y tokens correctos
 if (localStorage.jwtToken) {
@@ -38,6 +39,7 @@ class App extends Component{
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/services" component={Services} />
+          <Route exact path="/auxiliars" component={Auxiliars} />
           <Switch>
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
             </Switch>
