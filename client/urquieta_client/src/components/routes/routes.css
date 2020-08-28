@@ -14,7 +14,7 @@
 .header-services {
     font-size: 24px;
     background-color: #408ccb !important;
-    width: 200px !important;
+    width: 240px !important;
     height: 45px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -26,4 +26,18 @@
     padding-top: 5px !important;
     padding-left: 15px !important;
     color: #fff !important;
+}
+
+.services-paragraph {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: #28285b;
+    font-weight: 500;
+}
+
+.services-up {
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-size: 34px !important;
+    color: #28285b !important;
+    font-weight: bolder !important;
 }
