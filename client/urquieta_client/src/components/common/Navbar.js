@@ -5,15 +5,17 @@ import { Dropdown } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 const ROOT_PATH = '/'
 const AUXILIAR_PATH = '/auxiliars'
+const ABOUT_PATH = '/aboutus'
+const ISSUES_PATH = '/issues'
 
 class Navbar extends React.Component {
 
     state = {
-        navBackground: window.location.pathname === ROOT_PATH || AUXILIAR_PATH ? '#FFFFFF' : '#245D8E'
+        navBackground: window.location.pathname === ROOT_PATH || AUXILIAR_PATH || ABOUT_PATH || ISSUES_PATH ? '#FFFFFF' : '#245D8E'
       }
 
       componentDidMount () {
-        if(window.location.pathname === ROOT_PATH || AUXILIAR_PATH){
+        if(window.location.pathname === ROOT_PATH || AUXILIAR_PATH || ABOUT_PATH || ISSUES_PATH){
           document.addEventListener('scroll', () => {
             const backgroundcolor = window.scrollY < 100 ? '#FFFFFF' : '#245D8E'
             this.setState({ navBackground: backgroundcolor })
@@ -62,7 +64,15 @@ class Navbar extends React.Component {
               </Dropdown>
             </li>
             <li className="nav-item active">
-              <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Pérdida auditiva <span class="sr-only">(current)</span></a>
+            <Dropdown text="Pérdida auditiva" className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'}>
+              <Dropdown.Menu>
+              <Link to="/issues"> <Dropdown.Item text='¿Que es hipoacusia o pérdida auditiva?' className="drop-services-item"/> </Link>
+              <Link to="/issues"> <Dropdown.Item text='Examen de audición' className="drop-services-item"/> </Link>
+              <Link to="/issues"> <Dropdown.Item text='Tipos de pérdida auditiva' className="drop-services-item"/> </Link>
+              <Link to="/issues"> <Dropdown.Item text='¿Cómo funciona el oído?' className="drop-services-item"/> </Link>
+              <Link to="/issues"> <Dropdown.Item text='Microtia - atresia' className="drop-services-item"/> </Link>
+              </Dropdown.Menu>
+              </Dropdown>
             </li>
             <li className="nav-item active">
               <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Kids <span class="sr-only">(current)</span></a>
