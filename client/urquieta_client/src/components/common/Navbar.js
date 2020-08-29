@@ -9,15 +9,16 @@ const ABOUT_PATH = '/aboutus'
 const ISSUES_PATH = '/issues'
 const EXAM_PATH = '/exam'
 const PRICING_PATH = '/pricing'
+const KIDS_PATH = '/kids'
 
 class Navbar extends React.Component {
 
     state = {
-        navBackground: window.location.pathname === ROOT_PATH || AUXILIAR_PATH || ABOUT_PATH || ISSUES_PATH || EXAM_PATH || PRICING_PATH ? '#FFFFFF' : '#245D8E'
+        navBackground: window.location.pathname === ROOT_PATH || AUXILIAR_PATH || ABOUT_PATH || ISSUES_PATH || EXAM_PATH || PRICING_PATH || KIDS_PATH ? '#FFFFFF' : '#245D8E'
       }
 
       componentDidMount () {
-        if(window.location.pathname === ROOT_PATH || AUXILIAR_PATH || ABOUT_PATH || ISSUES_PATH || EXAM_PATH || PRICING_PATH){
+        if(window.location.pathname === ROOT_PATH || AUXILIAR_PATH || ABOUT_PATH || ISSUES_PATH || EXAM_PATH || PRICING_PATH || KIDS_PATH){
           document.addEventListener('scroll', () => {
             const backgroundcolor = window.scrollY < 100 ? '#FFFFFF' : '#245D8E'
             this.setState({ navBackground: backgroundcolor })
@@ -77,7 +78,14 @@ class Navbar extends React.Component {
               </Dropdown>
             </li>
             <li className="nav-item active">
-              <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Kids <span class="sr-only">(current)</span></a>
+            <Dropdown text="Kids" className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'}>
+              <Dropdown.Menu>
+              <Link to="/kids"> <Dropdown.Item text='Atención pediátrica' className="drop-services-item"/> </Link>
+              <Link to="/kids"> <Dropdown.Item text='Tamiz' className="drop-services-item"/> </Link>
+              <Link to="/kids"> <Dropdown.Item text='Sistema de vibración ósea' className="drop-services-item"/> </Link>
+              <Link to="/kids"> <Dropdown.Item text='AA para niños' className="drop-services-item"/> </Link>
+              </Dropdown.Menu>
+              </Dropdown>
             </li>
             <li className="nav-item active">
               <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Solicitar cotización <span class="sr-only">(current)</span></a>
