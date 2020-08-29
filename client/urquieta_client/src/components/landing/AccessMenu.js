@@ -5,7 +5,9 @@ import './landing.css'
 
 const AccessMenu = () => (
     <Button.Group widths='3' className="AccessMenu">
-    <Button className="btnAccessMenu">Examen de audición gratuito</Button>
+    <Button className="btnAccessMenu">
+      <Link to="/exam">
+      Examen de audición gratuito</Link></Button>
     <Button className="btnAccessMenu">
       <Link to="/auxiliars">
       Auxiliares auditivos</Link></Button>
