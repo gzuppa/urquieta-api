@@ -3,7 +3,6 @@ import Navbar from '../common/Navbar'
 import AccessMenu from '../landing/AccessMenu'
 import { Container, Header } from 'semantic-ui-react'
 import './routes.css'
-import '../common/common.css'
 
 class Auxiliars extends Component {
   render() {
