@@ -39,7 +39,7 @@ class Navbar extends React.Component {
       
           <ul className="navbar-nav w-100 justify-content-center px-3 listItem">
             <li className="nav-item active">
-              <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Quienes somos <span class="sr-only">(current)</span></a>
+            <Link to="/aboutus"> <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} >Quienes somos <span class="sr-only">(current)</span></a> </Link>
             </li>
             <li className="nav-item active">
               <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Solicitar una devolución de llamada <span class="sr-only">(current)</span></a>
