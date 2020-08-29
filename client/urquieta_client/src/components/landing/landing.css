@@ -21,7 +21,23 @@
     background-color: #2ab9d0 !important;
 }
 
+.btnAccessMenu a{
+    font-size: 24px !important;
+    color: #ffffff !important;
+    font-weight: bolder !important;
+    background-color: #2ab9d0 !important;
+}
+
 .btnAccessMenu:hover {
+    background-color: #228ba6 !important;
+    cursor: pointer !important;
+    -webkit-transition: background-color 1s ease-out !important;
+    -moz-transition: background-color 1s ease-out !important;
+    -o-transition: background-color 1s ease-out !important;
+    transition: background-color 1s ease-out !important;
+}
+
+.btnAccessMenu:hover a{
     background-color: #228ba6 !important;
     cursor: pointer !important;
     -webkit-transition: background-color 1s ease-out !important;
