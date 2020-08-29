@@ -8,15 +8,16 @@ const AUXILIAR_PATH = '/auxiliars'
 const ABOUT_PATH = '/aboutus'
 const ISSUES_PATH = '/issues'
 const EXAM_PATH = '/exam'
+const PRICING_PATH = '/pricing'
 
 class Navbar extends React.Component {
 
     state = {
-        navBackground: window.location.pathname === ROOT_PATH || AUXILIAR_PATH || ABOUT_PATH || ISSUES_PATH || EXAM_PATH ? '#FFFFFF' : '#245D8E'
+        navBackground: window.location.pathname === ROOT_PATH || AUXILIAR_PATH || ABOUT_PATH || ISSUES_PATH || EXAM_PATH || PRICING_PATH ? '#FFFFFF' : '#245D8E'
       }
 
       componentDidMount () {
-        if(window.location.pathname === ROOT_PATH || AUXILIAR_PATH || ABOUT_PATH || ISSUES_PATH || EXAM_PATH){
+        if(window.location.pathname === ROOT_PATH || AUXILIAR_PATH || ABOUT_PATH || ISSUES_PATH || EXAM_PATH || PRICING_PATH){
           document.addEventListener('scroll', () => {
             const backgroundcolor = window.scrollY < 100 ? '#FFFFFF' : '#245D8E'
             this.setState({ navBackground: backgroundcolor })

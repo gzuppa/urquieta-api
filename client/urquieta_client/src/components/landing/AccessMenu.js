@@ -11,7 +11,9 @@ const AccessMenu = () => (
     <Button className="btnAccessMenu">
       <Link to="/auxiliars">
       Auxiliares auditivos</Link></Button>
-    <Button className="btnAccessMenu">Precio y cotización</Button>
+    <Button className="btnAccessMenu">
+      <Link to="/pricing">
+        Precio y cotización</Link></Button>
   </Button.Group>
 )
 

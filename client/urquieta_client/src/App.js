@@ -16,6 +16,7 @@ import Auxiliars from './components/routes/Auxiliars'
 import Presentation from './components/routes/Presentation'
 import Issues from './components/routes/Issues'
 import Exam from './components/routes/Exam'
+import Pricing from './components/routes/Pricing'
 
 //Validar login y tokens correctos
 if (localStorage.jwtToken) {
@@ -46,6 +47,7 @@ class App extends Component{
           <Route exact path="/aboutus" component={Presentation} />
           <Route exact path="/issues" component={Issues} />
           <Route exact path="/exam" component={Exam} />
+          <Route exact path="/pricing" component={Pricing} />
           <Switch>
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
             </Switch>
