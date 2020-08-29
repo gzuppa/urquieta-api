@@ -1,6 +1,8 @@
 import React from "react";
 import './common.css'
 import Assets from '../../assets/Assets'
+import { Dropdown } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
 const ROOT_PATH = '/'
 
 class Navbar extends React.Component {
@@ -48,7 +50,15 @@ class Navbar extends React.Component {
       
           <ul className="navbar-nav w-100 justify-content-center px-3 listItem">
             <li className="nav-item active">
-              <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Servicios <span class="sr-only">(current)</span></a>
+              <Dropdown text="Servicios" className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'}>
+              <Dropdown.Menu>
+              <Link to="/services"> <Dropdown.Item text='Asesoría gratuita' /> </Link>
+              <Link to="/services"> <Dropdown.Item text='Adaptación y ajuste' /> </Link>
+              <Link to="/services"> <Dropdown.Item text='Postventa' /> </Link>
+              <Link to="/services"> <Dropdown.Item text='Accesorios, moldes y pilas' /> </Link>
+              <Link to="/services"> <Dropdown.Item text='Laboratorio' /> </Link>
+              </Dropdown.Menu>
+              </Dropdown>
             </li>
             <li className="nav-item active">
               <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Pérdida auditiva <span class="sr-only">(current)</span></a>
