@@ -82,3 +82,11 @@
   .listItem{
       margin-right: 60px;
   }
+
+.drop-services-item {
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-size: 12px !important;
+  color: black !important;
+  font-weight: lighter !important;
+  margin-top: 5px !important;
+}

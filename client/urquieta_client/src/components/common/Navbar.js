@@ -52,11 +52,11 @@ class Navbar extends React.Component {
             <li className="nav-item active">
               <Dropdown text="Servicios" className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'}>
               <Dropdown.Menu>
-              <Link to="/services"> <Dropdown.Item text='Asesoría gratuita' /> </Link>
-              <Link to="/services"> <Dropdown.Item text='Adaptación y ajuste' /> </Link>
-              <Link to="/services"> <Dropdown.Item text='Postventa' /> </Link>
-              <Link to="/services"> <Dropdown.Item text='Accesorios, moldes y pilas' /> </Link>
-              <Link to="/services"> <Dropdown.Item text='Laboratorio' /> </Link>
+              <Link to="/services"> <Dropdown.Item text='Asesoría gratuita' className="drop-services-item"/> </Link>
+              <Link to="/services"> <Dropdown.Item text='Adaptación y ajuste' className="drop-services-item"/> </Link>
+              <Link to="/services"> <Dropdown.Item text='Postventa' className="drop-services-item"/> </Link>
+              <Link to="/services"> <Dropdown.Item text='Accesorios, moldes y pilas' className="drop-services-item"/> </Link>
+              <Link to="/services"> <Dropdown.Item text='Laboratorio' className="drop-services-item"/> </Link>
               </Dropdown.Menu>
               </Dropdown>
             </li>
