@@ -4,15 +4,16 @@ import Assets from '../../assets/Assets'
 import { Dropdown } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 const ROOT_PATH = '/'
+const AUXILIAR_PATH = '/auxiliars'
 
 class Navbar extends React.Component {
 
     state = {
-        navBackground: window.location.pathname === ROOT_PATH ? '#FFFFFF' : '#245D8E'
+        navBackground: window.location.pathname === ROOT_PATH || AUXILIAR_PATH ? '#FFFFFF' : '#245D8E'
       }
 
       componentDidMount () {
-        if(window.location.pathname === ROOT_PATH){
+        if(window.location.pathname === ROOT_PATH || AUXILIAR_PATH){
           document.addEventListener('scroll', () => {
             const backgroundcolor = window.scrollY < 100 ? '#FFFFFF' : '#245D8E'
             this.setState({ navBackground: backgroundcolor })
