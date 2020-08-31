@@ -513,4 +513,7 @@
         font-size: 22px;
         margin-left: 45px;
     }
+    .card-devices {
+        margin-left: 32px !important;
+    }
   }
