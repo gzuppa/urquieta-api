@@ -516,4 +516,20 @@
     .card-devices {
         margin-left: 32px !important;
     }
+    .clients {
+        margin-left: 130px !important;
+    }
+    .services-img {
+        width: 200px;
+        height: 200px;
+    }
+    .services-title {
+        font-size: 24px;
+        margin-left: 30px;
+    }
+    .services-subtitle {
+        font-size: 16px;
+        margin-top: -25px;
+        margin-left: 25px;
+    }
   }
