@@ -24,6 +24,9 @@ export default function Upload() {
               <input type="file" name="image" onChange={handleFileInputChange} value={fileInputState} />
               <button type="submit"></button>
             </form>
+            {previewSource && (
+                <img src={previewSource} alt="chosen" style={{ height: '300px' }}/>
+            )}
         </div>
     )
 }
