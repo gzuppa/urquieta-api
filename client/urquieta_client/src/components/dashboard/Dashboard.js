@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
-import { Button } from 'semantic-ui-react'
+import { Button } from "semantic-ui-react"
 
 class Dashboard extends Component {
   onLogoutClick = e => {
@@ -12,9 +12,27 @@ class Dashboard extends Component {
 
 render() {
     const { user } = this.props.auth;
-
+    
     return (
-      <Button color='red'  onClick={this.onLogoutClick}>Logout</Button>          
+      <div style={{ height: "75vh" }} className="container valign-wrapper">
+        <div className="row">
+          <div className="col s12 center-align">
+            <h4>
+              <b>Bienvenido,</b> {user.name.split(" ")[0]}
+              <p className="flow-text grey-text text-darken-1">
+                has ingresado al panel de administración de{" "}
+                <span style={{ fontFamily: "monospace" }}>Auditivos Urquieta</span> 👏
+              </p>
+            </h4>
+            <Button
+              color= "red"
+              onClick={this.onLogoutClick}
+            >
+              Logout
+            </Button>
+          </div>
+        </div>
+      </div>
     );
   }
 }
