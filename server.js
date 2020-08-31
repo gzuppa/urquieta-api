@@ -8,6 +8,8 @@ const users = require("./routes/api/users");
 
 const app = express();
 
+const {cloudinary} = require('./utils/cloudinary')
+
 app.use(
   bodyParser.urlencoded({
     extended: false
@@ -41,12 +43,18 @@ if(process.env.NODE_ENV === 'production') {
   })
 }
 
-app.post('/api/upload', (req, res) => {
+app.post('/api/upload', async (req, res) => {
   try {
     const fileStr = req.body.data
     console.log(fileStr)
+    const uploadedResponse = await cloudinary.uploader.upload(fileStr, {
+      upload_preset: 'dev_setups'
+    })
+    console.log(uploadedResponse)
+    res.json({msg: "Super!"})
   } catch(error) {
     console.error(error)
+    res.status(500).json({err: "Algo anda mal"})
   }
 })
 
