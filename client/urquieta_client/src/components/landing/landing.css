@@ -497,3 +497,20 @@
     margin-left: 200px !important;
 }
   
+@media (min-width: 1024px) {
+    .btnAccessMenu a{
+      font-size: 18px !important;
+    }
+    .advisory {
+      font-size: 55px;
+      margin-left: 50px;
+    }
+    .advisory-sub {
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    .advisory-2{
+        font-size: 22px;
+        margin-left: 45px;
+    }
+  }
