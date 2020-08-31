@@ -20,7 +20,7 @@ export default function Upload() {
     const handleSubmitFile = (e) => {
         console.log("submitting")
         e.preventDefault()
-        if(!selectedFile) return
+        if(!previewSource) return
         uploadImage(previewSource)
     }
 
