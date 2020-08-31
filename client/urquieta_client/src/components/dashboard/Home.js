@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import { Image } from 'cloudinary-react'
 
 export default function Home() {
     const [imageIds, setImageIds] = useState()
@@ -13,12 +14,23 @@ export default function Home() {
             console.error(error)
         }
     }
+
     useEffect(()=> {
         loadImages()
     }, [])
+
     return(
          <div>
              <h1>Home</h1>
+             {imageIds && imageIds.map((imageId, index) => (
+                 <Image
+                    key={index}
+                    cloudName="zuppadev"
+                    publicId={imageId}
+                    width="300"
+                    crop="scale"
+                 />
+             ))}
          </div>
     )
 }
