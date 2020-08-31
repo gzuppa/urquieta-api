@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Image, Card, Icon } from 'semantic-ui-react'
+import { Grid, Image, Card } from 'semantic-ui-react'
 import Assets from '../../assets/Assets'
 import './landing.css'
 

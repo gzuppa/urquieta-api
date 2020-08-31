@@ -44,13 +44,13 @@ class Navbar extends React.Component {
       
           <ul className="navbar-nav w-100 justify-content-center px-3 listItem">
             <li className="nav-item active">
-            <Link to="/aboutus"> <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} >Quienes somos <span class="sr-only">(current)</span></a> </Link>
+            <Link to="/aboutus"> <span className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} >Quienes somos <span class="sr-only">(current)</span></span> </Link>
             </li>
             <li className="nav-item active">
-              <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Solicitar una devolución de llamada <span class="sr-only">(current)</span></a>
+              <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="/home">Solicitar una devolución de llamada <span class="sr-only">(current)</span></a>
             </li>
             <li className="nav-item active">
-              <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Contacto <span class="sr-only">(current)</span></a>
+              <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="/home">Contacto <span class="sr-only">(current)</span></a>
             </li>
           </ul>
       
@@ -88,10 +88,10 @@ class Navbar extends React.Component {
               </Dropdown>
             </li>
             <li className="nav-item active">
-              <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Solicitar cotización <span class="sr-only">(current)</span></a>
+              <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="/home">Solicitar cotización <span class="sr-only">(current)</span></a>
             </li>
             <li className="nav-item active">
-              <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="#">Compra online <span class="sr-only">(current)</span></a>
+              <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="/home">Compra online <span class="sr-only">(current)</span></a>
             </li>   
           
           </ul>

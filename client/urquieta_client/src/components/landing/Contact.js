@@ -3,10 +3,6 @@ import { Grid, Header, Image, Button } from 'semantic-ui-react'
 import Assets from '../../assets/Assets'
 import './landing.css'
 
-const description = [
-    '01 800 28 68 471'
-  ].join(' ')
-
 const Contact = () => (
     <Grid columns="equal">
     <Grid.Row>
@@ -15,7 +11,7 @@ const Contact = () => (
         <div class="card">
             <div class="face face1">
                 <div class="content">
-                    <img src={Assets.generalImgs.telephone} />
+                    <img src={Assets.generalImgs.telephone} alt="phone"/>
                     <h3>Atención telefónica</h3>
                 </div>
             </div>
@@ -60,7 +56,7 @@ const Contact = () => (
         <div class="card">
             <div class="face face5">
                 <div class="content">
-                    <img src={Assets.generalImgs.clock} />
+                    <img src={Assets.generalImgs.clock} alt="clock"/>
                     <h3>Horarios de atención</h3>
                 </div>
             </div>

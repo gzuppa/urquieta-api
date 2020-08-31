@@ -17,12 +17,23 @@ export default function Upload() {
         }
     }
 
+    const handleSubmitFile = (e) => {
+        console.log("submitting")
+        e.preventDefault()
+        if(!selectedFile) return
+        uploadImage(previewSource)
+    }
+
+    const uploadImage = (base64EncodedImage) => {
+        console.log(base64EncodedImage)
+    }
+
     return(
         <div>
              <h1>Subir una imagen a carrusel de Landing Page</h1>
-            <form>
+            <form onSubmit={handleSubmitFile}>
               <input type="file" name="image" onChange={handleFileInputChange} value={fileInputState} />
-              <button type="submit"></button>
+              <button type="submit">Submit</button>
             </form>
             {previewSource && (
                 <img src={previewSource} alt="chosen" style={{ height: '300px' }}/>
