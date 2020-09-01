@@ -497,7 +497,7 @@
     margin-left: 200px !important;
 }
   
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .btnAccessMenu a{
       font-size: 18px !important;
     }
@@ -534,5 +534,37 @@
     }
     .container .card {
         margin-left: 15px;
+    }
+    .footer-cont {
+        height: 200px;
+    }
+    .formap {
+        width: 400px;
+        height: 350px;
+    }
+    .title-formap, .addtitle-formap {
+        font-size: 13px;
+        margin-top: -23px;
+    }
+    .subtitle-formap {
+        font-size: 22px;
+    }
+    .formap-input {
+        width: 150px !important;
+        height: 25px !important; 
+    }
+    .map-img{
+        width: 200px !important;
+        height: 100px !important;
+    }
+    .footer-pay{
+        margin-left: 90px;
+    }
+    .footer-social{
+        margin-left: -8px
+    }
+    .formap-button {
+        margin-right: 140px !important;
+        margin-top: -10px !important;
     }
   }
