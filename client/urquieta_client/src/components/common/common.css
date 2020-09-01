@@ -92,7 +92,7 @@
 }
 
   
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .menuItemsBlue, .menuItems{
     display: block !important;
     padding: 8px !important;

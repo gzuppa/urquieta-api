@@ -15,15 +15,15 @@ const carouselImages = {
 }
 
 const generalLandingImages = {
-    advisory: require('./general-landing/otorrino.jpg'),
+    advisory: require('./general-landing/advisory.jpg'),
     clients: require('./general-landing/otoriino2.jpg'),
-    card1: require('./general-landing/intracanal.png'),
-    card2: require('./general-landing/curveta.png'),
+    card1: require('./general-landing/intracanales.jpg'),
+    card2: require('./general-landing/curveta.jpg'),
     card3: require('./general-landing/conduccionosea.jpg'),
-    avatar1: require('./general-landing/wolverine-avatar.png'),
-    avatar2: require('./general-landing/spiderman-avatar.png'),
-    avatar3: require('./general-landing/hulk-avatar.jpg'),
-    avatar4: require('./general-landing/thor-avatar.jpg'),
+    avatar1: require('./general-landing/avatar1.png'),
+    avatar2: require('./general-landing/avatar2.png'),
+    avatar3: require('./general-landing/avatar3.png'),
+    avatar4: require('./general-landing/avatar4.png'),
     telephone: require('./general-landing/phone.png'),
     whatsapp: require('./general-landing/whatsapp.png'),
     mail: require('./general-landing/mail.png'),
