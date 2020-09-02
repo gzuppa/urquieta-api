@@ -75,21 +75,29 @@
     padding: 20px;
 }
 
+.card-photo {
+    width: 450px !important;
+    height: 300px !important;
+    
+}
+
 .card-header {
     text-align: center !important;
     background-color: transparent !important;
     color: #245d8e !important;
     font-weight: bolder !important;
-    font-size: 19px !important;
+    font-size: 32px !important;
 }
 
 .card-devices {
     margin-left: 100px !important;
+    width: 450px !important;
 }
 
 .card-desc {
     font-weight: bold !important;
     text-align: center !important;
+    font-size: 18px !important;
 }
 
 .clients {

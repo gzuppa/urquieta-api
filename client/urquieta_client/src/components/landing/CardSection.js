@@ -8,7 +8,7 @@ const CardSection = () => (
     <Grid.Row>
       <Grid.Column>
       <Card className="card-devices">
-            <Image src={Assets.generalImgs.card1} wrapped ui={false} />
+            <Image src={Assets.generalImgs.card1} className="card-photo"/>
             <Card.Content>
             <Card.Header className="card-header">Intracanales</Card.Header>
             <Card.Description className="card-desc">
@@ -22,7 +22,7 @@ const CardSection = () => (
       </Grid.Column>
       <Grid.Column>
       <Card className="card-devices">
-            <Image src={Assets.generalImgs.card2} wrapped ui={false} />
+            <Image src={Assets.generalImgs.card2} className="card-photo" />
             <Card.Content>
             <Card.Header className="card-header">Curveta</Card.Header>
             <Card.Description className="card-desc">
@@ -37,7 +37,7 @@ const CardSection = () => (
       </Grid.Column>
       <Grid.Column>
       <Card className="card-devices">
-            <Image src={Assets.generalImgs.card3} wrapped ui={false} />
+            <Image src={Assets.generalImgs.card3} className="card-photo" />
             <Card.Content>
             <Card.Header className="card-header">Sistemas de vibración osea</Card.Header>
             <Card.Description className="card-desc">
