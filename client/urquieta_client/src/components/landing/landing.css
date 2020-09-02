@@ -100,11 +100,26 @@
     font-size: 18px !important;
 }
 
-.clients {
-    width: 350px;
-    height: 350px;
-    border-radius: 500px;
-    margin-left: 230px;
+.client-card {
+    height: 250px !important;
+    width: 500px !important;
+    border: 3px !important;
+}
+
+.client-card-header {
+    font-size: 30px !important;
+    color: #245d8e !important;
+    margin-top: 25px !important;
+}
+
+.client-card-subtitle {
+    font-size: 20px !important;
+    color: #245d8e !important;
+}
+
+.client-card-description {
+    font-size: 24px !important;
+    color: #245d8e !important;
 }
 
 .services-img {

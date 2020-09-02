@@ -18,19 +18,17 @@ export default class OurClients extends Component {
     {
       key: uuid(),
       content: 
-      <Card>
+      <Card className="client-card">
       <Card.Content>
         <Image
           floated='right'
-          size='mini'
+          size="small"
           src={Assets.generalImgs.avatar1}
         />
-        <Card.Header>Logan "Wolverine"</Card.Header>
-        <Card.Meta>Immortal Mutant</Card.Meta>
-        <Card.Description>
-          This is a grateful <strong>experience!</strong>.
-          <br></br>
-          DUMMY TEXT
+        <Card.Header className="client-card-header">Guadalupe Guadarrama</Card.Header>
+        <Card.Meta className="client-card-subtitle">Cliente</Card.Meta>
+        <Card.Description className="client-card-description">
+          Mi agradecimiento por su <strong>paciencia y tolerancia</strong> y el buen trato hacia mi paciente.
         </Card.Description>
       </Card.Content>
       </Card>
@@ -38,19 +36,17 @@ export default class OurClients extends Component {
     {
       key: uuid(),
       content: 
-      <Card>
+      <Card className="client-card">
       <Card.Content>
         <Image
           floated='right'
-          size='mini'
+          size='small'
           src={Assets.generalImgs.avatar2}
         />
-        <Card.Header>Peter "Spiderman" Parker</Card.Header>
-        <Card.Meta>Friendly Neighbor</Card.Meta>
-        <Card.Description>
-          This is a grateful <strong>experience!</strong>.
-          <br></br>
-          DUMMY TEXT
+        <Card.Header className="client-card-header">José Luis Gil Hernández</Card.Header>
+        <Card.Meta className="client-card-subtitle">Paciente</Card.Meta>
+        <Card.Description className="client-card-description">
+          Escucho de maravilla. <strong>Los recomiendo ampliamente</strong>.
         </Card.Description>
       </Card.Content>
       </Card>
@@ -58,19 +54,17 @@ export default class OurClients extends Component {
     {
       key: uuid(),
       content: 
-      <Card>
+      <Card className="client-card">
       <Card.Content>
         <Image
           floated='right'
-          size='mini'
+          size='small'
           src={Assets.generalImgs.avatar3}
         />
-        <Card.Header>Bruce "Hulk" Banner</Card.Header>
-        <Card.Meta>Gamma Scientist</Card.Meta>
-        <Card.Description>
-          This is a grateful <strong>experience!</strong>.
-          <br></br>
-          DUMMY TEXT
+        <Card.Header className="client-card-header">Ma. Dolores Martínez</Card.Header>
+        <Card.Meta className="client-card-subtitle">Cliente</Card.Meta>
+        <Card.Description className="client-card-description">
+          Los aparatos son de excelente calidad- <strong>Excelente servicio, </strong>muy atentos y amables.
         </Card.Description>
       </Card.Content>
       </Card>
@@ -78,19 +72,17 @@ export default class OurClients extends Component {
     {
         key: uuid(),
         content: 
-        <Card>
+        <Card className="client-card">
         <Card.Content>
           <Image
             floated='right'
-            size='mini'
+            size='small'
             src={Assets.generalImgs.avatar4}
           />
-          <Card.Header>Thor</Card.Header>
-          <Card.Meta>God of Thunder</Card.Meta>
-          <Card.Description>
-            This is a grateful <strong>experience!</strong>.
-            <br></br>
-            DUMMY TEXT
+          <Card.Header className="client-card-header">Felipe de J. Carrillo Pinzón</Card.Header>
+          <Card.Meta className="client-card-subtitle">Cliente</Card.Meta>
+          <Card.Description className="client-card-description">
+            Felicidades por su profesionalismo  y servicio, <strong>tienen una atención esmerada</strong>.
           </Card.Description>
         </Card.Content>
         </Card>
@@ -107,7 +99,7 @@ export default class OurClients extends Component {
 
   render() {
     return (
-        <Grid columns='equal'>
+        <Grid>
     <Grid.Row>
       <Grid.Column>
         <p className="advisory">Nuestros clientes...</p>
@@ -115,10 +107,7 @@ export default class OurClients extends Component {
     </Grid.Row>
     <Grid.Row>
       <Grid.Column>
-        <img src={Assets.generalImgs.clients} className="clients" alt="clients"/>
-      </Grid.Column>
-      <Grid.Column>
-      <div style={{ width: "80%", height: "300px", margin: "0 auto" }}>
+      <div style={{ width: "100%", height: "300px", margin: "0 auto" }}>
         <Carousel
           slides={this.slides}
           goToSlide={this.state.goToSlide}
