@@ -48,25 +48,25 @@
 
 .advisory {
     text-align: center;
-    font-size: 85px;
+    font-size: 110px;
     font-family: 'Alfa Slab One', cursive;
     color: #245d8e;
-    margin-top: 30px !important;
+    margin-top: 90px !important;
 }
 
 .advisory-sub {
     text-align: center;
-    font-size: 48px;
+    font-size: 60px;
     font-family: 'Dosis', sans-serif;
     color: #245d8e;
     font-weight: bold;
     margin-bottom: 0px;
-    margin-top: -50px;
+    margin-top: -70px;
 }
 
 .advisory-2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Dosis', sans-serif;
     color: #245d8e;
 }
