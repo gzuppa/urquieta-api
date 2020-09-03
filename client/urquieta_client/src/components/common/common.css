@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@font-face {
+  font-family: 'Exo-Regular';
+  src: url('../../assets/fonts/Exo-Regular.otf'); 
+}
+
+@font-face {
+  font-family: 'TheSans-Regular';
+  src: url('../../assets/fonts/TheSans-Regular.ttf'); 
+}
 
 .navbar {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TheSans-Regular', sans-serif;
     background-color: #1c1c1c;
   }
   
@@ -21,8 +29,8 @@
   .menuItems {
   display: block !important;
   padding: 8px !important;
-  font-family: 'Nunito Sans', sans-serif !important;
-  font-size: 16px !important;
+  font-family: 'TheSans-Regular', sans-serif !important;
+  font-size: 20px !important;
   margin-left: 50px !important;
   color: #FFFFFF !important;
   }
@@ -30,8 +38,8 @@
   .menuItemsBlue {
   display: block !important;
   padding: 8px !important;
-  font-family: 'Nunito Sans', sans-serif !important;
-  font-size: 16px !important;
+  font-family: 'TheSans-Regular', sans-serif !important;
+  font-size: 20px !important;
   font-weight: bolder !important;
   color:black !important;
   margin-left: 50px !important;
@@ -41,8 +49,8 @@
   display: block !important;
   text-decoration: none !important;
   padding: 8px !important;
-  font-family: 'Nunito Sans', sans-serif !important;
-  font-size: 16px !important;
+  font-family: 'TheSans-Regular', sans-serif !important;
+  font-size: 20px !important;
   color: rgba(255, 255, 255, 0.5) !important;
   }
   
@@ -50,8 +58,8 @@
   display: block !important;
   text-decoration: none !important;
   padding: 8px !important;
-  font-family: 'Nunito Sans', sans-serif !important;
-  font-size: 16px !important;
+  font-family: 'TheSans-Regular', sans-serif !important;
+  font-size: 20px !important;
   background-color: #c3e5f1 !important;
   border-radius: 15px !important;
   color: black !important;
@@ -84,7 +92,7 @@
   }
 
 .drop-services-item {
-  font-family: 'Nunito Sans', sans-serif !important;
+  font-family: 'TheSans-Regular', sans-serif !important;
   font-size: 12px !important;
   color: black !important;
   font-weight: lighter !important;
@@ -96,7 +104,7 @@
   .menuItemsBlue, .menuItems{
     display: block !important;
     padding: 8px !important;
-    font-family: 'Nunito Sans', sans-serif !important;
+    font-family: 'TheSans-Regular', sans-serif !important;
     font-size: 12px !important;
     margin-left: 28px !important;
     color: black !important;
