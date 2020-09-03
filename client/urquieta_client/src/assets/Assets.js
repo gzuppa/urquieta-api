@@ -9,7 +9,7 @@ const layoutImages = {
 }
 
 const carouselImages = {
-    image1: require('./carousel/carousel1.png'),
+    image1: require('./carousel/carousel1.jpg'),
     image2: require('./carousel/carousel2.jpg'),
     image3: require('./carousel/carousel3.jpg')
 }

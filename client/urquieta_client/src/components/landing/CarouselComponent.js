@@ -13,22 +13,13 @@ class CarouselComponent extends Component{
                   src={Assets.carouselImgs.image1}
                   alt="First slide"
                 />
-              <Carousel.Caption>
-                <h3>Descripción primer imagen</h3>
-                <p>Descripción</p>
-              </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="d-block w-100"
                   src={Assets.carouselImgs.image2}
-                  alt="Third slide"
+                  alt="Second slide"
                 />
-
-                <Carousel.Caption>
-                  <h3>Descripción segunda imagen</h3>
-                  <p>Descripción</p>
-                </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img
@@ -36,11 +27,6 @@ class CarouselComponent extends Component{
                   src={Assets.carouselImgs.image3}
                   alt="Third slide"
                 />
-
-                <Carousel.Caption>
-                  <h3>Descripción tercera imagen</h3>
-                  <p>Descripción.</p>
-                </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
         )
