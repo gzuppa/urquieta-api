@@ -54,23 +54,23 @@
 
 .advisory {
     text-align: center;
-    font-size: 80px;
+    font-size: 65px;
     font-weight: bolder;
     font-family: "Exo-Regular", sans-serif !important;
     color: #245d8e;
     margin-top: 90px !important;
-    margin-left: 155px !important;
+    margin-left: 70px !important;
 }
 
 .advisory-sub {
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     font-family: "Exo-Regular", sans-serif !important;
     color: #245d8e;
     font-weight: bold;
     margin-bottom: 0px;
     margin-top: -70px;
-    margin-left: 147px;
+    margin-left: 70px;
 }
 
 .advisory-2 {
@@ -78,14 +78,21 @@
     font-size: 30px;
     font-family: "Exo-Regular", sans-serif !important;
     color: #245d8e;
-    margin-left: 134px;
+    margin-left: 65px;
 }
 
 .img-advisory {
     padding: 20px;
-    height: 500px;
+    height: 450px;
     width: 800px;
-    margin-left: 200px;
+}
+.sidebar-list {
+    margin-top: 20px !important;
+}
+
+.sidebar-icon {
+    width: 100px;
+    height: 100px;
 }
 
 .card-photo {
