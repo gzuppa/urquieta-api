@@ -17,7 +17,8 @@ class Presentation extends Component {
             <img src={Assets.aboutImgs.ear} alt="ear" className="aboutus-ear"/>
       </Grid.Column>
       <Grid.Column width={11}>
-          
+            <img src={Assets.layoutImgs.earbutton} alt="earbutton" className="aboutus-btn" />
+            <span className="aboutus-btn-txt">¿Quienes somos?</span>
       </Grid.Column>
     </Grid.Row>
     <Grid.Row>

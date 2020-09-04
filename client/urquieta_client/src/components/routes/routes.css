@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@font-face {
+    font-family: 'TheSans-Regular';
+    src: url('../../assets/fonts/TheSans-Regular.ttf'); 
+  }
+  @font-face {
+    font-family: 'Exo-Regular';
+    src: url('../../assets/fonts/Exo-Regular.otf'); 
+  }
 
 .ear {
     border-top-width: 10px;
@@ -18,7 +24,7 @@
     height: 45px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Exo-Regular', sans-serif;
     font-weight: bold;
 }
 
@@ -29,14 +35,14 @@
 }
 
 .services-paragraph {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TheSans-Regular', sans-serif;
     font-size: 18px;
     color: #28285b;
     font-weight: 500;
 }
 
 .services-up {
-    font-family: 'Nunito Sans', sans-serif !important;
+    font-family: 'TheSans-Regular', sans-serif !important;
     font-size: 34px !important;
     color: #28285b !important;
     font-weight: bolder !important;
@@ -50,4 +56,17 @@
 .aboutus-ear {
     position: absolute;
     z-index: 1;
+}
+
+.aboutus-btn {
+    width: 315px;
+    height: 135px;
+}
+
+.aboutus-btn-txt {
+    font-family: 'Exo-Regular', sans-serif;
+    margin-left: -200px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
