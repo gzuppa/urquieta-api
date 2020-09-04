@@ -10,7 +10,6 @@ export default class OurClients extends Component {
   state = {
     goToSlide: 0,
     offsetRadius: 2,
-    showNavigation: true,
     config: config.gentle
   };
 
@@ -18,7 +17,7 @@ export default class OurClients extends Component {
     {
       key: uuid(),
       content: 
-      <Card className="client-card">
+      <Card color="blue" className="client-card">
       <Card.Content>
         <Image
           floated='right'
@@ -36,7 +35,7 @@ export default class OurClients extends Component {
     {
       key: uuid(),
       content: 
-      <Card className="client-card">
+      <Card color="blue" className="client-card">
       <Card.Content>
         <Image
           floated='right'
@@ -54,7 +53,7 @@ export default class OurClients extends Component {
     {
       key: uuid(),
       content: 
-      <Card className="client-card">
+      <Card color="blue" className="client-card">
       <Card.Content>
         <Image
           floated='right'
@@ -72,7 +71,7 @@ export default class OurClients extends Component {
     {
         key: uuid(),
         content: 
-        <Card className="client-card">
+        <Card color="blue" className="client-card">
         <Card.Content>
           <Image
             floated='right'
