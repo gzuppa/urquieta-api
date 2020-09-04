@@ -52,11 +52,17 @@ const generalLandingImages = {
 const serviceImages = {
   ear: require('./services/ear.png')
 }
-  
+
+const aboutImages = {
+  background: require('./aboutus/background-aboutus.png'),
+  ear: require('./aboutus/ear-aboutus.png')
+}
+
   export default {
     authImgs: authImages,
     layoutImgs: layoutImages,
     carouselImgs: carouselImages,
     generalImgs: generalLandingImages,
-    servicesImgs: serviceImages
+    servicesImgs: serviceImages,
+    aboutImgs: aboutImages
   }

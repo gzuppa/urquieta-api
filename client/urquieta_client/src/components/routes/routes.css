@@ -41,3 +41,13 @@
     color: #28285b !important;
     font-weight: bolder !important;
 }
+
+.aboutus-background {
+    position: absolute;
+    z-index: -1;
+}
+
+.aboutus-ear {
+    position: absolute;
+    z-index: 1;
+}
