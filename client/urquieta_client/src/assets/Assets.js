@@ -56,7 +56,14 @@ const serviceImages = {
 
 const aboutImages = {
   background: require('./aboutus/background-aboutus.png'),
-  ear: require('./aboutus/ear-aboutus.png')
+  ear: require('./aboutus/ear-aboutus.png'),
+  earicon: require('./aboutus/ear-icon.png'),
+  deviceicon: require('./aboutus/device-icon.png'),
+  certificateicon: require('./aboutus/certificate-icon.png'),
+  groupicon: require('./aboutus/group-icon.png'),
+  headphonesicon: require('./aboutus/headphones-icon.png'),
+  helpicon: require('./aboutus/help-icon.png'),
+  scopeicon: require('./aboutus/scope-icon.png')
 }
 
   export default {

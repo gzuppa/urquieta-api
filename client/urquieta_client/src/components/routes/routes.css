@@ -70,3 +70,43 @@
     font-weight: bold;
     font-size: 20px;
 }
+
+.aboutus-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.aboutus-icon-txt {
+    font-family: 'TheSans-Regular', sans-serif !important;
+    font-size: 24px !important;
+    font-weight: lighter;
+    color: #245d8e;
+}
+
+.ear-icon {
+    margin-left: 100px !important;
+}
+
+.cert-icon {
+    margin-left: 90px !important;
+}
+
+.group-icon {
+    margin-left: 80px !important;
+}
+
+.device-icon {
+    margin-left: 70px !important;
+}
+
+.headphone-icon {
+    margin-left: 60px !important;
+}
+
+.help-icon {
+    margin-left: 70px !important;
+}
+
+.scope-icon {
+    margin-left: 80px !important;
+}
