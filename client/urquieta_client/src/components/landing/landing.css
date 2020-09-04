@@ -96,8 +96,8 @@
 }
 
 .card-photo {
-    width: 450px !important;
-    height: 300px !important;
+    width: 350px !important;
+    height: 200px !important;
     
 }
 
@@ -106,18 +106,18 @@
     background-color: transparent !important;
     color: #245d8e !important;
     font-weight: bolder !important;
-    font-size: 32px !important;
+    font-size: 22px !important;
 }
 
 .card-devices {
     margin-left: 100px !important;
-    width: 450px !important;
+    width: 350px !important;
 }
 
 .card-desc {
-    font-weight: bold !important;
+    font-weight: lighter !important;
     text-align: center !important;
-    font-size: 18px !important;
+    font-size: 14px !important;
 }
 
 .client-card {

@@ -7,7 +7,7 @@ const CardSection = () => (
     <Grid columns='equal'>
     <Grid.Row>
       <Grid.Column>
-      <Card className="card-devices">
+      <Card color="blue" link className="card-devices">
             <Image src={Assets.generalImgs.card1} className="card-photo"/>
             <Card.Content>
             <Card.Header className="card-header">Intracanales</Card.Header>
@@ -21,7 +21,7 @@ const CardSection = () => (
         </Card>
       </Grid.Column>
       <Grid.Column>
-      <Card className="card-devices">
+      <Card color="blue" link className="card-devices">
             <Image src={Assets.generalImgs.card2} className="card-photo" />
             <Card.Content>
             <Card.Header className="card-header">Curveta</Card.Header>
@@ -36,7 +36,7 @@ const CardSection = () => (
         </Card>
       </Grid.Column>
       <Grid.Column>
-      <Card className="card-devices">
+      <Card color="blue" link className="card-devices">
             <Image src={Assets.generalImgs.card3} className="card-photo" />
             <Card.Content>
             <Card.Header className="card-header">Sistemas de vibración osea</Card.Header>
