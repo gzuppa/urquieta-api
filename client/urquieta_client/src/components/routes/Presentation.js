@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Navbar from '../common/Navbar'
 import AccessMenu from '../landing/AccessMenu'
-import { Grid, List, Image } from 'semantic-ui-react'
+import { Grid, List, Image, Header } from 'semantic-ui-react'
 import Assets from '../../assets/Assets'
 
 class Presentation extends Component {
@@ -66,24 +66,53 @@ class Presentation extends Component {
       </List>
       </Grid.Column>
     </Grid.Row>
-    <Grid.Row>
-      <Grid.Column>
-      <img src={Assets.aboutImgs.earicon} alt="earicon" className="aboutus-icons ear-icon" />
-            <span className="aboutus-txt ear-icon-txt">Profesionales en la <br/>rehabilitación auditiva</span>
+    <Grid.Row columns="equal" className="aboutus-foot-imgs">
+      <Grid.Column className="aboutus-column">
+          <Image src={Assets.aboutImgs.store} alt="store" className="aboutus-imgs"/>
       </Grid.Column>
-      <Grid.Column>
-          
+      <Grid.Column className="aboutus-column">
+          <Image src={Assets.aboutImgs.room} alt="room" className="aboutus-imgs"/>
       </Grid.Column>
-      <Grid.Column>
-          
+      <Grid.Column className="aboutus-column">
+          <Image src={Assets.aboutImgs.doctor} alt="doctor" className="aboutus-imgs"/>  
       </Grid.Column>
     </Grid.Row>
     <Grid.Row>
-      <Grid.Column>
-
+      <Grid.Column width={8} className="aboutus-text">
+      <p className="services-paragraph">
+    Somos una empresa especializada en soluciones a pacientes con
+    baja audición, que buscan un auxiliar auditivo cómodo, adecuado
+    para beneficiar su escucha. Orientamos y acompañamos al paciente
+    durante la adaptación al aparato auditivo, brindamos técnicas
+    de soluciones audioprotésicas y vanguardia en sistemas de audición.
+    Además ofrecemos estudios para detectar baja auditiva.
+    Contamos con el respaldo de marcas de prestigio internacional
+    como Audio Service, AM, Phonak y Bruckhoff.
+      </p>
+        <Header as='h2' className="services-up">Servicio y calibración a equipo audiologico</Header>
+      <p className="services-paragraph">
+      Nuestro quehacer incluye la venta de equipo médico del área de
+      otorrinolaringología y audiología, así como mantenimiento preventivo y correctivo del mismo.
+      </p>  
       </Grid.Column>
-      <Grid.Column>
-        
+      <Grid.Column width={4}>
+      <List animated verticalAlign='middle' className="sidebar-list aboutus-sidebar">
+            <List.Item>
+              <Image className="sidebar-icon" src={Assets.generalImgs.whatsapp} alt="whatsapp" />
+            </List.Item>
+            <List.Item>
+              <Image className="sidebar-icon" src={Assets.generalImgs.agenda} alt="agenda" />
+            </List.Item>
+            <List.Item>
+              <Image className="sidebar-icon" src={Assets.generalImgs.llamada} alt="llamada"/>
+            </List.Item>
+            <List.Item>
+              <Image className="sidebar-icon" src={Assets.generalImgs.chat} alt="chat"/>
+            </List.Item>
+      </List>
+      </Grid.Column>
+      <Grid.Column width={4}>
+      
       </Grid.Column>
     </Grid.Row>
             </Grid>

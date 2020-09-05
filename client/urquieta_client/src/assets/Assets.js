@@ -63,7 +63,10 @@ const aboutImages = {
   groupicon: require('./aboutus/group-icon.png'),
   headphonesicon: require('./aboutus/headphones-icon.png'),
   helpicon: require('./aboutus/help-icon.png'),
-  scopeicon: require('./aboutus/scope-icon.png')
+  scopeicon: require('./aboutus/scope-icon.png'),
+  store: require('./aboutus/store.png'),
+  room: require('./aboutus/room.png'),
+  doctor: require('./aboutus/doctor.png')
 }
 
   export default {
