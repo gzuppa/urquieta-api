@@ -40,7 +40,7 @@ const generalLandingImages = {
     avante: require('./general-landing/avante.PNG'),
     cuernavaca: require('./general-landing/cuernavaca.PNG'),
     queretaro: require('./general-landing/queretaro.PNG'),
-    amex: require('./general-landing/amex.png'),
+    amex: require('./general-landing/amex-icon.png'),
     dollar: require('./general-landing/dollar.png'),
     mastercard: require('./general-landing/mastercard.png'),
     visa: require('./general-landing/visa.png'),
