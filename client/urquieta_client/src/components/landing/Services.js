@@ -1,5 +1,6 @@
 import React from 'react'
 import { Grid } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
 import Assets from '../../assets/Assets'
 import './landing.css'
 
@@ -12,19 +13,19 @@ const Services = () => (
     </Grid.Row>
     <Grid.Row>
      <Grid.Column>
-        <img src={Assets.generalImgs.avatar2} className="services-img" alt="avatar1"/>
+        <Link to="/services"><img src={Assets.generalImgs.avatar2} className="services-img" alt="avatar1"/></Link>
         <p className="services-title">Asesoría gratuita</p>
       </Grid.Column>
       <Grid.Column>
-        <img src={Assets.generalImgs.avatar1} className="services-img" alt="avatar2"/>
+        <Link to="/services"><img src={Assets.generalImgs.avatar1} className="services-img" alt="avatar2"/></Link>
         <p className="services-title">Adaptación y ajustes</p>
       </Grid.Column>
       <Grid.Column>
-        <img src={Assets.generalImgs.avatar4} className="services-img" alt="avatar3"/>
+        <Link to="/services"><img src={Assets.generalImgs.avatar4} className="services-img" alt="avatar3"/></Link>
         <p className="services-title">Accesorios, moldes y pilas</p>
       </Grid.Column>
       <Grid.Column>
-        <img src={Assets.generalImgs.avatar4} className="services-img" alt="avatar4"/>
+        <Link to="/services"><img src={Assets.generalImgs.avatar4} className="services-img" alt="avatar4"/></Link>
         <p className="services-title">Laboratorio</p>
         <p className="services-subtitle">Reparación, refacciones, revisión y mantenimiento</p>
       </Grid.Column>

@@ -24,11 +24,8 @@ const FormAndMap = () => (
                         <input placeholder='Correo' className="formap-input"/>
                     </Form.Field>
                     <Form.Field className="formap-checkbox">
-                        <Checkbox label='I agree to the Terms and Conditions' />
+                        <Checkbox label='Acepto enviar mi información para que se me contacte' />
                     </Form.Field>
-                    <Form.Field className="formap-checkbox">
-                        <Checkbox label='I agree to the Terms and Conditions' />
-                    </Form.Field> 
                         <Button type='submit' className="formap-button">Enviar</Button>
                 </Form>
                 </div>
