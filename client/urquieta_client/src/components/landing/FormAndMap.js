@@ -33,19 +33,19 @@ const FormAndMap = () => (
         </div>
         </Grid.Column>
         <Grid.Column columns="equal">
-            <Grid columns={2} divided>
+            <Grid columns={2} >
                 <Grid.Row>
-                <Grid.Column>
-                    <Image src={Assets.generalImgs.miramontes} className="map-img"/>
-                    <span className="map-title">Miramontes</span>
+                <Grid.Column className="map-768">
+                    <Image src={Assets.generalImgs.miramontes} className="map-img map-768-mir"/>
+                    <span className="map-title ">Miramontes</span>
                     <br/>
-                    <span className="map-subtitle">Av. Canal de Miramontes 2761 Loc. D PB Col.
+                    <span className="map-subtitle">Av. Canal de Miramontes 2761 Loc. D PB Col.<br/>
                         Jardínes de Coyoacán C.P. 04890, CDMX.</span>
                     <br/>
                     <span className="map-title">(55) 5677 9396</span>
                 </Grid.Column>
                 <Grid.Column>
-                    <Image src={Assets.generalImgs.avante} className="map-img"/>
+                    <Image src={Assets.generalImgs.avante} className="map-img map-768-av"/>
                     <span className="map-title">Avante</span>
                     <br/>
                     <span className="map-subtitle">Av. Canal de Miramontes 2332a Col. Avante C.P.
@@ -56,7 +56,7 @@ const FormAndMap = () => (
                 </Grid.Row>
 
                 <Grid.Row>
-                <Grid.Column>
+                <Grid.Column className="map-768">
                     <Image src={Assets.generalImgs.cuernavaca} className="map-img"/>
                     <span className="map-title">Cuernavaca</span>
                     <br/>
