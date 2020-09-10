@@ -9,6 +9,7 @@ import Services from '../landing/Services'
 import Contact from '../landing/Contact'
 import FormAndMap from '../landing/FormAndMap'
 import Footer from '../landing/Footer'
+import MailTest from './MailTest'
 
 class Landing extends Component {
   render() {
@@ -24,6 +25,8 @@ class Landing extends Component {
      <Contact />
      <FormAndMap />
      <Footer />
+     <MailTest />
+
         </div>
     );
   }
