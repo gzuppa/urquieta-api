@@ -12,31 +12,25 @@ class Services extends Component {
      <Navbar />
      <AccessMenu />
 
-     <Item.Group>
-     <Item className="serv-crumb">
-      <Item.Image size='tiny' src={Assets.servicesImgs.ear} />
-      <Item.Content verticalAlign='middle'>
-        <p className="header-text header-services">Servicios</p>
-      </Item.Content>
-    </Item>
-    </Item.Group>
+     <img src={Assets.layoutImgs.earbutton} alt="earbutton" className="services-btn-1st" />
+     <span className="services-btn-txt1">Servicios</span>
 
     <Grid columns="equal">
     <Grid.Row>
      <Grid.Column>
-        <img src={Assets.generalImgs.services1} className="services-img" alt="services1"/>
+        <img src={Assets.servicesImgs.services1} className="services-img" alt="services1"/>
         <p className="services-title">Asesoría gratuita</p>
       </Grid.Column>
       <Grid.Column>
-        <img src={Assets.generalImgs.services2} className="services-img" alt="avatar2"/>
+        <img src={Assets.servicesImgs.services2} className="services-img" alt="services2"/>
         <p className="services-title">Adaptación y ajustes</p>
       </Grid.Column>
       <Grid.Column>
-        <img src={Assets.generalImgs.services2} className="services-img" alt="avatar3"/>
+        <img src={Assets.servicesImgs.services3} className="services-img" alt="services3"/>
         <p className="services-title">Accesorios, moldes y pilas</p>
       </Grid.Column>
       <Grid.Column>
-        <img src={Assets.generalImgs.services4} className="services-img" alt="avatar4"/>
+        <img src={Assets.servicesImgs.services4} className="services-img" alt="services4"/>
         <p className="services-title">Laboratorio</p>
         <p className="services-subtitle">Reparación, refacciones, revisión y mantenimiento</p>
       </Grid.Column>

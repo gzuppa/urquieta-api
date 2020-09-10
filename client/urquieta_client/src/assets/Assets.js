@@ -51,7 +51,10 @@ const generalLandingImages = {
 }
 
 const serviceImages = {
-  ear: require('./services/ear.png')
+  services1: require('./services/services1.png'),
+  services2: require('./services/services2.png'),
+  services3: require('./services/services3.png'),
+  services4: require('./services/services4.png')
 }
 
 const aboutImages = {
