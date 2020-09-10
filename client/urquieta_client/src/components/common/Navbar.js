@@ -31,7 +31,7 @@ class Navbar extends React.Component {
     return (
         <nav className={`navbar sticky-top navbar-expand-lg ${navBackground === '#FFFFFF' ? 'navbar-dark' : 'navbar-light'} color-nav`} style={{ backgroundColor: `${navBackground}` }}>
         <div className="navbar-toggler-right">
-        <a className='navbar-brand' href='/#home'>
+        <a className='navbar-brand' href='/'>
             <img src={navBackground === '#FFFFFF' ? Assets.layoutImgs.logo : Assets.layoutImgs.logo} alt='logo navbar' />
           </a>
 

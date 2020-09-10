@@ -554,8 +554,12 @@
     width: 80px;
     height: 55px;
 }
-  
-@media (min-width: 768px) and (max-width: 1024px) {
+
+.payform-align{
+    color: white;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
     .btnAccessMenu a{
       font-size: 18px !important;
     }
@@ -625,6 +629,18 @@
         margin-right: 140px !important;
         margin-top: -10px !important;
     }
+    .payform-align {
+        margin-top: -25px !important;
+    }
   }
 
+  @media (min-width: 414px) and (max-width: 768px) {
+    .carousel-item{
+        height: 300px;
+    } 
+    .carousel-item img{
+        height: 300px;
+    }
+
+}
  

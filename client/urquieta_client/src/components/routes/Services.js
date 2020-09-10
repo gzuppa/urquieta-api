@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from '../common/Navbar'
 import AccessMenu from '../landing/AccessMenu'
-import { Item, Grid, Container, Header } from 'semantic-ui-react'
+import { Item, Grid, Container, Header, Image, List } from 'semantic-ui-react'
 import Assets from '../../assets/Assets'
 import './routes.css'
 

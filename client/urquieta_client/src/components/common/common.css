@@ -110,3 +110,11 @@
     color: black !important;
     }
 }
+
+@media (max-width: 768px) {
+  .agenda {
+    margin-left: 140px;
+  }
+
+}
+ 

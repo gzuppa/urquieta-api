@@ -54,7 +54,11 @@ const serviceImages = {
   services1: require('./services/services1.png'),
   services2: require('./services/services2.png'),
   services3: require('./services/services3.png'),
-  services4: require('./services/services4.png')
+  services4: require('./services/services4.png'),
+  services6: require('./services/services6.png'),
+  circle1: require('./services/services-local.png'),
+  circle2: require('./services/services-online.png'),
+  circle3: require('./services/services-delivery.png')
 }
 
 const aboutImages = {

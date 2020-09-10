@@ -11,16 +11,16 @@ const FormAndMap = () => (
             <span className="footer-pay">Aceptamos las siguientes formas de pago</span>
             <List horizontal relaxed animated className="footer-payform">
                 <List.Item>
-                <Image src={Assets.generalImgs.amex} alt="amex" className="footer-payform-icon"/>
+                <Image src={Assets.generalImgs.amex} alt="amex" className="footer-payform-icon payform-align"/>
                 </List.Item>
                 <List.Item>
-                <Image src={Assets.generalImgs.dollar} alt="money" className="footer-payform-icon"/>
+                <Image src={Assets.generalImgs.dollar} alt="money" className="footer-payform-icon payform-align"/>
                 </List.Item>
                 <List.Item>
-                <Image src={Assets.generalImgs.visa} alt="visa" className="footer-payform-icon"/>
+                <Image src={Assets.generalImgs.visa} alt="visa" className="footer-payform-icon payform-align"/>
                 </List.Item>
                 <List.Item>
-                <Image src={Assets.generalImgs.mastercard} alt="mastercard" className="footer-payform-icon"/>
+                <Image src={Assets.generalImgs.mastercard} alt="mastercard" className="footer-payform-icon payform-align"/>
                 </List.Item>
             </List>
         </Grid.Column>
