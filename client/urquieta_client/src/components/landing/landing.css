@@ -98,7 +98,6 @@
 .card-photo {
     width: 350px !important;
     height: 200px !important;
-    
 }
 
 .card-header {
@@ -634,7 +633,7 @@
     }
   }
 
-  @media (min-width: 414px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     .carousel-item{
         height: 300px;
     } 
@@ -643,6 +642,82 @@
     }
     .btnAccessMenu a {
         font-size: 14px !important;
+    }
+    .advisory {
+        font-size: 35px;
+        margin-top: 50px !important;
+    }
+    .advisory-sub {
+        font-size: 20px;
+        margin-top: -36px !important;
+    }
+    .advisory-2 {
+        font-size: 16px;
+    }
+    .img-advisory {
+        height: 300px;
+    }
+    .sidebar-icon {
+        width: 55px;
+        height: 60px;
+    }
+    .card-photo {
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .card-devices {
+        margin-left: 35px !important;
+        width: 200px !important;
+    }
+    .card-header {
+        font-size: 11px !important;
+    }
+    .card-desc {
+        font-size: 12px !important;
+    }
+    .services-img {
+        width: 110px;
+        height: 110px;
+        margin-left: 50px;
+    }
+    .services-title {
+        font-size: 20px;
+        margin-left: 42px;
+    }
+    .services-subtitle {
+        font-size: 14px;
+        margin-top: -20px;
+        margin-left: 43px;
+    }
+    .container .card .face {
+        width: 190px;
+        margin-left: -50px;
+    }
+    .container .card .face.face1 .content img {
+        width: 45px;
+        height: 42px;
+        margin-left: 75px;
+    }
+    .container .card .face.face1 .content h3 {
+        font-size: 26px;
+    }
+    .container .card:hover .face.face2 .content p{
+        font-size: 18px;
+    }
+    .container .card .face.face3 .content h3 {
+        font-size: 26px;
+    }
+    .container .card .face.face3 .content h5 {
+        font-size: 18px;
+    }
+    .container .card .face.face4 .content h3, h5{
+        font-size: 14px !important;
+    }
+    .contact-whatsapp  {
+        font-size: 12px !important;
+    }
+    .contact-mail  {
+        font-size: 12px !important;
     }
 }
  
