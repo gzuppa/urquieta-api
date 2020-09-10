@@ -641,6 +641,8 @@
     .carousel-item img{
         height: 300px;
     }
-
+    .btnAccessMenu a {
+        font-size: 14px !important;
+    }
 }
  
