@@ -774,5 +774,12 @@
     .carousel-item img{
         height: 215px;
     }
+    .btnAccessMenu {
+        font-size: 8px !important;
+    }
+    .advisory {
+        font-size: 18px;
+        margin-top: 50px !important;
+    }
 }
  
