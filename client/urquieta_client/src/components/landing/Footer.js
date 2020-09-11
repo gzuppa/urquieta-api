@@ -11,7 +11,7 @@ const FormAndMap = () => (
             <span className="footer-pay">Aceptamos las siguientes formas de pago</span>
             <List horizontal relaxed animated className="footer-payform">
                 <List.Item>
-                <Image src={Assets.generalImgs.amex} alt="amex" className="footer-payform-icon payform-align"/>
+                <Image src={Assets.generalImgs.amex} alt="amex" className="footer-payform-icon payform-align amex-768"/>
                 </List.Item>
                 <List.Item>
                 <Image src={Assets.generalImgs.dollar} alt="money" className="footer-payform-icon payform-align"/>
