@@ -20,6 +20,7 @@ export default class OurClients extends Component {
       <Card color="blue" className="client-card">
       <Card.Content>
         <Image
+          className="avatar-card"
           floated='right'
           size="small"
           src={Assets.generalImgs.avatar1}
@@ -38,6 +39,7 @@ export default class OurClients extends Component {
       <Card color="blue" className="client-card">
       <Card.Content>
         <Image
+          className="avatar-card"
           floated='right'
           size='small'
           src={Assets.generalImgs.avatar2}
@@ -56,6 +58,7 @@ export default class OurClients extends Component {
       <Card color="blue" className="client-card">
       <Card.Content>
         <Image
+          className="avatar-card"
           floated='right'
           size='small'
           src={Assets.generalImgs.avatar3}
@@ -74,6 +77,7 @@ export default class OurClients extends Component {
         <Card color="blue" className="client-card">
         <Card.Content>
           <Image
+            className="avatar-card"
             floated='right'
             size='small'
             src={Assets.generalImgs.avatar4}
@@ -101,7 +105,7 @@ export default class OurClients extends Component {
         <Grid>
     <Grid.Row>
       <Grid.Column>
-        <p className="advisory">Nuestros clientes...</p>
+        <p className="advisory adv-414">Nuestros clientes...</p>
       </Grid.Column>
     </Grid.Row>
     <Grid.Row>

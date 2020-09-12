@@ -808,5 +808,24 @@
     .card-header {
         font-size: 23px !important;
     }
+    .adv-414 {
+        font-size: 28px !important;
+        margin-left: 30px !important;
+    }
+    .client-card{
+        width: 200px !important;
+    }
+    .avatar-card{
+        width: 50px !important;
+    }
+    .client-card-header {
+        font-size: 19px !important;
+    }
+    .client-card-subtitle {
+        font-size: 15px !important;
+    }
+    .client-card-description {
+    font-size: 21px !important;
+}
 }
  
