@@ -13,7 +13,7 @@ const FormAndMap = () => (
                 <p className="subtitle-formap">Examen de audición gratis</p>
                 <p className="addtitle-formap">Registrate y programa tu cita</p>
                 <div>
-                <Form>
+                <Form className="formap-form">
                     <Form.Field>
                         <input placeholder='Nombre' className="formap-input"/>
                     </Form.Field>

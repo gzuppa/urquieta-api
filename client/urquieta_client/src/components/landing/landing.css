@@ -849,5 +849,22 @@
     .container .card .face {
         margin-left: 36px;
     }
+    .formap {
+        margin-left: 30px;
+        height: 425px;
+        width: 385px;
+    }
+    .subtitle-formap {
+        font-size: 24px !important;
+    }
+    .formap-form {
+        margin-left: -80px !important;
+    }
+    .formap-checkbox {
+        margin-left: 150px !important;
+    }
+    .formap-button {
+        margin-top: -10px !important;
+    }
 }
  
