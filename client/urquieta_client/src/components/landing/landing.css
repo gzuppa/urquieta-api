@@ -846,5 +846,8 @@
         margin-top: -6px;
         margin-left: 34px;
     }
+    .container .card .face {
+        margin-left: 36px;
+    }
 }
  
