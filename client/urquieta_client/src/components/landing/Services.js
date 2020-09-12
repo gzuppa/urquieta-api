@@ -8,7 +8,7 @@ const Services = () => (
     <Grid columns="equal">
     <Grid.Row>
         <Grid.Column>
-        <p className="advisory">Servicios</p>
+        <p className="advisory adv-serv-414">Servicios</p>
         </Grid.Column>
     </Grid.Row>
     <Grid.Row>

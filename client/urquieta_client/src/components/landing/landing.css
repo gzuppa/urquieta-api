@@ -825,7 +825,26 @@
         font-size: 15px !important;
     }
     .client-card-description {
-    font-size: 21px !important;
-}
+        font-size: 21px !important;
+    }
+    .adv-serv-414{
+        font-size: 28px !important;
+        margin-top: -20px !important;
+        margin-left: 35px !important;
+    }
+    .services-img {
+        width: 70px;
+        height: 70px;
+        margin-left: 21px;
+    }
+    .services-title {
+        font-size: 10px;
+        margin-left: 32px;
+    }
+    .services-subtitle {
+        font-size: 7px;
+        margin-top: -6px;
+        margin-left: 34px;
+    }
 }
  
