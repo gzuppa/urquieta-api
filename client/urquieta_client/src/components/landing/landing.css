@@ -866,5 +866,46 @@
     .formap-button {
         margin-top: -10px !important;
     }
+    .map-img {
+        width: 110px;
+        height: 100px;
+        margin-left: 85px;
+    }
+    .map-title,
+    .map-subtitle {
+        margin-left: 85px;
+    }
+    .footer-pay {
+        font-size: 12px;
+        margin-left: 40px;
+    }
+    .footer-1st-col-414 {
+        width: 151px !important;
+        padding-left: 39px !important;
+    }
+    .footer-payform {
+        margin-left: 8px !important;
+        margin-top: 19px !important;
+    }
+    .dollar-414 {
+        margin-left: 42px !important;
+        margin-top: -59px !important;
+    }
+    .visa-414 {
+        margin-left: 2px !important;
+        margin-top: -18px !important;
+    }
+    .mastercard-414 {
+        margin-left: 73px !important;
+        margin-top: -68px !important;
+    }
+    .footer-social {
+        width: 30px;
+        height: 30px;
+    }
+    .social-media {
+        margin-top: 43px !important;
+        margin-left: 60px !important;
+    }
 }
  

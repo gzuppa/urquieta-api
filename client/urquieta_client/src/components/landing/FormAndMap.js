@@ -39,7 +39,8 @@ const FormAndMap = () => (
                     <Image src={Assets.generalImgs.miramontes} className="map-img map-768-mir"/>
                     <span className="map-title ">Miramontes</span>
                     <br/>
-                    <span className="map-subtitle">Av. Canal de Miramontes 2761 Loc. D PB Col.<br/>
+                    <span className="map-subtitle">Av. Canal de Miramontes 2761 Loc. D PB Col
+                    
                         Jardínes de Coyoacán C.P. 04890, CDMX.</span>
                     <br/>
                     <span className="map-title">(55) 5677 9396</span>
