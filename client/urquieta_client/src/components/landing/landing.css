@@ -948,5 +948,20 @@
     .container .card .face {
         margin-left: 18px;
     }
+    .formap {
+        width: 345px;
+    }
+    .formap-form {
+        margin-left: -100px !important;
+    }
+    .formap-checkbox {
+        margin-left: 170px !important;
+    }
+    .formap-button {
+        margin-top: -10px !important;
+        margin-left: 240px !important;
+        height: 20px;
+        font-size: 10px !important;
+    }
 }
  
