@@ -939,5 +939,8 @@
         width: 30px;
         height: 31px;
     }
+    .card-devices {
+        margin-left: 95px !important;
+    }
 }
  
