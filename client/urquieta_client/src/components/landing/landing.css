@@ -908,4 +908,14 @@
         margin-left: 60px !important;
     }
 }
+
+@media (max-width: 375px) {
+    .carousel-item img,
+    .carousel-item {
+        height: 180px;
+    }
+    .btnAccessMenu a {
+        font-size: 13px !important;
+    }
+}
  
