@@ -917,5 +917,27 @@
     .btnAccessMenu a {
         font-size: 13px !important;
     }
+    .advisory {
+        font-size: 21px;
+        margin-top: 34px !important;
+        margin-left: 45px !important;
+    }
+    .advisory-sub {
+        font-size: 10px;
+        margin-top: -15px !important;
+        margin-left: 48px;
+    }
+    .advisory-2 {
+        font-size: 10px;
+        margin-top: 5px;
+        margin-left: 46px;
+    }
+    .img-advisory {
+        height: 185px;
+    }
+    .sidebar-icon {
+        width: 30px;
+        height: 31px;
+    }
 }
  
