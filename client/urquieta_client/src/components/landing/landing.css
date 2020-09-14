@@ -948,12 +948,16 @@
     }
     .services-img {
         margin-left: 16px;
+        width: 70px;
+        height: 70px;
     }
     .container .card .face {
         margin-left: 18px;
     }
     .formap {
         width: 345px;
+        margin-left: 30px;
+        height: 500px;
     }
     .formap-form {
         margin-left: -100px !important;
@@ -984,6 +988,15 @@
     }
     .client-card-description {
         font-size: 21px !important;
+    }
+    .services-title {
+        font-size: 10px;
+        margin-left: 28px;
+    }
+    .services-subtitle {
+        font-size: 7px;
+        margin-top: -8px;
+        margin-left: 32px;
     }
 }
  
