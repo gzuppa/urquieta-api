@@ -767,7 +767,7 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (min-width: 414px) {
     .carousel-item{
         height: 215px;
     } 
@@ -778,7 +778,7 @@
         font-size: 8px !important;
     }
     .advisory {
-        font-size: 18px;
+        font-size: 18px !important;
         margin-top: 50px !important;
     }
     .advisory-sub {
@@ -909,13 +909,16 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     .carousel-item img,
     .carousel-item {
         height: 180px;
     }
     .btnAccessMenu a {
-        font-size: 13px !important;
+        font-size: 11px !important;
+    }
+    .btnAccessMenu {
+        height: 100px !important;
     }
     .advisory {
         font-size: 21px;
@@ -941,6 +944,7 @@
     }
     .card-devices {
         margin-left: 95px !important;
+        margin-top: 20px !important;
     }
     .services-img {
         margin-left: 16px;
@@ -965,6 +969,21 @@
     }
     .social-media {
         margin-top: 17px !important;
+    }
+    .client-card{
+        width: 200px !important;
+    }
+    .avatar-card{
+        width: 50px !important;
+    }
+    .client-card-header {
+        font-size: 19px !important;
+    }
+    .client-card-subtitle {
+        font-size: 15px !important;
+    }
+    .client-card-description {
+        font-size: 21px !important;
     }
 }
  

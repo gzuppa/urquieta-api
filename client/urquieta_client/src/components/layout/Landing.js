@@ -25,7 +25,6 @@ class Landing extends Component {
      <Contact />
      <FormAndMap />
      <Footer />
-     <MailTest />
 
         </div>
     );
