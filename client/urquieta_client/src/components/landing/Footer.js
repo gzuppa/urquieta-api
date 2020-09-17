@@ -7,11 +7,11 @@ const FormAndMap = () => (
     <Container className="footer-cont">
     <Grid columns="equal" >
     <Grid.Row>
-        <Grid.Column className="footer-1st-col-414">
+        <Grid.Column className="footer-1st-col-414 footer-1st-col-375">
             <span className="footer-pay">Aceptamos las siguientes formas de pago</span>
             <List horizontal relaxed animated className="footer-payform">
                 <List.Item>
-                <Image src={Assets.generalImgs.amex} alt="amex" className="footer-payform-icon payform-align amex-768"/>
+                <Image src={Assets.generalImgs.amex} alt="amex" className="footer-payform-icon payform-align amex-768 amex-375"/>
                 </List.Item>
                 <List.Item>
                 <Image src={Assets.generalImgs.dollar} alt="money" className="footer-payform-icon payform-align dollar-414"/>

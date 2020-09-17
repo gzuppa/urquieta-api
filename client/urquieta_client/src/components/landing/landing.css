@@ -767,7 +767,7 @@
     }
 }
 
-@media (min-width: 414px) {
+@media (min-width: 414px) and (max-width: 767px) {
     .carousel-item{
         height: 215px;
     } 
@@ -909,7 +909,7 @@
     }
 }
 
-@media (min-width: 375px) {
+@media (min-width: 375px) and (max-width: 413px) {
     .carousel-item img,
     .carousel-item {
         height: 180px;
@@ -973,6 +973,7 @@
     }
     .social-media {
         margin-top: 17px !important;
+        margin-left: 94px !important;
     }
     .client-card{
         width: 200px !important;
@@ -997,6 +998,23 @@
         font-size: 7px;
         margin-top: -8px;
         margin-left: 32px;
+    }
+    .footer-1st-col-375{
+        width: 230px !important;
+    }
+    .footer-pay {
+        margin-left: 64px;
+    }
+    .amex-375 {
+        margin-left: 6px !important;
+    }
+    .footer-payform {
+        margin-left: 85px !important;
+        margin-top: 11px !important;
+    }
+    .footer-social {
+        width: 40px;
+        height: 40px;
     }
 }
  
