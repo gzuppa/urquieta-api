@@ -17,78 +17,62 @@ export default class OurClients extends Component {
     {
       key: uuid(),
       content: 
-      <Card color="blue" className="client-card">
-      <Card.Content>
-        <Image
-          className="avatar-card"
-          floated='right'
-          size="small"
-          src={Assets.generalImgs.avatar1}
-        />
-        <Card.Header className="client-card-header">Guadalupe Guadarrama</Card.Header>
-        <Card.Meta className="client-card-subtitle">Cliente</Card.Meta>
-        <Card.Description className="client-card-description">
-          Mi agradecimiento por su <strong>paciencia y tolerancia</strong> y el buen trato hacia mi paciente.
-        </Card.Description>
-      </Card.Content>
-      </Card>
+      <div class="testimonial">
+        <div class="testimonial-body">
+            <p>Mi reconocimiento por su <strong>paciencia</strong> y el buen trato humano hacia mi paciente.</p>
+            <i class="fas fa-quote-right"></i>
+        </div>
+        <div class="testimonial-footer">
+            <img src={Assets.generalImgs.avatar1} alt="user" />
+            <h3>Guadalupe Guadarrama</h3>
+            <h4>Cliente</h4>
+        </div>
+    </div>
     },
     {
       key: uuid(),
       content: 
-      <Card color="blue" className="client-card">
-      <Card.Content>
-        <Image
-          className="avatar-card"
-          floated='right'
-          size='small'
-          src={Assets.generalImgs.avatar2}
-        />
-        <Card.Header className="client-card-header">José Luis Gil Hernández</Card.Header>
-        <Card.Meta className="client-card-subtitle">Paciente</Card.Meta>
-        <Card.Description className="client-card-description">
-          Escucho de maravilla. <strong>Los recomiendo ampliamente</strong>.
-        </Card.Description>
-      </Card.Content>
-      </Card>
+      <div class="testimonial">
+      <div class="testimonial-body">
+          <p>Escucho de maravilla. Los recomendaría ampliamente.</p>
+          <i class="fas fa-quote-right"></i>
+      </div>
+      <div class="testimonial-footer">
+          <img src={Assets.generalImgs.avatar2} alt="user" />
+          <h3>José Luis Gil Hernández</h3>
+          <h4>Paciente</h4>
+      </div>
+  </div>
     },
     {
       key: uuid(),
       content: 
-      <Card color="blue" className="client-card">
-      <Card.Content>
-        <Image
-          className="avatar-card"
-          floated='right'
-          size='small'
-          src={Assets.generalImgs.avatar3}
-        />
-        <Card.Header className="client-card-header">Ma. Dolores Martínez</Card.Header>
-        <Card.Meta className="client-card-subtitle">Cliente</Card.Meta>
-        <Card.Description className="client-card-description">
-          Los aparatos son de excelente calidad- <strong>Excelente servicio, </strong>muy atentos y amables.
-        </Card.Description>
-      </Card.Content>
-      </Card>
+      <div class="testimonial">
+      <div class="testimonial-body">
+          <p>Los aparatos son de excelente calidad. Excelente servicio, muy atentos y amables.</p>
+          <i class="fas fa-quote-right"></i>
+      </div>
+      <div class="testimonial-footer">
+          <img src={Assets.generalImgs.avatar3} alt="user" />
+          <h3>María Dolores Martinez</h3>
+          <h4>Cliente</h4>
+      </div>
+  </div>
     },
     {
         key: uuid(),
         content: 
-        <Card color="blue" className="client-card">
-        <Card.Content>
-          <Image
-            className="avatar-card"
-            floated='right'
-            size='small'
-            src={Assets.generalImgs.avatar4}
-          />
-          <Card.Header className="client-card-header">Felipe de J. Carrillo Pinzón</Card.Header>
-          <Card.Meta className="client-card-subtitle">Cliente</Card.Meta>
-          <Card.Description className="client-card-description">
-            Felicidades por su profesionalismo  y servicio, <strong>tienen una atención esmerada</strong>.
-          </Card.Description>
-        </Card.Content>
-        </Card>
+        <div class="testimonial">
+      <div class="testimonial-body">
+          <p>Felicidades por su profesionalismo y servicio, tienen una atención esmerada.</p>
+          <i class="fas fa-quote-right"></i>
+      </div>
+      <div class="testimonial-footer">
+          <img src={Assets.generalImgs.avatar4} alt="user" />
+          <h3>Felipe de J. Carrillo Pinzón</h3>
+          <h4>Cliente</h4>
+      </div>
+  </div>
       }
   ].map((slide, index) => {
     return { ...slide, onClick: () => this.setState({ goToSlide: index }) };
