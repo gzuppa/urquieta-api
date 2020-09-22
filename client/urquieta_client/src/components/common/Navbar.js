@@ -1,8 +1,9 @@
 import React from "react";
 import './common.css'
 import Assets from '../../assets/Assets'
-import { Dropdown } from 'semantic-ui-react'
+import { Dropdown, Button } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
+import AccessMenu from '../landing/AccessMenu'
 const ROOT_PATH = '/'
 const AUXILIAR_PATH = '/auxiliars'
 const ABOUT_PATH = '/aboutus'
@@ -95,12 +96,18 @@ class Navbar extends React.Component {
             </li>   
           
           </ul>
+
+          <ul>
+          <AccessMenu />
+          </ul>
         </div>
         <a className='navbar-brand' href='/#home'>
             <img src={navBackground === '#FFFFFF' ? Assets.layoutImgs.agendacita : Assets.layoutImgs.agendacita} className='agenda' alt='logo navbar' />
           </a>
-
+          
       </nav>
+        
+      
     );
   }
 }

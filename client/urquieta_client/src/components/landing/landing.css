@@ -16,6 +16,8 @@
 
 .AccessMenu {
     height: 75px;
+    margin: 17px 0px -8px -500px !important;
+    width: 260% !important;
 }
 
 .btnAccessMenu{
@@ -764,6 +766,19 @@
     .social-media {
         margin-top: 45px !important;
         margin-left: 130px !important;
+    }
+    .aboutus-ear {
+        height: 805px;
+    }
+    .aboutus-background {
+        height: 805px;
+    }
+    .aboutus-icon-txt {
+        font-size: 24px !important;
+    }
+    .aboutus-icon {
+        width: 70px;
+        height: 70px;
     }
 }
 
