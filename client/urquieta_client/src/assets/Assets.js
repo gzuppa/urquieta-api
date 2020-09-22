@@ -58,7 +58,10 @@ const serviceImages = {
   services6: require('./services/services6.png'),
   circle1: require('./services/services-local.png'),
   circle2: require('./services/services-online.png'),
-  circle3: require('./services/services-delivery.png')
+  circle3: require('./services/services-delivery.png'),
+  asesoria: require('./services/asesoria.jpg'),
+  adaptacion: require('./services/adaptacion.jpg'),
+  lab: require('./services/laboratorio.jpg')
 }
 
 const aboutImages = {

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Navbar from '../common/Navbar'
-import AccessMenu from '../landing/AccessMenu'
 import { Item, Grid, Container, Header, Image, List } from 'semantic-ui-react'
 import Assets from '../../assets/Assets'
 import './routes.css'
@@ -10,30 +9,27 @@ class Services extends Component {
     return (
         <div>
      <Navbar />
-     <AccessMenu />
 
-     <img src={Assets.layoutImgs.earbutton} alt="earbutton" className="services-btn-1st" />
-     <span className="services-btn-txt1">Servicios</span>
-
-    <Grid columns="equal">
+    <Grid>
     <Grid.Row>
-     <Grid.Column>
-        <img src={Assets.servicesImgs.services1} className="services-img" alt="services1"/>
-        <p className="services-title">Asesoría gratuita</p>
+     <Grid.Column width={6}>
+     <img src={Assets.aboutImgs.background} alt="back" className="services-background"/>
+     <img src={Assets.servicesImgs.services1} alt="ear" className="services-doctor"/>
       </Grid.Column>
-      <Grid.Column>
-        <img src={Assets.servicesImgs.services2} className="services-img" alt="services2"/>
-        <p className="services-title">Adaptación y ajustes</p>
+      <Grid.Column  width={5}>
+        <img src={Assets.servicesImgs.asesoria} className="services-circle-principal" alt="services2"/>
+        <p className="services-titlecircle-principal services-1st-head">Asesoría gratuita</p>
+        <img src={Assets.servicesImgs.asesoria} className="services-circle-principal" alt="services2"/>
+        <p className="services-titlecircle-principal services-2nd-head">Accesorios, moldes y pilas</p>
       </Grid.Column>
-      <Grid.Column>
-        <img src={Assets.servicesImgs.services3} className="services-img" alt="services3"/>
-        <p className="services-title">Accesorios, moldes y pilas</p>
+      <Grid.Column  width={5}>
+        <img src={Assets.servicesImgs.adaptacion} className="services-circle-principal" alt="services3"/>
+        <p className="services-titlecircle-principal services-3rd-head">Adaptación y ajustes</p>
+        <img src={Assets.servicesImgs.lab} className="services-circle-principal" alt="services2"/>
+        <p className="services-titlecircle-principal services-4th-head">Laboratorio</p>
+        <p className="services-subtitlecircle-principal">Reparación, refacciones, revisión y mantenimiento</p>
       </Grid.Column>
-      <Grid.Column>
-        <img src={Assets.servicesImgs.services4} className="services-img" alt="services4"/>
-        <p className="services-title">Laboratorio</p>
-        <p className="services-subtitle">Reparación, refacciones, revisión y mantenimiento</p>
-      </Grid.Column>
+     
     </Grid.Row>
     </Grid>
 

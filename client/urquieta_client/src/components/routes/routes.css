@@ -146,3 +146,54 @@
 .services-btn-1st{
     margin-top: -11px;
 }
+
+.services-background {
+    position: absolute;
+    z-index: -1;
+}
+
+.services-doctor {
+    position: absolute;
+    z-index: 1;
+    width: 453px;
+}
+
+.services-circle-principal {
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+    margin-top: 110px;
+    margin-left: 40px;
+}
+
+.services-titlecircle-principal {
+    font-family: 'Exo-Regular', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #245d8e;
+    margin-top: 15px;
+}
+
+.services-1st-head {
+    margin-left: 60px
+}
+
+.services-2nd-head {
+    margin-left: 7px
+}
+
+.services-3rd-head {
+    margin-left: 42px
+}
+
+.services-4th-head {
+    margin-left: 83px
+}
+
+.services-subtitlecircle-principal {
+    font-family: 'Exo-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #245d8e;
+    margin-left: -42px;
+}
