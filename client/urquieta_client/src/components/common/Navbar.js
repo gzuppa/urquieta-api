@@ -33,7 +33,7 @@ class Navbar extends React.Component {
         <nav className={`navbar sticky-top navbar-expand-lg ${navBackground === '#FFFFFF' ? 'navbar-dark' : 'navbar-light'} color-nav`} style={{ backgroundColor: `${navBackground}` }}>
         <div className="navbar-toggler-right">
         <a className='navbar-brand' href='/'>
-            <img src={navBackground === '#FFFFFF' ? Assets.layoutImgs.logo : Assets.layoutImgs.logo} alt='logo navbar' />
+            <img src={navBackground === '#FFFFFF' ? Assets.layoutImgs.logo : Assets.layoutImgs.logo} alt='logo navbar' className="main-logo"/>
           </a>
 
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

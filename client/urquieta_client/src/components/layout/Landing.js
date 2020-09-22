@@ -23,7 +23,6 @@ class Landing extends Component {
      <Contact />
      <FormAndMap />
      <Footer />
-
         </div>
     );
   }
