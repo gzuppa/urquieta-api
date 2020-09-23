@@ -61,7 +61,8 @@ const serviceImages = {
   circle3: require('./services/services-delivery.png'),
   asesoria: require('./services/asesoria.jpg'),
   adaptacion: require('./services/adaptacion.jpg'),
-  lab: require('./services/laboratorio.jpg')
+  lab: require('./services/laboratorio.jpg'),
+  backgroundLeft: require('./services/background-left.png')
 }
 
 const aboutImages = {

@@ -48,7 +48,7 @@ class Navbar extends React.Component {
             <Link to="/aboutus"> <span className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} >Quienes somos <span class="sr-only">(current)</span></span> </Link>
             </li>
             <li className="nav-item active">
-              <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="/home">Solicitar una devolución de llamada <span class="sr-only">(current)</span></a>
+              <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="/home">Solicitar llamada gratis <span class="sr-only">(current)</span></a>
             </li>
             <li className="nav-item active">
               <a className={navBackground === '#245D8E' ? 'menuItems' : 'menuItemsBlue'} href="/home">Contacto <span class="sr-only">(current)</span></a>

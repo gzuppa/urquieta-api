@@ -197,3 +197,25 @@
     color: #245d8e;
     margin-left: -42px;
 }
+
+.services-1st-circle,
+.services-2nd-circle,
+.services-3rd-circle {
+    z-index: 100;
+    position: relative;
+}
+
+.services-1st-circle {
+    margin-left: -237px;
+    margin-top: -135px;
+}
+
+.services-2nd-circle {
+    margin-left: -247px;
+    margin-top: 276px;
+}
+
+.services-3rd-circle {
+    margin-left: -240px;
+    margin-bottom: -675px;
+}
