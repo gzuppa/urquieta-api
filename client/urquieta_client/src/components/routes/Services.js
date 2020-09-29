@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Navbar from '../common/Navbar'
-import { Item, Grid, Container, Header, Image, List } from 'semantic-ui-react'
+import { Grid, Container, Header, List } from 'semantic-ui-react'
 import Assets from '../../assets/Assets'
 import './routes.css'
 
@@ -58,13 +58,32 @@ class Services extends Component {
         <img src={Assets.servicesImgs.services3} alt="ear" className="services-doctor"/>
       </Grid.Column>
       <Grid.Column width={10}>
-        
+          <Container fluid>
+          <Header as='h2' className="servlist-header">Asesoría Gratuita</Header>
+            <List bulleted className="services-list">
+              <List.Item className="servlist-item">
+                <List.Header className="servlist-item">¿Cómo escucha?</List.Header>Evaluamos si requiere un aparato o si es candidato a usar uno
+              </List.Item>
+              <br/>
+              <List.Item className="servlist-item">
+                <List.Header className="servlist-item">¿Está buscando el mejor aparato auditivo para usted o un familiar?</List.Header>
+                Lo asesoramos y orientamos en su búsqueda de soluciones de audición.
+              </List.Item>
+              <br/>
+              <List.Item className="servlist-item">
+                <List.Header className="servlist-item">¿Ya es usuario de aparato auditivo?</List.Header>
+                Evaluamos su aparato auditivo y le informamos si es compatible con su baja auditiva actual.
+              </List.Item>
+            </List>
+          </Container>
+       <img src={Assets.servicesImgs.devices} alt="devices" className="devices-gif"/>
+       <List className="section-footer">
+        <List.Item>¿Necesita que un especialista lo asesore?</List.Item>
+        <List.Item>¡Nosotros lo ayudamos!</List.Item>
+      </List>
       </Grid.Column>
     </Grid.Row>
     </Grid>
-
-    
-)
 </div>
     );
   }

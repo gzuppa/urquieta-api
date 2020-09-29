@@ -250,6 +250,44 @@
 }
 
 .services-3rd-row {
-    margin-top: 135px;
+    margin-top: 170px;
+}
+
+.services-list {
+    font-family: 'Exo-Regular', sans-serif !important;
+}
+
+.servlist-header {
+    font-family: 'Exo-Regular', sans-serif !important;
+    font-weight: bolder !important;
+    color: #245d8e !important;
+    font-size: 50px !important;
+}
+
+.servlist-item {
+    font-family: 'Exo-Regular', sans-serif !important;
+    color: #245d8e !important;
+    font-size: 30px !important;
+}
+
+.devices-gif {
+    margin-top: -90px;
+}
+
+.section-footer{
+    font-family: 'Exo-Regular', sans-serif !important;
+    background-color: #294999;
+    color: white;
+    font-size: 34px !important;
+    width: 1165px;
+    margin-left: -211px !important;
+    height: 92px;
+    margin-top: -30px !important;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.footer-span{
+
 }
 
