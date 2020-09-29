@@ -63,7 +63,8 @@ const serviceImages = {
   adaptacion: require('./services/adaptacion.jpg'),
   lab: require('./services/laboratorio.jpg'),
   backgroundLeft: require('./services/background-left.png'),
-  devices: require('./services/aparatos.gif')
+  devices: require('./services/aparatos.gif'),
+  bullet1: require('./services/bullet1.png')
 }
 
 const aboutImages = {

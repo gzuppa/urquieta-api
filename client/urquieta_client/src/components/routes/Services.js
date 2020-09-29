@@ -83,6 +83,16 @@ class Services extends Component {
       </List>
       </Grid.Column>
     </Grid.Row>
+
+    <Grid.Row className="services-4th-row">
+    <Grid.Column width={11}>
+      <img src={Assets.servicesImgs.bullet1} alt="bullet1" className="bullet1" />
+      </Grid.Column>
+      <Grid.Column width={5}>
+        <img src={Assets.servicesImgs.services4} alt="ear" className="services-doctor"/>
+        <img src={Assets.servicesImgs.backgroundLeft} alt="back" className="services-background"/>
+      </Grid.Column>
+    </Grid.Row>
     </Grid>
 </div>
     );
