@@ -207,15 +207,45 @@
 
 .services-1st-circle {
     margin-left: -237px;
-    margin-top: -135px;
+    margin-top: 70px;
 }
 
 .services-2nd-circle {
-    margin-left: -247px;
-    margin-top: 276px;
+    margin-left: -195px;
+    margin-top: 60px;
 }
 
 .services-3rd-circle {
-    margin-left: -240px;
-    margin-bottom: -675px;
+    margin-left: -160px;
+    margin-bottom: -400px;
 }
+
+.services-1st-txt,
+.services-2nd-txt,
+.services-3rd-txt {
+    background-color: #294999;
+    font-family: 'Exo-Regular', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    height: 45px;
+    font-weight: bolder;
+}
+
+.services-1st-txt,
+.services-2nd-txt {
+    margin-left: -850px;
+    margin-top: -182px;
+    width: 682px;
+}
+
+.services-3rd-txt {
+    margin-top: 165px;
+    margin-left: -850px;
+    width: 709px;
+}
+
+.services-span {
+    vertical-align: text-bottom;
+}
+

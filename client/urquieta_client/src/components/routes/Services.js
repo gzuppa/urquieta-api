@@ -37,9 +37,18 @@ class Services extends Component {
       <Grid.Column width={5}>
         <img src={Assets.servicesImgs.services2} alt="ear" className="services-doctor"/>
         <img src={Assets.servicesImgs.backgroundLeft} alt="back" className="services-background"/>
-        <img src={Assets.servicesImgs.circle1} alt="services1" className="services-1st-circle" />
-        <img src={Assets.servicesImgs.circle2} alt="services2" className="services-2nd-circle" />
+        <div>
+          <img src={Assets.servicesImgs.circle1} alt="services1" className="services-1st-circle" />
+          <div className="services-1st-txt"><span className="services-span">Servicio en sucursal</span></div>
+        </div>
+        <div>
+          <img src={Assets.servicesImgs.circle2} alt="services2" className="services-2nd-circle" />
+          <div className="services-2nd-txt"><span className="services-span">Atención a distancia</span></div>
+        </div>
+        <div>
         <img src={Assets.servicesImgs.circle3} alt="services3" className="services-3rd-circle" />
+        <div className="services-3rd-txt"><span className="services-span">Atención a domicilio</span></div>
+        </div>
       </Grid.Column>
     </Grid.Row>
     </Grid>
