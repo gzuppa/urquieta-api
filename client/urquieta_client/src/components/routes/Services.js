@@ -30,9 +30,9 @@ class Services extends Component {
         <p className="services-subtitlecircle-principal">Reparación, refacciones, revisión y mantenimiento</p>
       </Grid.Column>
     </Grid.Row>
+
     <Grid.Row>
-      <Grid.Column width={11  }>
-        
+      <Grid.Column width={11}>
       </Grid.Column>
       <Grid.Column width={5}>
         <img src={Assets.servicesImgs.services2} alt="ear" className="services-doctor"/>
@@ -49,6 +49,16 @@ class Services extends Component {
         <img src={Assets.servicesImgs.circle3} alt="services3" className="services-3rd-circle" />
         <div className="services-3rd-txt"><span className="services-span">Atención a domicilio</span></div>
         </div>
+      </Grid.Column>
+    </Grid.Row>
+
+    <Grid.Row className="services-3rd-row">
+      <Grid.Column width={6}>
+        <img src={Assets.aboutImgs.background} alt="back" className="services-background"/>
+        <img src={Assets.servicesImgs.services3} alt="ear" className="services-doctor"/>
+      </Grid.Column>
+      <Grid.Column width={10}>
+        
       </Grid.Column>
     </Grid.Row>
     </Grid>
