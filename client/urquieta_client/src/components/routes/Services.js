@@ -169,17 +169,23 @@ class Services extends Component {
             <br/>
             <Grid.Row>
               <Grid.Column>
-                <img src={Assets.servicesImgs.phone} alt="phone" className="services1-tiny-card" />
+                <img src={Assets.servicesImgs.phone} alt="phone" />
               </Grid.Column>
               <Grid.Column>
-                <img src={Assets.servicesImgs.whatsapp} alt="whatsapp" className="services1-tiny-card" /> 
+                <img src={Assets.servicesImgs.whatsapp} alt="whatsapp" /> 
               </Grid.Column>
               <Grid.Column>
-               <img src={Assets.servicesImgs.mail} alt="mail" className="services1-tiny-card" />
+               <img src={Assets.servicesImgs.mail} alt="mail" />
               </Grid.Column>
             </Grid.Row>
+            <br/>
             <Grid.Row>
-              
+              <List bulleted className="servlist-item2">
+                <List.Item>Cuando usted se haya acostumbrado al auxiliar, lo esperamos dos veces más en nuestras instalaciones para recalibrar el aparato auditivo. Nuestros
+                  técnicos mejoran el volumen o hacen modificaciones para que usted escuche mejor. Este servicio no tiene costo.</List.Item>
+                <List.Item>Nuestras puertas están abiertas también si siente molestias o deficiencia auditiva. </List.Item>
+                <List.Item>Además los auxiliares cuentan con garantía y pueden ser revisados directamente en nuestras sucursales.</List.Item>
+              </List>
             </Grid.Row>
           </Container>
       </Grid.Column>
