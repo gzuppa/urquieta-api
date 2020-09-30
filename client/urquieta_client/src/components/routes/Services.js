@@ -121,6 +121,17 @@ class Services extends Component {
         <img src={Assets.servicesImgs.backgroundLeft} alt="back" className="services-background"/>
       </Grid.Column>
     </Grid.Row>
+
+    <Grid.Row>
+      <div>
+        <img src={Assets.servicesImgs.bullet4} alt="bullet4" className="bullet4" />
+        <p className="bspans bulletspan4">Prueba de aparatos</p>
+        <img src={Assets.servicesImgs.bulletLine4} alt="bulletLine4" className="bulletLine4" />
+        <p className="bcontents bulletContent4">Prueba de las diferentes alternativas de auxiliares auditivos, de acuerdo
+            a los resultados de su estudio, para definir qué tecnología le da mayores
+            beneficios y comodidad.</p>
+      </div>
+    </Grid.Row>
     </Grid>
 </div>
     );

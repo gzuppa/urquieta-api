@@ -369,3 +369,26 @@
     margin-left: 460px !important;
     color: #294999;
 }
+
+.bullet4 {
+    margin-left: 525px;
+    margin-top: -20px;
+}
+
+.bulletspan4 {
+    margin-left: 650px !important;
+    margin-top: -112px;
+    font-size: 32px;
+}
+
+.bulletLine4 {
+    margin-left: 460px;
+    margin-top: -133px;
+}
+
+.bulletContent4 {
+    font-size: 28px !important;
+    margin-top: -205px !important;
+    margin-left: 510px !important;
+    color: #294999;
+}

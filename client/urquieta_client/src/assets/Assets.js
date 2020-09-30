@@ -69,7 +69,9 @@ const serviceImages = {
   bullet2: require('./services/bullet2.png'),
   bulletLine2: require('./services/bullet-line2.png'),
   bullet3: require('./services/bullet3.png'),
-  bulletLine3: require('./services/bullet-line3.png')
+  bulletLine3: require('./services/bullet-line3.png'),
+  bullet4: require('./services/bullet4.png'),
+  bulletLine4: require('./services/bullet-line4.png')
 }
 
 const aboutImages = {
