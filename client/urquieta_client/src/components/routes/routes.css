@@ -346,3 +346,26 @@
     margin-left: 320px !important;
     color: #294999;
 }
+
+.bullet3 {
+    margin-left: 380px;
+    margin-top: 5px;
+}
+
+.bulletspan3 {
+    margin-left: 512px !important;
+    margin-top: -112px;
+    font-size: 32px;
+}
+
+.bulletLine3 {
+    margin-left: 400px;
+    margin-top: -133px;
+}
+
+.bulletContent3 {
+    font-size: 22px !important;
+    margin-top: -290px !important;
+    margin-left: 460px !important;
+    color: #294999;
+}

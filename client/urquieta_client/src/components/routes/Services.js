@@ -103,6 +103,18 @@ class Services extends Component {
           <List.Item>Otoscopia para precisar las condiciones fisiológicas del conducto auditivo.</List.Item>
         </List>
       </div>
+      <div>
+        <img src={Assets.servicesImgs.bullet3} alt="bullet3" className="bullet3" />
+        <p className="bspans bulletspan3">Valoración auditiva</p>
+        <img src={Assets.servicesImgs.bulletLine2} alt="bulletLine3" className="bulletLine3" />
+        <List ordered className="bcontents bulletContent3">
+          <List.Item>Audiometría vía aérea, ósea y logoaudiometría.</List.Item>
+          <List.Item>Explicación detallada de su problema auditivo.</List.Item>
+          <List.Item>A través de estudios se precisa si es necesario brindarle un auxiliar auditivo bilateral o unilateral, considerando los beneficios que le otorgue y ajustándonos
+                      a su presupuesto.</List.Item>
+          <List.Item>En caso de requerirlo: toma de impresión del conducto auditivo para la elaboración de moldes anatómicos personalizados.</List.Item>
+        </List>
+      </div>
       </Grid.Column>
       <Grid.Column width={5}>
         <img src={Assets.servicesImgs.services4} alt="ear" className="services-doctor"/>
