@@ -190,6 +190,36 @@ class Services extends Component {
           </Container>
       </Grid.Column>
     </Grid.Row>
+    
+    <Grid.Row className="services-4th-row">
+    <Grid.Column width={11}>
+      <Container fluid className="last-servcont">
+      <Header as='h2' className="servlist-header">Laboratorio y taller</Header>
+        <p className="servlist-item2">En nuestro laboratorio y taller damos mantenimiento y limpieza a auxiliares
+          auditivos de cualquier tipo o marca y reparamos el noventa por ciento de las
+          firmas auditivas en México. Además, manufacturamos moldes y ensamblamos
+          dispositivos.</p>
+      </Container>
+      <Container fluid className="last-servcont">
+      <Header as='h2' className="servlist-header">Accesorios, moldes y pilas</Header>
+        <p className="servlist-item2">La vida de las baterías de los auxiliares auditivos varía dependiendo de la
+        potencia, uso y aplicaciones que utilicen. <br/> <br/>
+        En un dispositivo RIC con 12 horas de uso diario, la batería dura aproximadamente
+        dos semanas. Si el uso de Bluetooth es constante la batería se agota en 10
+        días. Puede adquirir el blíster de seis pilas en nuestras instalaciones. <br/> <br/>
+        Hay auxiliares que se fabrican a partir de moldes anatómicos, tomados a la
+        medida del conducto auditivo del paciente. Se deben cambiar cada seis meses,
+        aproximadamente.
+        Tenemos una gran variedad de accesorios que mejoran el rendimiento del
+        aparato auditivo.    </p>
+      </Container>
+      </Grid.Column>
+      <Grid.Column width={5}>
+        <img src={Assets.servicesImgs.services6} alt="ear" className="services-doctor"/>
+        <img src={Assets.servicesImgs.backgroundLeft} alt="back" className="services-background"/>
+      </Grid.Column>
+    </Grid.Row>
+
     </Grid>
 </div>
     );
