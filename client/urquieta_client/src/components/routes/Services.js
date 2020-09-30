@@ -132,6 +132,58 @@ class Services extends Component {
             beneficios y comodidad.</p>
       </div>
     </Grid.Row>
+
+    <Grid.Row>
+    <Grid.Column width={6}>
+        <img src={Assets.aboutImgs.background} alt="back" className="services-background"/>
+        <img src={Assets.servicesImgs.services5} alt="ear" className="services-doctor"/>
+      </Grid.Column>
+      <Grid.Column width={10}>
+      <Container fluid>
+          <Header as='h2' className="servlist-header">Adaptación y ajuste</Header>
+            <List ordered className="services-list">
+              <List.Item className="servlist-item2">
+              Colocación de moldes anatómicos. 
+              </List.Item>
+              <List.Item className="servlist-item2">
+              Calibración del aparato de ayuda auditiva para que funcione correctamente y sea agradable al paciente con el medio ambiente.
+              </List.Item>
+              <List.Item className="servlist-item2">
+              Adaptación.
+              </List.Item>
+              <List.Item className="servlist-item2">
+              Ajuste fino. Pruebas de ambiente cerrado y abierto para evaluar cómo se perciben los sonidos y voces. 
+              </List.Item>
+              <List.Item className="servlist-item2">
+              Explicación detallada del funcionamiento y uso del auxiliar auditivo, así como de los cuidados para su óptimo mantenimiento.
+              </List.Item>
+            </List>
+          </Container>
+          <br/><br/>
+          <Container fluid>
+          <Header as='h2' className="servlist-header">Postadaptación y seguimiento a nuestros pacientes</Header>
+            <Grid.Row>
+               <p className="servlist-item2">Tras adquirir su auxiliar auditivo, usted cuenta con asesoría gratuita, ya sea que requiera información o tenga dudas sobre el adecuado funcionamiento del dispositivo.
+                Lo atendemos de lunes a viernes de 9:00 a 18:00 hrs </p>
+            </Grid.Row>
+            <br/>
+            <Grid.Row>
+              <Grid.Column>
+                <img src={Assets.servicesImgs.phone} alt="phone" className="services1-tiny-card" />
+              </Grid.Column>
+              <Grid.Column>
+                <img src={Assets.servicesImgs.whatsapp} alt="whatsapp" className="services1-tiny-card" /> 
+              </Grid.Column>
+              <Grid.Column>
+               <img src={Assets.servicesImgs.mail} alt="mail" className="services1-tiny-card" />
+              </Grid.Column>
+            </Grid.Row>
+            <Grid.Row>
+              
+            </Grid.Row>
+          </Container>
+      </Grid.Column>
+    </Grid.Row>
     </Grid>
 </div>
     );
