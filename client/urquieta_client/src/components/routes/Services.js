@@ -87,9 +87,21 @@ class Services extends Component {
     <Grid.Row className="services-4th-row">
     <Grid.Column width={11}>
       <div>
-      <img src={Assets.servicesImgs.bullet1} alt="bullet1" className="bullet1" />
-      <p className="bspans bulletspan1">Agende su cita</p>
-      <img src={Assets.servicesImgs.bulletLine1} alt="bulletLine1" className="bulletLine1" />
+        <img src={Assets.servicesImgs.bullet1} alt="bullet1" className="bullet1" />
+        <p className="bspans bulletspan1">Agende su cita</p>
+        <img src={Assets.servicesImgs.bulletLine1} alt="bulletLine1" className="bulletLine1" />
+        <p className="bcontents bulletContent1">Horario de Lunes a Viernes</p>
+      </div>
+      <div>
+        <img src={Assets.servicesImgs.bullet2} alt="bullet2" className="bullet2" />
+        <p className="bspans bulletspan2">Atención personalizada</p>
+        <img src={Assets.servicesImgs.bulletLine2} alt="bulletLine2" className="bulletLine2" />
+        <List bulleted className="bcontents bulletContent2">
+          <List.Item>Atención personalizada.</List.Item>
+          <List.Item>Equipo con tecnología de punta.</List.Item>
+          <List.Item>Aplicación de cuestionario previo para determinar las condiciones patológicas en que se presenta el paciente.</List.Item>
+          <List.Item>Otoscopia para precisar las condiciones fisiológicas del conducto auditivo.</List.Item>
+        </List>
       </div>
       </Grid.Column>
       <Grid.Column width={5}>

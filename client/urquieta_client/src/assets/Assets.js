@@ -65,7 +65,9 @@ const serviceImages = {
   backgroundLeft: require('./services/background-left.png'),
   devices: require('./services/aparatos.gif'),
   bullet1: require('./services/bullet1.png'),
-  bulletLine1: require('./services/bullet-line1.png')
+  bulletLine1: require('./services/bullet-line1.png'),
+  bullet2: require('./services/bullet2.png'),
+  bulletLine2: require('./services/bullet-line2.png')
 }
 
 const aboutImages = {

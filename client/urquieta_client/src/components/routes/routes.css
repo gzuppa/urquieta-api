@@ -291,6 +291,10 @@
     margin-top: -28px;
 }
 
+.bcontents {
+    font-family: 'TheSans-Regular', sans-serif;
+}
+
 .bullet1 {
     margin-left: 110px;
     margin-top: 90px;
@@ -298,7 +302,6 @@
 
 .bspans {
     font-family: 'Exo-Regular', sans-serif;
-    font-size: 45px;
     font-weight: bolder;
     color: white;
 }
@@ -306,9 +309,40 @@
 .bulletspan1 {
     margin-left: 214px !important;
     margin-top: -125px;
+    font-size: 45px;
 }
 
 .bulletLine1 {
     margin-top: -150px;
     margin-left: 140px;
+}
+
+.bulletContent1 {
+    font-size: 25px;
+    margin-top: -175px;
+    margin-left: 175px;
+}
+
+.bullet2 {
+    margin-left: 240px;
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+.bulletspan2 {
+    margin-left: 330px !important;
+    margin-top: -110px;
+    font-size: 32px;
+}
+
+.bulletLine2 {
+    margin-top: -135px;
+    margin-left: 255px;
+}
+
+.bulletContent2 {
+    font-size: 27px !important;
+    margin-top: -290px !important;
+    margin-left: 320px !important;
+    color: #294999;
 }
