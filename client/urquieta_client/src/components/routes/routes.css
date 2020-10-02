@@ -402,3 +402,41 @@
 .last-servcont {
     margin-top: 75px;
 }
+
+.issues-paragraph {
+    font-family: 'TheSans-Regular', sans-serif !important;
+    color: #245d8e !important;
+    font-size: 26px !important;
+}
+
+.issues-1st-par {
+    margin-top: 180px !important;
+}
+
+.issues-btn1 {
+    margin-top: 180px;
+}
+
+.issues-btn2 {
+    margin-left: 320px;
+    margin-top: -145px;
+}
+
+.issues-btntxt1,
+.issues-btntxt2 {
+    font-family: 'TheSans-Regular', sans-serif !important;
+    color: white !important;
+    font-size: 26px !important;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.issues-btntxt1 {
+    margin-left: -475px;
+    margin-top: -75px;
+}
+
+.issues-btntxt2 {
+    margin-left: 170px;
+    margin-top: -103px;
+}

@@ -93,11 +93,17 @@ const aboutImages = {
   doctor: require('./aboutus/doctor.png')
 }
 
+const issuesImages = {
+  issues1: require('./issues/issues1.png'),
+  button: require('./issues/issues-button.png')
+}
+
   export default {
     authImgs: authImages,
     layoutImgs: layoutImages,
     carouselImgs: carouselImages,
     generalImgs: generalLandingImages,
     servicesImgs: serviceImages,
-    aboutImgs: aboutImages
+    aboutImgs: aboutImages,
+    issuesImgs: issuesImages
   }
