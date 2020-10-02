@@ -100,7 +100,9 @@ const issuesImages = {
   bullet2: require('./issues/bullet2.png'),
   bullet3: require('./issues/bullet3.png'),
   bullet4: require('./issues/bullet4.png'),
-  bullet5: require('./issues/bullet5.png')
+  bullet5: require('./issues/bullet5.png'),
+  landscape: require('./issues/landscape.png'),
+  landscapeImg: require('./issues/landscape-img.png')
 }
 
   export default {

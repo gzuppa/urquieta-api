@@ -64,6 +64,11 @@ class Issues extends Component {
                         <img src={Assets.issuesImgs.bullet5} alt="bullet5" className="issues-blt5" />
                         <p className="issues-blttxt5">Asesoría <br/>y prueba <br/> de aparatos</p>
                 </Grid.Row>
+
+                <Grid.Row>
+                <img src={Assets.issuesImgs.landscape} alt="back" className="services-background issues-landscape"/>
+                <img src={Assets.issuesImgs.landscapeImg} alt="ear" className="services-doctor issues-landscape"/>
+                </Grid.Row>
                 </Grid>
             </div>
         )
