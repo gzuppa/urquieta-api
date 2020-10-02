@@ -51,6 +51,19 @@ class Issues extends Component {
                         <p className="issues-btntxt2">55 5677 9364</p>
                     </Grid.Column>
                 </Grid.Row>
+
+                <Grid.Row className="bullet-section">
+                        <img src={Assets.issuesImgs.bullet1} alt="bullet1" className="issues-blt1" />
+                        <p className="issues-blttxt1">Agenda <br/> tu cita <br/> GRATUITA</p>
+                        <img src={Assets.issuesImgs.bullet2} alt="bullet2" className="issues-blt2" />
+                        <p className="issues-blttxt2">Expediente</p>
+                        <img src={Assets.issuesImgs.bullet3} alt="bullet3" className="issues-blt3" />
+                        <p className="issues-blttxt3">Otoscopia</p>
+                        <img src={Assets.issuesImgs.bullet4} alt="bullet4" className="issues-blt4" />
+                        <p className="issues-blttxt4">Audiometría</p>
+                        <img src={Assets.issuesImgs.bullet5} alt="bullet5" className="issues-blt5" />
+                        <p className="issues-blttxt5">Asesoría <br/>y prueba <br/> de aparatos</p>
+                </Grid.Row>
                 </Grid>
             </div>
         )

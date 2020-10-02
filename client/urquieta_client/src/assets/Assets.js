@@ -95,7 +95,12 @@ const aboutImages = {
 
 const issuesImages = {
   issues1: require('./issues/issues1.png'),
-  button: require('./issues/issues-button.png')
+  button: require('./issues/issues-button.png'),
+  bullet1: require('./issues/bullet1.png'),
+  bullet2: require('./issues/bullet2.png'),
+  bullet3: require('./issues/bullet3.png'),
+  bullet4: require('./issues/bullet4.png'),
+  bullet5: require('./issues/bullet5.png')
 }
 
   export default {

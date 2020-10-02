@@ -440,3 +440,44 @@
     margin-left: 170px;
     margin-top: -103px;
 }
+
+.bullet-section {
+    margin-top: 100px;
+}
+
+.issues-blt1,
+.issues-blt2,
+.issues-blt3,
+.issues-blt4,
+.issues-blt5  {
+    margin-left: 90px;
+}
+
+.issues-blttxt1,
+.issues-blttxt2,
+.issues-blttxt3,
+.issues-blttxt4,
+.issues-blttxt5 {
+    font-family: 'TheSans-Regular', sans-serif !important;
+    color: white !important;
+    font-size: 26px !important;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.issues-blttxt1 {
+    margin-left: -150px;
+    margin-top: 45px;
+}
+
+.issues-blttxt2,
+.issues-blttxt3,
+.issues-blttxt4 {
+    margin-left: -142px;
+    margin-top: 80px;
+}
+
+.issues-blttxt5 {
+    margin-left: -151px;
+    margin-top: 42px;
+}
