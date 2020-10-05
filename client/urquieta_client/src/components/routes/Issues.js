@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Container, List } from 'semantic-ui-react'
+import { Grid, Container, List, Image } from 'semantic-ui-react'
 import Assets from '../../assets/Assets'
 import Navbar from '../common/Navbar'
 import AccessMenu from '../landing/AccessMenu'
@@ -69,6 +69,64 @@ class Issues extends Component {
                 <img src={Assets.issuesImgs.landscape} alt="back" className="services-background issues-landscape"/>
                 <img src={Assets.issuesImgs.landscapeImg} alt="ear" className="services-doctor issues-landscape"/>
                 </Grid.Row>
+
+                <Grid.Row className="info-section">
+                    <Grid.Column width={6}>
+                    <img src={Assets.aboutImgs.background} alt="back" className="services-background"/>
+                    <img src={Assets.issuesImgs.issues1} alt="ear" className="services-doctor"/>
+                    </Grid.Column>
+                    <Grid.Column  width={10}>
+                    <Container fluid>
+                    <p className="issues-paragraph issues-1st-par">
+                    Es un eficiente diagnóstico para valorar el estado de su audición, se
+                    realiza cuando se sospecha pérdida auditiva. <br/>
+                    Este estudio evalúa su capacidad para percibir (escuchar) tonos puros
+                    para cada una de las frecuencias estudiadas, es decir, la intensidad
+                    más baja a la que el oído percibe el sonido en dichas frecuencias.
+                    </p>
+                    <List horizontal className="issues-list">
+                        <List.Item>
+                        <Image src={Assets.issuesImgs.check} className="check" />
+                        <List.Content className="check-txt">
+                            Rápido
+                        </List.Content>
+                        </List.Item>
+                        <List.Item>
+                        <Image src={Assets.issuesImgs.check} className="check" />
+                        <List.Content className="check-txt">
+                            Confiable
+                        </List.Content>
+                        </List.Item>
+                        <List.Item>
+                        <Image src={Assets.issuesImgs.check} className="check" />
+                        <List.Content className="check-txt">
+                            No causa molestias
+                        </List.Content>
+                        </List.Item>
+                    </List>
+                    <p className="issues-paragraph">
+                    <strong>¿Cómo se realiza?</strong>
+                    </p>
+                    <List animated verticalAlign='middle'>
+                        <List.Item>
+                        <Image avatar src={Assets.aboutImgs.scopeicon} className="check first-list-icons" />
+                        <List.Content className="issues-paragraph">
+                        La audiometría precederá de una exploración otoscópica. Realizada por un especialista en el diagnóstico auditivo 
+                        </List.Content>
+                        </List.Item>
+                        <br/><br/>
+                        <List.Item>
+                        <Image avatar src={Assets.aboutImgs.scopeicon} className="check first-list-icons" />
+                        <List.Content className="issues-paragraph">
+                        Las pruebas de audiometría se llevan a cabo en una cabina audiométrica, un espacio sonoamortiguado que aísla al paciente
+                        de otros sonidos del ambiente. 
+                        </List.Content>
+                        </List.Item>
+                    </List>
+                    </Container>
+                    </Grid.Column>
+                </Grid.Row>
+
                 </Grid>
             </div>
         )

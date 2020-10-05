@@ -487,4 +487,28 @@
     width: 1520px;
 }
 
+.info-section {
+    margin-top: 600px;
+}
 
+.check {
+    width: 50px;
+    height: 50px;
+}
+
+.check-txt {
+    font-family: 'TheSans-Regular', sans-serif !important;
+    color: #294999 !important;
+    font-size:30px !important;
+    font-weight: bolder;
+}
+
+.issues-list {
+    margin-bottom: 25px !important;
+}
+
+.first-list-icons {
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: -100px !important;
+}
