@@ -553,3 +553,27 @@
     margin-left: -16px;
     margin-top: -57px;
 }
+
+.landscape-inverted {
+    margin-left: 27px;
+    width: 1520px;
+    margin-top: -150px;
+    z-index: -2;
+}
+
+.landscape-1sttxt {
+    font-family: 'TheSans-Regular', sans-serif !important;
+    font-size: 100px;
+    font-weight: bolder;
+    margin-top: -380px;
+    margin-left: 180px;
+    color: white;
+}
+
+.landscape-2ndtxt {
+    font-family: 'TheSans-Regular', sans-serif !important;
+    font-size: 30px;
+    margin-top: -345px;
+    color: white;
+    margin-left: 654px;
+}

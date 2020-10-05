@@ -103,6 +103,7 @@ const issuesImages = {
   bullet4: require('./issues/bullet4.png'),
   bullet5: require('./issues/bullet5.png'),
   landscape: require('./issues/landscape.png'),
+  landscapeInverted: require('./issues/landscape-inverted.png'),
   landscapeImg: require('./issues/landscape-img.png'),
   check: require('./issues/check.png')
 }

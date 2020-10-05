@@ -171,6 +171,17 @@ class Issues extends Component {
                     </Grid.Column>
                     </Grid.Row>
 
+                    <Grid.Row>
+                        <img src={Assets.issuesImgs.landscapeInverted} alt="landscape-inv" className="landscape-inverted" />
+                        <p className="landscape-1sttxt">¿Cómo <br/> oímos?</p>
+                        <p className="landscape-2ndtxt">Los oídos son receptores auditivos que captan las ondas
+                                                        sonoras, encargados de transmitir y transformar diferentes
+                                                        tipos de energía:
+                                                        Acústica: hasta que impacta el tímpano.<br/>
+                                                        Mecánica: al vibrar con los huesecillos.<br/>
+                                                        Hidráulica: al estimular fluidos dentro de la cóclea.
+                        </p>
+                    </Grid.Row>
                 </Grid>
             </div>
         )
