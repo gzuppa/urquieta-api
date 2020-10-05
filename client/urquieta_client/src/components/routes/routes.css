@@ -423,7 +423,8 @@
 }
 
 .issues-btntxt1,
-.issues-btntxt2 {
+.issues-btntxt2,
+.issues-btntxt3 {
     font-family: 'TheSans-Regular', sans-serif !important;
     color: white !important;
     font-size: 26px !important;
@@ -507,8 +508,48 @@
     margin-bottom: 25px !important;
 }
 
+.issues-2nd-section {
+    width: 434px;
+}
+
 .first-list-icons {
     width: 60px !important;
     height: 60px !important;
     margin-left: -100px !important;
+}
+
+.issues-3rd-row {
+    margin-top: 135px;
+}
+
+.issues-3rd-list {
+    margin-left: 200px !important;
+    margin-top: 200px !important;
+}
+
+.issues-advisory {
+    font-family: 'TheSans-Regular', sans-serif !important;
+    background-color: #294999;
+    color: white;
+    margin-top: 100px;
+    margin-left: -105px;
+    font-size: 45px;
+    height: 100px;
+    font-weight: bolder;
+}
+
+.issues-btn3 {
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.whatsapp-issues {
+    width: 70px;
+    margin-left: -263px;
+    margin-top: 39px;
+}
+
+.issues-btntxt3 {
+    margin-left: -16px;
+    margin-top: -57px;
 }

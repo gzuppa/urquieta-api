@@ -73,7 +73,7 @@ class Issues extends Component {
                 <Grid.Row className="info-section">
                     <Grid.Column width={6}>
                     <img src={Assets.aboutImgs.background} alt="back" className="services-background"/>
-                    <img src={Assets.issuesImgs.issues1} alt="ear" className="services-doctor"/>
+                    <img src={Assets.issuesImgs.issues2} alt="ear" className="services-doctor issues-2nd-section"/>
                     </Grid.Column>
                     <Grid.Column  width={10}>
                     <Container fluid>
@@ -126,6 +126,50 @@ class Issues extends Component {
                     </Container>
                     </Grid.Column>
                 </Grid.Row>
+
+                <Grid.Row className="issues-3rd-row">
+                    <Grid.Column width={11}>
+                    <List animated verticalAlign='middle' className="issues-3rd-list">
+                        <List.Item>
+                        <Image avatar src={Assets.aboutImgs.scopeicon} className="check first-list-icons" />
+                        <List.Content className="issues-paragraph">
+                        A la persona a quien se le realiza la prueba se le colocan unos
+                        audífonos, y el especialista usa un audiómetro para producir
+                        sonidos de diferentes frecuencias e intensidades que envía al
+                        paciente y se le pide a la persona que indique si puede escuchar los sonidos que se generan.  
+                        </List.Content>
+                        </List.Item>
+                        <br/><br/>
+                        <List.Item>
+                        <Image avatar src={Assets.aboutImgs.scopeicon} className="check first-list-icons" />
+                        <List.Content className="issues-paragraph">
+                        La interpretación de resultados y asesoría se realizan en la
+                        misma consulta. 
+                        </List.Content>
+                        </List.Item>
+                        <br/><br/>
+                        <List.Item>
+                        <Image avatar src={Assets.aboutImgs.scopeicon} className="check first-list-icons" />
+                        <List.Content className="issues-paragraph">
+                        La audiometría no es en sí misma una técnica de prevención,
+                        ya que no evita los daños congénitos, por la edad u ocasionados por la exposición al ruido, pero permite detectarlos en un
+                        estado precoz de su desarrollo, y por tanto su la importancia
+                        de su realización periódica
+                        </List.Content>
+                        </List.Item>
+                        <div className="issues-advisory">
+                           <br/> ¿Tiene alguna duda sobre su audición?<br/><br/>Asesoría, sin costo.
+                        </div>
+                        <img src={Assets.issuesImgs.button} alt="button" className="issues-btn3" />
+                        <img src={Assets.generalImgs.whatsapp} alt="whatsapp" className="whatsapp-issues" />
+                        <p className="issues-btntxt3">Enviar Whatsapp</p>
+                    </List>
+                    </Grid.Column>
+                    <Grid.Column width={5}>
+                        <img src={Assets.servicesImgs.services2} alt="ear" className="services-doctor"/>
+                        <img src={Assets.servicesImgs.backgroundLeft} alt="back" className="services-background"/>
+                    </Grid.Column>
+                    </Grid.Row>
 
                 </Grid>
             </div>
