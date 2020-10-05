@@ -577,3 +577,91 @@
     color: white;
     margin-left: 654px;
 }
+
+.ear-1stblt,
+.ear-2ndblt,
+.ear-3rdblt,
+.ear-4thblt,
+.ear-5thblt {
+    font-family: 'TheSans-Regular', sans-serif !important;
+    font-size: 40px;
+    background-color: #245d8e;
+    color: white;
+    width: 55px;
+    border-radius: 28px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.ear-1sttxt,
+.ear-2ndtxt,
+.ear-3rdtxt,
+.ear-4thtxt,
+.ear-5thtxt {
+    font-family: 'TheSans-Regular', sans-serif !important;
+    font-size: 20px;
+    color: #245d8e;
+    text-align: center;
+}
+
+.ear-1stblt {
+    margin-left: 200px;
+}
+
+.ear-1sttxt {
+    width: 280px;
+    margin-top: -30px;
+    margin-left: 95px;
+}
+
+.ear-2nddiv {
+    margin-top: 75px;
+}
+
+.ear-2ndblt {
+    margin-left: 160px;
+}
+
+.ear-2ndtxt {
+    width: 200px;
+    margin-left: 86px;
+    margin-top: -25px;
+}
+
+.ear-3rddiv {
+    margin-left: 160px;
+    margin-top: 145px;
+}
+
+.ear-3rdtxt {
+    width: 310px;
+    margin-left: -125px;
+    margin-top: -27px;
+}
+
+.ear-schema {
+    margin-left: 175px;
+    margin-top: -153px;
+}
+
+.ear-4thdiv {
+    margin-left: 960px;
+    margin-top: -290px;
+}
+
+.ear-4thtxt {
+    width: 254px;
+    margin-left: -85px;
+    margin-top: -20px;
+}
+
+.ear-5thdiv {
+    margin-left: 100px;
+    margin-top: -230px;
+}
+
+.ear-5thtxt {
+    width: 285px;
+    margin-left: -110px;
+    margin-top: -20px;
+}

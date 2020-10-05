@@ -105,7 +105,8 @@ const issuesImages = {
   landscape: require('./issues/landscape.png'),
   landscapeInverted: require('./issues/landscape-inverted.png'),
   landscapeImg: require('./issues/landscape-img.png'),
-  check: require('./issues/check.png')
+  check: require('./issues/check.png'),
+  ear: require('./issues/ear-schema.png')
 }
 
   export default {

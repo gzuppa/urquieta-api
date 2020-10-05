@@ -182,6 +182,33 @@ class Issues extends Component {
                                                         Hidráulica: al estimular fluidos dentro de la cóclea.
                         </p>
                     </Grid.Row>
+
+                    <Grid.Row>
+                        <div>
+                        <p className="ear-1stblt">1</p>
+                        <p className="ear-1sttxt">Las ondas sonoras son recogidas por el pabellón auricular</p>
+                        </div>
+                        <div className="ear-2nddiv">
+                        <p className="ear-2ndblt">2</p>
+                        <p className="ear-2ndtxt">Transmitidas a través del canal auditivo</p>
+                        </div>
+                        <div className="ear-3rddiv">
+                        <p className="ear-3rdblt">3</p>
+                        <p className="ear-3rdtxt">El tímpano comienza a vibrar y envía
+                                                  de esta forma ondas sonoras a los huesecillos del oído medio</p>
+                        </div>
+                        <div>
+                        <img src={Assets.issuesImgs.ear} alt="ear-schema" className="ear-schema" />
+                        </div>
+                        <div className="ear-4thdiv">
+                        <p className="ear-4thblt">4</p>
+                        <p className="ear-4thtxt">Una membrana transmite las vibraciones a la cóclea</p>
+                        </div>
+                        <div className="ear-5thdiv">
+                        <p className="ear-5thblt">5</p>
+                        <p className="ear-5thtxt">El nervio auditivo envía impulsos al cerebro, donde son percibidos como sonidos</p>
+                        </div>
+                    </Grid.Row>
                 </Grid>
             </div>
         )
