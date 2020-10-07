@@ -209,6 +209,43 @@ class Issues extends Component {
                         <p className="ear-5thtxt">El nervio auditivo envía impulsos al cerebro, donde son percibidos como sonidos</p>
                         </div>
                     </Grid.Row>
+
+                    <Grid.Row>
+                    <div class="wrap">
+                        <div class="tile"> 
+                        <img src={Assets.servicesImgs.adaptacion}/>
+                        <div class="text">
+                        <h1>Oído externo.</h1>
+                        <p class="animate-text">Formado por el pabellón del oído
+                            (oreja) y el conducto auditivo externo
+                            que termina en el tímpano. Tiene la
+                            misión de recoger las ondas sonoras y
+                            transmitirlas hasta el oído medio.</p>
+                        </div>
+                        </div>
+                        <div class="tile"> 
+                        <img src={Assets.servicesImgs.asesoria}/>
+                        <div class="text">
+                        <h1>Oído medio.</h1>
+                        <p class="animate-text">Constituido por el tímpano, la caja timpánica que
+                            contiene aire, y la cadena
+                            de huesecillos yunque,
+                            martillo y estribo, la
+                            trompa de Eustaquio.</p>
+                        </div>
+                        </div>                        
+                        <div class="tile"> 
+                        <img src={Assets.servicesImgs.lab}/>
+                        <div class="text">
+                        <h1>Oído interno.</h1>
+                        <p class="animate-text">Consta del órgano vestibular u órgano
+                            del equilibrio y de un conducto con
+                            forma de caracol o cóclea que es el que
+                            posee la función auditiva.</p>
+                        </div>
+                        </div>
+                        </div>
+                    </Grid.Row>
                 </Grid>
             </div>
         )
