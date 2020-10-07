@@ -246,6 +246,37 @@ class Issues extends Component {
                         </div>
                         </div>
                     </Grid.Row>
+
+                    <Grid.Row>
+                    <Grid.Column width={6}>
+                    <img src={Assets.aboutImgs.background} alt="back" className="services-background"/>
+                    <img src={Assets.issuesImgs.issues4} alt="ear" className="issues-4th-bkg"/>
+                    </Grid.Column>
+                    <Grid.Column  width={10}>
+                    <Container fluid>
+                    <p className="issues-paragraph issues-1st-par">
+                    Se dice que alguien sufre pérdida de audición cuando no es capaz
+                    de oír tan bien como una persona cuyo sentido del oído es normal<br/><br/>
+                    La hipoacusia es definida como una disminución de la percepción
+                    auditiva. Sin embargo, puede pasar desapercibida si es leve, superficial o si se afecta un solo oído, 
+                    pues se compensa con el oído sano.<br/><br/>
+                    </p>
+                    <img src={Assets.issuesImgs.world} alt="world" className="issues-world" />
+                    <p className="issues-paragraph issues-world-paragraph">
+                    El 5% Población mundial padece pérdida de audición discapacitante 
+                    </p>
+                    <img src={Assets.issuesImgs.calendar} alt="calendar" className="issues-calendar" />
+                    <img src={Assets.issuesImgs.redPeople} alt="redpeople" className="issues-redpeople" />
+                    <img src={Assets.issuesImgs.people} alt="people" />
+                    <p className="issues-paragraph issues-estimate-paragraph">
+                    Se estima que de aquí a 2050 más de 900 millones de personas -
+                    una de cada diez - padecerá pérdida de audición.
+                    </p>
+                    </Container>
+                    </Grid.Column>
+                </Grid.Row>
+
+
                 </Grid>
             </div>
         )

@@ -811,3 +811,28 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     width:400px;
   }
 }
+
+.issues-4th-bkg {
+    position: absolute;
+    width: 433px;
+}
+
+.issues-world-paragraph {
+    margin-left: 365px;
+    margin-top: -115px;
+}
+
+.issues-calendar {
+    margin-left: -120px;
+    margin-top: 65px;
+}
+
+.issues-redpeople {
+    margin-left: 50px;
+    margin-right: 6px;
+}
+
+.issues-estimate-paragraph {
+    margin-left: -70px;
+    margin-top: -45px;
+}

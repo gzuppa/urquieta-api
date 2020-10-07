@@ -96,6 +96,7 @@ const aboutImages = {
 const issuesImages = {
   issues1: require('./issues/issues1.png'),
   issues2: require('./issues/issues2.png'),
+  issues4: require('./issues/issues4.png'),
   button: require('./issues/issues-button.png'),
   bullet1: require('./issues/bullet1.png'),
   bullet2: require('./issues/bullet2.png'),
@@ -106,7 +107,11 @@ const issuesImages = {
   landscapeInverted: require('./issues/landscape-inverted.png'),
   landscapeImg: require('./issues/landscape-img.png'),
   check: require('./issues/check.png'),
-  ear: require('./issues/ear-schema.png')
+  ear: require('./issues/ear-schema.png'),
+  world: require('./issues/issues-world.png'),
+  calendar: require('./issues/issues-calendar.png'),
+  redPeople: require('./issues/issues-people-red.png'),
+  people: require('./issues/issues-people.png')
 }
 
   export default {
