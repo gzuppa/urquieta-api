@@ -97,6 +97,7 @@ const issuesImages = {
   issues1: require('./issues/issues1.png'),
   issues2: require('./issues/issues2.png'),
   issues4: require('./issues/issues4.png'),
+  issues5: require('./issues/issues5.png'),
   button: require('./issues/issues-button.png'),
   bullet1: require('./issues/bullet1.png'),
   bullet2: require('./issues/bullet2.png'),
@@ -111,7 +112,10 @@ const issuesImages = {
   world: require('./issues/issues-world.png'),
   calendar: require('./issues/issues-calendar.png'),
   redPeople: require('./issues/issues-people-red.png'),
-  people: require('./issues/issues-people.png')
+  people: require('./issues/issues-people.png'),
+  age: require('./issues/issues-age.png'),
+  seventy: require('./issues/70.png'),
+  eighty: require('./issues/80.png')
 }
 
   export default {

@@ -276,6 +276,75 @@ class Issues extends Component {
                     </Grid.Column>
                 </Grid.Row>
 
+                <Grid.Row className="issues-3rd-row">
+                    <Grid.Column width={11}>
+                        <img src={Assets.issuesImgs.age} alt="age" className="issues-age" />
+                        <p className="issues-paragraph issues-age-paragraph">
+                        Si bien puede ocurrir a cualquier edad , en la consulta cotidiana
+                        es más común en adultos, sobretodo adultos mayores, afectando
+                        notoriamente su calidad de vida
+                        </p>
+                        <img src={Assets.issuesImgs.seventy} alt="70" className="issues-seventy" />
+                        <p className="issues-paragraph issues-70-paragraph">En mayores de 65 años</p>
+                        <img src={Assets.issuesImgs.eighty} alt="80" className="issues-seventy" />
+                        <p className="issues-paragraph issues-80-paragraph">En mayores de 80 años</p>
+                        <p className="issues-paragraph issues-clasification">
+                        <strong>Clasificación de la hipoacusia</strong>
+                        </p>
+                        <p className="issues-paragraph issues-clasification">Una hipoacusia puede definirse en función de diversos criterios. </p>
+
+                        <div class="issues-hypo-container">
+                            <div class="issues-hypo-card hypo-card1">
+                                <h3 class="issues-hypo-title">Intensidad</h3>
+                                <div class="issues-hypo-bar">
+                                <div class="issues-hypo-emptybar"></div>
+                                <div class="issues-hypo-filledbar"></div>
+                                </div>
+                                <div class="issues-hypo-circle">
+                                <ul className="hypo-list">
+                                    <li>Superficial</li>
+                                    <li>Media</li>
+                                    <li>Severa</li>
+                                    <li>Profunda</li>
+                                </ul>
+                                </div>
+                            </div>
+                            <div class="issues-hypo-card hypo-card2">
+                                <h3 class="issues-hypo-title">Localización</h3>
+                                <div class="issues-hypo-bar">
+                                <div class="issues-hypo-emptybar"></div>
+                                <div class="issues-hypo-filledbar"></div>
+                                </div>
+                                <div class="issues-hypo-circle">
+                                <ul className="hypo-list">
+                                    <li>Conductiva</li>
+                                    <li>Mixta</li>
+                                    <li>Neurosensorial</li>
+                                </ul>
+                                </div>
+                            </div>
+                            <div class="issues-hypo-card hypo-card3">
+                                <h3 class="issues-hypo-title">Momento de aparición respecto al lenguaje</h3>
+                                <div class="issues-hypo-bar">
+                                <div class="issues-hypo-emptybar"></div>
+                                <div class="issues-hypo-filledbar"></div>
+                                </div>
+                                <div class="issues-hypo-circle">
+                                <ul className="hypo-list">
+                                    <li>Pre-locutiva</li>
+                                    <li>Post-locutiva</li>
+                                </ul>
+                                </div>
+                            </div>
+                            </div>
+
+                    </Grid.Column>
+                    <Grid.Column width={5}>
+                        <img src={Assets.issuesImgs.issues5} alt="ear" className="services-doctor"/>
+                        <img src={Assets.servicesImgs.backgroundLeft} alt="back" className="services-background"/>
+                    </Grid.Column>
+                    </Grid.Row>
+
 
                 </Grid>
             </div>
