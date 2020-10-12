@@ -848,7 +848,12 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 
 .issues-seventy {
     margin-left: 100px;
-    margin-top: 30px;
+    margin-top: -20px;
+}
+
+.issues-data-paragraph {
+    margin-left: 150px;
+    margin-top: 20px;
 }
 
 .issues-70-paragraph {
@@ -881,7 +886,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     width: 200px;
     border-radius: 10px;
     box-shadow: -1rem 0 3rem #000;
-    margin-top: 600px;
+    margin-top: 550px;
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
@@ -980,4 +985,9 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   .issues-hypo-card:hover .issues-hypo-stroke {
     stroke-dashoffset: 100;
     transition: 0.6s ease-out;
+  }
+
+  .issues-graphic-section {
+      margin-top: 330px;
+      margin-left: 100px;
   }

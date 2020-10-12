@@ -279,11 +279,9 @@ class Issues extends Component {
                 <Grid.Row className="issues-3rd-row">
                     <Grid.Column width={11}>
                         <img src={Assets.issuesImgs.age} alt="age" className="issues-age" />
-                        <p className="issues-paragraph issues-age-paragraph">
-                        Si bien puede ocurrir a cualquier edad , en la consulta cotidiana
+                        <p className="issues-paragraph issues-data-paragraph">Si bien puede ocurrir a cualquier edad , en la consulta cotidiana
                         es más común en adultos, sobretodo adultos mayores, afectando
-                        notoriamente su calidad de vida
-                        </p>
+                        notoriamente su calidad de vida</p>
                         <img src={Assets.issuesImgs.seventy} alt="70" className="issues-seventy" />
                         <p className="issues-paragraph issues-70-paragraph">En mayores de 65 años</p>
                         <img src={Assets.issuesImgs.eighty} alt="80" className="issues-seventy" />
@@ -345,6 +343,11 @@ class Issues extends Component {
                     </Grid.Column>
                     </Grid.Row>
 
+                    <Grid.Row className="issues-graphic-section">
+                        <p className="issues-paragraph">
+                        <strong>Gráfica audiométrica / Cuantitativa audiométrica</strong>
+                        </p>
+                    </Grid.Row>
 
                 </Grid>
             </div>
