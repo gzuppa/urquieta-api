@@ -115,7 +115,21 @@ const issuesImages = {
   people: require('./issues/issues-people.png'),
   age: require('./issues/issues-age.png'),
   seventy: require('./issues/70.png'),
-  eighty: require('./issues/80.png')
+  eighty: require('./issues/80.png'),
+  graphic: require('./issues/issues-graphic.png'),
+  board: require('./issues/issues-graphic-board.png'),
+  bar: require('./issues/volume-bar.png'),
+  leafs: require('./issues/leafs.png'),
+  water: require('./issues/water.png'),
+  clock: require('./issues/clock.png'),
+  talk1: require('./issues/talk1.png'),
+  talk2: require('./issues/talk2.png'),
+  dog: require('./issues/dog.png'),
+  piano: require('./issues/piano.png'),
+  talk3: require('./issues/talk3.png'),
+  machine: require('./issues/machine.png'),
+  moto: require('./issues/moto.png'),
+  plane: require('./issues/plane.png')
 }
 
   export default {

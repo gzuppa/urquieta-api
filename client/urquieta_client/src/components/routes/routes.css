@@ -991,3 +991,193 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
       margin-top: 330px;
       margin-left: 100px;
   }
+
+  .issues-graph-pgph {
+      width: 910px;
+  }
+
+  .issues-graphic, .issues-graphic-bar, .issues-graphic-board {
+      position: absolute;
+      z-index: 1;
+  }
+
+  .issues-graphic {
+    margin-top: 271px;
+    margin-left: 130px;
+  }
+
+  .issues-graphic-board {
+    margin-left: 738px;
+    margin-top: 324px;
+  }
+
+  .issues-graphic-bar {
+    margin-top: 315px;
+    margin-left: 45px;
+  }
+
+  .issues-leafs, .issues-water, .issues-clock,
+  .issues-talk1, .issues-talk2, .issues-dog,
+  .issues-piano, .issues-talk3, .issues-machine,
+  .issues-moto, .issues-plane {
+      z-index: 2;
+      position: absolute;
+  }
+
+  .issues-leafs {
+    margin-top: 285px;
+    margin-left: -566px;
+  }
+
+  .issues-water {
+    margin-top: 333px;
+    margin-left: -695px;
+  }
+
+  .issues-clock {
+    margin-top: 321px;
+    margin-left: -439px;
+  }
+
+  .issues-talk1 {
+    margin-top: 390px;
+    margin-left: -401px;
+  }
+
+  .issues-talk2 {
+    margin-top: 444px;
+    margin-left: -552px;
+  }
+
+  .issues-dog {
+    margin-top: 566px;
+    margin-left: -700px;
+  }
+
+  .issues-piano {
+    margin-top: 619px;
+    margin-left: -560px;
+  }
+
+  .issues-talk3 {
+    margin-top: 561px;
+    margin-left: -412px;
+  }
+
+  .issues-machine {
+    margin-top: 754px;
+    margin-left: -692px;
+  }
+
+  .issues-moto {
+    margin-top: 732px;
+    margin-left: -459px;
+  }
+
+  .issues-plane {
+    margin-top: 744px;
+    margin-left: -301px;
+  }
+
+  .issues-graphic-texts {
+    font-family:'TheSans-Regular', sans-serif !important;
+    color: white;
+    z-index: 2;
+    font-weight: bolder;
+  }
+
+  .issues-normal {
+    margin-top: 275px;
+    font-size: 56px;
+    margin-left: -166px
+  }
+
+  .issues-super {
+    margin-top: 385px;
+    margin-left: -180px;
+    font-size: 40px
+  }
+
+  .issues-media {
+    margin-top: 480px;
+    margin-left: -146px;
+    font-size: 40px;
+  }
+
+  .issues-hard {
+    margin-top: 573px;
+    margin-left: -111px;
+    font-size: 40px;
+  }
+
+  .issues-deep {
+    margin-top: 665px;
+    margin-left: -137px;
+    font-size: 40px;
+  }
+
+  .issues-rest {
+    margin-top: 736px;
+    margin-left: -152px;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .issues-lost {
+    margin-top: 846px;
+    margin-left: -147px;
+    font-size: 40px;
+  }
+
+  .issues-graphic-texts1 {
+    font-family:'TheSans-Regular', sans-serif !important;
+    color: white;
+    z-index: 2;
+  }
+
+  .issues-normal1 {
+    margin-top: 297px;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+
+  .issues-super1 {
+    margin-top: 395px;
+    margin-left: -78px;
+    font-size: 20px;
+  }
+
+  .issues-media1 {
+    margin-top: 489px;
+    margin-left: -85px;
+    font-size: 20px;
+  }
+
+  .issues-hard1 {
+    margin-top: 587px;
+    margin-left: -85px;
+    font-size: 20px;
+  }
+
+  .issues-deep1 {
+    margin-top: 652px;
+    margin-left: -88px;
+    font-size: 20px;
+  }
+
+  .issues-rest1 {
+    margin-top: 744px;
+    margin-left: -286px;
+    font-size: 20px;
+  }
+
+  .issues-lost1 {
+    margin-top: 835px;
+    margin-left: -274px;
+    font-size: 20px;
+  }
+
+  
+
+
+

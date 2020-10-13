@@ -347,6 +347,40 @@ class Issues extends Component {
                         <p className="issues-paragraph">
                         <strong>Gráfica audiométrica / Cuantitativa audiométrica</strong>
                         </p>
+                        <p className="issues-paragraph issues-graph-pgph">
+                        La audición se mide en decibelios (dB), es una medida exponencial, por lo
+                        que somos capaces de diferenciar pequeñas variaciones entre ambos
+                        oídos. Se considera audición normal cuando el umbral auditivo, mínima
+                        audición, no sobrepasa los 20 dB, equivalente, por ejemplo, al sonido del
+                        movimiento de una hoja de papel.  </p>
+                        <img src={Assets.issuesImgs.graphic} alt="graphic" className="issues-graphic" />
+                        <img src={Assets.issuesImgs.board} alt="board" className="issues-graphic-board" />
+                        <img src={Assets.issuesImgs.bar} alt="bar" className="issues-graphic-bar" />
+                        <a href="#"><img src={Assets.issuesImgs.leafs} alt="leafs" className="issues-leafs" /></a>
+                        <a href="#"><img src={Assets.issuesImgs.water} alt="water" className="issues-water" /></a>
+                        <a href="#"><img src={Assets.issuesImgs.clock} alt="clock" className="issues-clock" /></a>
+                        <a href="#"><img src={Assets.issuesImgs.talk1} alt="talk1" className="issues-talk1" /></a>
+                        <a href="#"><img src={Assets.issuesImgs.talk2} alt="talk2" className="issues-talk2" /></a>
+                        <a href="#"><img src={Assets.issuesImgs.dog} alt="dog" className="issues-dog" /></a>
+                        <a href="#"><img src={Assets.issuesImgs.piano} alt="piano" className="issues-piano" /></a>
+                        <a href="#"><img src={Assets.issuesImgs.talk3} alt="talk3" className="issues-talk3" /></a>
+                        <a href="#"><img src={Assets.issuesImgs.machine} alt="machine" className="issues-machine" /></a>
+                        <a href="#"><img src={Assets.issuesImgs.moto} alt="moto" className="issues-moto" /></a>
+                        <a href="#"><img src={Assets.issuesImgs.plane} alt="plane" className="issues-plane" /></a>
+                        <p className="issues-graphic-texts issues-normal">Normal</p>
+                        <p className="issues-graphic-texts issues-super">Superficial</p>
+                        <p className="issues-graphic-texts issues-media">Media</p>
+                        <p className="issues-graphic-texts issues-hard">Severa</p>
+                        <p className="issues-graphic-texts issues-deep">Profunda</p>
+                        <p className="issues-graphic-texts issues-rest">Restos <br/>auditivos</p>
+                        <p className="issues-graphic-texts issues-lost">Anacusia</p>
+                        <p className="issues-graphic-texts1 issues-normal1">0 a 20 dB</p>
+                        <p className="issues-graphic-texts1 issues-super1">21 a 40 dB</p>
+                        <p className="issues-graphic-texts1 issues-media1">41 a 60 dB</p>
+                        <p className="issues-graphic-texts1 issues-hard1">61 a 80 dB</p>
+                        <p className="issues-graphic-texts1 issues-deep1">Más de 80 dB<br/>Presencia de umbrales en no más<br/>de tres frecuencias</p>
+                        <p className="issues-graphic-texts1 issues-rest1">Sin respuesta a<br/>máximas intensidades en todas<br/>las frecuencias</p>
+                        <p className="issues-graphic-texts1 issues-lost1">Sin respuesta a<br/>máximas intensidades en todas<br/>las frecuencias</p>
                     </Grid.Row>
 
                 </Grid>
