@@ -383,6 +383,27 @@ class Issues extends Component {
                         <p className="issues-graphic-texts1 issues-lost1">Sin respuesta a<br/>máximas intensidades en todas<br/>las frecuencias</p>
                     </Grid.Row>
 
+                    <Grid.Row>
+                        <p className="issues-paragraph issues-topo">
+                        <strong>Clasificación topográfica</strong>
+                        </p>
+                        <p className="issues-paragraph issues-topo-pgph">
+                        La clasificación topográfica considera las hipoacusias
+                        según el lugar en que se asienta la lesión que las origina.</p>
+                        <img src={Assets.issuesImgs.external} alt="external" className="issues-external" />
+                        <img src={Assets.issuesImgs.brain} alt="brain" className="issues-brain" />
+                        <img src={Assets.issuesImgs.redArrow} alt="redArrow" className="issues-red-arrow" />
+                        <img src={Assets.issuesImgs.blueArrow} alt="blueArrow" className="issues-blue-arrow" />
+                    </Grid.Row>
+
+                    <Grid.Row>
+                        <img src={Assets.issuesImgs.oneRed} alt="oneRed" className="issues-one-red" />
+                        <p className="issues-red-text">De transmisión<br/>o de conducción</p>
+                        <img src={Assets.issuesImgs.twoYellow} alt="twoYellow" className="issues-two-yellow" />
+                        <p className="issues-yellow-text">Hipoacusias<br/>mixtas</p>
+                        <img src={Assets.issuesImgs.threeBlue} alt="threeBlue" className="issues-three-blue" />
+                        <p className="issues-blue-text">Neurosensoriales<br/>o de percepción</p>
+                    </Grid.Row>
                 </Grid>
             </div>
         )

@@ -129,7 +129,14 @@ const issuesImages = {
   talk3: require('./issues/talk3.png'),
   machine: require('./issues/machine.png'),
   moto: require('./issues/moto.png'),
-  plane: require('./issues/plane.png')
+  plane: require('./issues/plane.png'),
+  external: require('./issues/external-ear.png'),
+  brain: require('./issues/brain.png'),
+  redArrow: require('./issues/red-arrow.png'),
+  blueArrow: require('./issues/blue-arrow.png'),
+  oneRed: require('./issues/one-red.png'),
+  twoYellow: require('./issues/two-yellow.png'),
+  threeBlue: require('./issues/three-blue.png')
 }
 
   export default {

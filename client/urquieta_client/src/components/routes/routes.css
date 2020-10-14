@@ -1177,7 +1177,80 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     font-size: 20px;
   }
 
-  
+  .issues-topo {
+      margin-left: 100px;
+  }
 
+  .issues-topo-pgph {
+    width: 660px;
+    margin-top: 50px;
+    margin-left: -277px;
+  }
+
+  .issues-external {
+    margin-left: 160px;
+  }
+
+  .issues-brain {
+    margin-left: -235px;
+    margin-top: -85px;
+  }
+
+  .issues-red-arrow {
+    margin-top: -216px;
+    margin-left: 290px;
+    height: 269px;
+    width: 140px;
+  }
+
+  .issues-blue-arrow {
+    margin-left: 571px;
+    margin-top: -366px;
+  }
+
+  .issues-one-red {
+    margin-left: 115px;
+    margin-top: -25px;
+    width: 135px;
+  }
+
+  .issues-red-text {
+    font-family: 'TheSans-Regular', sans-serif !important;
+    color: red;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: -12px;
+  }
+
+.issues-two-yellow {
+    margin-left: 110px;
+    margin-top: -25px;
+    width: 135px;
+}
+
+.issues-yellow-text {
+    font-family: 'TheSans-Regular', sans-serif !important;
+    color: rgba(241, 241, 13, 0.748);
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: -12px;
+}
+
+.issues-three-blue {
+    margin-left: 110px;
+    margin-top: -25px;
+    width: 135px;
+}
+
+.issues-blue-text {
+    font-family: 'TheSans-Regular', sans-serif !important;
+    color: rgba(28, 28, 120, 0.544);
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: -12px;
+}
 
 
