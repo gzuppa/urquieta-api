@@ -1253,4 +1253,57 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     margin-top: -12px;
 }
 
+.exam-top-background {
+    height: 400px;
+    width: 1518px;
+    margin-left: 28px;
+}
+
+.exam-top-title {
+    font-family: 'Exo-Regular', sans-serif !important;
+    font-size: 60px;
+    margin-top: -341px;
+    margin-left: 100px;
+    font-weight: bolder;
+    color: white;
+}
+
+.exam-top-subtitle {
+  font-family: 'Exo-Regular', sans-serif !important;
+  font-size: 80px;
+  margin-top: -70px;
+  margin-left: 103px;
+    font-weight: bolder;
+    color: white;
+}
+
+.exam-top-right-cont {
+  margin-left: 600px;
+  margin-top: -170px;
+}
+
+.exam-top-list {
+  color: white;
+  font-family: 'TheSans-Regular', sans-serif !important;
+  font-size: 22px !important;
+}
+
+.exam-top-question {
+  font-family: 'Exo-Regular', sans-serif !important;
+  color: white;
+    font-weight: bolder;
+    font-size: 36px;
+    margin-top: -12px;
+    margin-left: 100px;
+}
+
+.exam-top-subquestion {
+  font-family: 'Exo-Regular', sans-serif !important;
+  color: white;
+    font-size: 28px;
+    margin-top: -33px;
+    margin-left: 91px;
+}
+
+
 

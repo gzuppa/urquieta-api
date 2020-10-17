@@ -98,6 +98,7 @@ const issuesImages = {
   issues2: require('./issues/issues2.png'),
   issues4: require('./issues/issues4.png'),
   issues5: require('./issues/issues5.png'),
+  issues6: require('./issues/issues6.png'),
   button: require('./issues/issues-button.png'),
   bullet1: require('./issues/bullet1.png'),
   bullet2: require('./issues/bullet2.png'),
@@ -139,6 +140,10 @@ const issuesImages = {
   threeBlue: require('./issues/three-blue.png')
 }
 
+const examImages = {
+  topBackground: require('./exam/top-background.png')
+}
+
   export default {
     authImgs: authImages,
     layoutImgs: layoutImages,
@@ -146,5 +151,6 @@ const issuesImages = {
     generalImgs: generalLandingImages,
     servicesImgs: serviceImages,
     aboutImgs: aboutImages,
-    issuesImgs: issuesImages
+    issuesImgs: issuesImages,
+    examImgs: examImages
   }

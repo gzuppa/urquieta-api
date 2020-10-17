@@ -404,6 +404,35 @@ class Issues extends Component {
                         <img src={Assets.issuesImgs.threeBlue} alt="threeBlue" className="issues-three-blue" />
                         <p className="issues-blue-text">Neurosensoriales<br/>o de percepción</p>
                     </Grid.Row>
+
+                    
+                    <Grid.Row>
+                    <Grid.Column width={6}>
+                    <img src={Assets.aboutImgs.background} alt="back" className="services-background"/>
+                    <img src={Assets.issuesImgs.issues6} alt="ear" className="issues-4th-bkg"/>
+                    </Grid.Column>
+                    <Grid.Column  width={10}>
+                    <Container fluid>
+                    <p className="issues-paragraph issues-1st-par">
+                    Malformaciones del pabellón auricular y del conducto auditivo
+                    externo.<br/><br/>
+                    <strong>Criptotia</strong><br/>
+                    Es una malformación menor del pabellón auricular del tercio superior. Produce ausencia de la crura superior e inferior, lo que
+                    provoca que el borde alto de la oreja se doble.<br/><br/>
+                    <strong>Microtia</strong><br/>
+                    Se considera una deformidad de severidad variable que compromete el pabellón auricular. Se caracteriza por la presencia de remanentes cartilaginosos malformados cubiertos de piel, así
+                    como el lóbulo de la oreja mal posicionado. Es decir, el tamaño
+                    de la oreja es menor, en proporción al rostro, porque no alcanzó
+                    su desarrollo. Se presenta con tres grados de afección.<br/><br/>
+                    <strong>Atresia y estenosis</strong><br/>
+                    La atresia es el nulo desarrollo del conducto auditivo externo
+                    asociado a displasia de la cadena osicular. En otras palabras, la
+                    oreja, la parte visible del oído, no está. Cuando el conducto auditivo externo presenta un diámetro igual o inferior a cuatro milímetros se le llama estenosis.
+                    </p>
+                    </Container>
+                    </Grid.Column>
+                </Grid.Row>
+
                 </Grid>
             </div>
         )
