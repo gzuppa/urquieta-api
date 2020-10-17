@@ -141,7 +141,11 @@ const issuesImages = {
 }
 
 const examImages = {
-  topBackground: require('./exam/top-background.png')
+  topBackground: require('./exam/top-background.png'),
+  exam1: require('./exam/exam1.png'),
+  arc1: require('./exam/arc1.png'),
+  arc2: require('./exam/arc2.png'),
+  arc3: require('./exam/arc3.png')
 }
 
   export default {

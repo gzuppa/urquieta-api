@@ -28,6 +28,17 @@ class Exam extends Component {
                     <p className="exam-top-subquestion">¿Requieres información de tecnología para la audición?</p>
                     </div>
                 </Grid.Row>
+                    
+                <Grid.Row className="exam-2nd-row">
+                    <div>
+                        <img src={Assets.examImgs.exam1} alt="exam1" />
+                    </div>
+                    <div className="exam-arcs">
+                        <img src={Assets.examImgs.arc1} alt="arc1" className="arc1"/>
+                        <img src={Assets.examImgs.arc2} alt="arc2" className="arc2"/>
+                        <img src={Assets.examImgs.arc3} alt="arc3" className="arc3"/>
+                    </div>
+                </Grid.Row>
 
             </Grid>
             </div>
