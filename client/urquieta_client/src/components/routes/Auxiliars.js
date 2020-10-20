@@ -11,7 +11,7 @@ class Auxiliars extends Component {
      <Navbar />
                  <Grid.Row>
                     <div>
-                    <img src={Assets.examImgs.topBackground} alt="topback" className="exam-top-background" />
+                    <img src={Assets.examImgs.topBackground} alt="topback" className="aux-top-background" />
                     <p className="aux-top-title">¿Qué es un</p>
                     <p className="aux-top-subtitle">auxiliar</p>
                     <p className="aux-top-subsubtitle">auditivo?</p>
@@ -21,6 +21,10 @@ class Auxiliars extends Component {
                     por diversos factores, como edad o un padecimiento. Ayuda al paciente a mejorar la audición de forma cómoda
                     y, por tanto, a comunicarse sin problemas y realizar sus actividades diarias como cualquier persona normoyente. </p>
                     </div>
+                </Grid.Row>
+
+                <Grid.Row>
+                    <img src={Assets.auxImgs.background} alt="background" className="aux-background" />
                 </Grid.Row>
 </div>
     );

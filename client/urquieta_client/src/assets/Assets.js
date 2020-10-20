@@ -153,6 +153,10 @@ const examImages = {
   bottomImg: require('./exam/bottom-image.png')
 }
 
+const auxImages = {
+  background: require('./auxiliars/aux-1st-back.png')
+}
+
   export default {
     authImgs: authImages,
     layoutImgs: layoutImages,
@@ -161,5 +165,6 @@ const examImages = {
     servicesImgs: serviceImages,
     aboutImgs: aboutImages,
     issuesImgs: issuesImages,
-    examImgs: examImages
+    examImgs: examImages,
+    auxImgs: auxImages
   }
