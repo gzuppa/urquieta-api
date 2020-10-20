@@ -69,6 +69,11 @@ class Exam extends Component {
                     </div>
                 </Grid.Row>
 
+                <Grid.Row className="bottom-section">
+                    <img src={Assets.examImgs.bottomBack} alt="bottom-back" className="exam-bottomBack" />
+                    <img src={Assets.examImgs.bottomImg} alt="bottom-img" className="exam-bottomImg" />
+                </Grid.Row>
+
             </Grid>
             </div>
         )
