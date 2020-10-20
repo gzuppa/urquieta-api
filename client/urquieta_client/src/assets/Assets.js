@@ -145,7 +145,10 @@ const examImages = {
   exam1: require('./exam/exam1.png'),
   arc1: require('./exam/arc1.png'),
   arc2: require('./exam/arc2.png'),
-  arc3: require('./exam/arc3.png')
+  arc3: require('./exam/arc3.png'),
+  icon1: require('./exam/icon1.png'),
+  icon2: require('./exam/icon2.png'),
+  icon3: require('./exam/icon3.png')
 }
 
   export default {
