@@ -1401,3 +1401,38 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     z-index: 0;
     margin-top: -365px;
 }
+
+.aux-top-title {
+  font-family: 'Exo-Regular', sans-serif !important;
+  font-size: 60px;
+  margin-top: -341px;
+  margin-left: 100px;
+  font-weight: bolder;
+  color: white;
+}
+
+.aux-top-subtitle {
+font-family: 'Exo-Regular', sans-serif !important;
+font-size: 80px;
+margin-top: -90px;
+margin-left: 122px;
+  font-weight: bolder;
+  color: white;
+}
+
+.aux-top-subsubtitle {
+  font-family: 'Exo-Regular', sans-serif !important;
+  font-size: 70px;
+  margin-top: -115px;
+  margin-left: 103px;
+    font-weight: bolder;
+    color: white;
+  }
+
+.aux-top-subquestion {
+  font-family: 'Exo-Regular', sans-serif !important;
+    color: white;
+    font-size: 28px;
+    margin-top: -47px !important;
+    margin-left: 91px;
+}
