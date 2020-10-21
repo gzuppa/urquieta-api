@@ -154,7 +154,9 @@ const examImages = {
 }
 
 const auxImages = {
-  background: require('./auxiliars/aux-1st-back.png')
+  background: require('./auxiliars/aux-1st-back.png'),
+  itc: require('./auxiliars/ITC-Intracanal.png'),
+  bte: require('./auxiliars/BTE.png')
 }
 
   export default {

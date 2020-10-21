@@ -26,6 +26,110 @@ class Auxiliars extends Component {
                 <Grid.Row>
                     <img src={Assets.auxImgs.background} alt="background" className="aux-background" />
                 </Grid.Row>
+
+                <Grid.Row columns="equal">
+                  
+                  <Grid.Column className="first-column">
+                  <div class="container page-wrapper">
+                      <div class="page-inner">
+                          <div class="row">
+                          <div class="el-wrapper">
+                              <div class="box-up">
+                              <img class="img" src={Assets.auxImgs.itc} alt="" />
+                              <div class="img-info">
+                                  <div class="info-inner">
+                                  <span class="p-name">ITC</span>
+                                  <span class="p-company">Intracanal</span>
+                                  </div>
+                              </div>
+                              </div>
+
+                              <div class="box-down">
+                              <div class="h-bg">
+                                  <div class="h-bg-inner"></div>
+                              </div>
+
+                              <a class="cart" href="#">
+                                  <span class="price">$0.00</span>
+                                  <span class="add-to-cart">
+                                  <span class="txt">Comprar</span>
+                                  </span>
+                              </a>
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                      </div>
+                      </Grid.Column>
+
+                      <Grid.Column className="second-column">
+                      <div class="container page-wrapper">
+                      <div class="page-inner">
+                          <div class="row">
+                          <div class="el-wrapper">
+                              <div class="box-up">
+                              <img class="img bte" src={Assets.auxImgs.bte} alt=""/>
+                              <div class="img-info">
+                                  <div class="info-inner">
+                                  <span class="p-name">BTE</span>
+                                  <span class="p-company">Curveta</span>
+                                  </div>
+                              </div>
+                              </div>
+
+                              <div class="box-down">
+                              <div class="h-bg">
+                                  <div class="h-bg-inner"></div>
+                              </div>
+
+                              <a class="cart" href="#">
+                                  <span class="price">$0.00</span>
+                                  <span class="add-to-cart">
+                                  <span class="txt">Comprar</span>
+                                  </span>
+                              </a>
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                      </div>
+                      </Grid.Column>
+
+                      <Grid.Column className="third-column">
+                      <div class="container page-wrapper">
+                      <div class="page-inner">
+                          <div class="row">
+                          <div class="el-wrapper">
+                              <div class="box-up">
+                              <img class="img bte" src={Assets.auxImgs.bte} alt=""  />
+                              <div class="img-info">
+                                  <div class="info-inner">
+                                  <span class="p-name">RIC</span>
+                                  <span class="p-company">Receptor dentro del canal</span>
+                                  </div>
+                              </div>
+                              </div>
+
+                              <div class="box-down">
+                              <div class="h-bg">
+                                  <div class="h-bg-inner"></div>
+                              </div>
+
+                              <a class="cart" href="#">
+                                  <span class="price">$0.00</span>
+                                  <span class="add-to-cart">
+                                  <span class="txt">Comprar</span>
+                                  </span>
+                              </a>
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                      </div>
+                      </Grid.Column>
+
+                      
+                </Grid.Row>
 </div>
     );
   }
