@@ -1638,7 +1638,7 @@ margin-left: 122px;
   height: 100%;
   top: 0;
   left: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Exo-Regular', sans-serif;
   font-weight: 700;
 }
 
@@ -1717,4 +1717,138 @@ margin-left: 122px;
 .bte {
   width: 200px;
   height: 200px;
+}
+
+.aux-1st-ear {
+  margin-left: 50px;
+}
+
+.aux-1st-txt {
+  font-family: 'Exo-Regular', sans-serif;
+  font-size: 30px;
+    font-weight: bolder;
+    margin-left: -285px;
+    margin-top: 85px;
+    color: white;
+}
+
+.aux-circle {
+  margin-left: 50px;
+}
+
+.right-line {
+  margin-left: 80px;
+}
+
+.aux-clock {
+  margin-top: -388px;
+}
+
+.aux-app {
+  margin-left: -203px;
+    margin-top: -115px;
+}
+
+.aux-voice {
+  margin-left: -203px;
+    margin-top: 411px;
+}
+
+.aux-volume {
+  margin-top: 150px;
+    margin-left: -202px;
+}
+
+.aux-list-imgs {
+  margin-top: -500px;
+    margin-left: 100px;
+}
+
+.aux-descriptions {
+
+}
+
+.aux-1st-desc,.aux-2nd-desc,.aux-3rd-desc,.aux-4th-desc {
+    margin-left: -186px;
+    z-index: -1;
+    position: absolute;
+}
+
+.aux-1st-desc {
+  margin-top: 57px;
+}
+
+.aux-2nd-desc {
+  margin-top: 191px;
+}
+
+.aux-3rd-desc {
+  margin-top: 325px;
+}
+
+.aux-4th-desc {
+  margin-top: 457px;
+}
+
+.aux-1st-txtlist,.aux-2nd-txtlist,.aux-3rd-txtlist,.aux-4th-txtlist {
+  font-family: 'Exo-Regular', sans-serif;
+  font-size: 26px;
+    font-weight: bolder;
+    color: #28285b;
+    position: absolute;
+}
+
+.aux-1st-txtlist {
+  margin-top: -521px;
+  margin-left: 219px;
+}
+
+.aux-2nd-txtlist {
+  margin-top: -388px;
+  margin-left: 225px;
+}
+
+.aux-3rd-txtlist {
+  margin-top: -250px;
+    margin-left: 212px;
+}
+
+.aux-4th-txtlist {
+  margin-top: -120px;
+  margin-left: 200px;
+}
+
+.aux-1st-subtxtlist,.aux-2nd-subtxtlist,.aux-3rd-subtxtlist,.aux-4th-subtxtlist {
+  font-family: 'TheSans-Regular', sans-serif;
+  font-size: 16px;
+    color: #408ccb;
+    position: absolute;
+    font-weight: lighter;
+}
+
+.aux-1st-subtxtlist {
+  margin-top: -458px;
+  margin-left: 174px;
+}
+
+.aux-2nd-subtxtlist {
+  margin-top: -324px;
+    margin-left: 174px;
+}
+
+.aux-3rd-subtxtlist {
+  margin-top: -188px;
+    margin-left: 174px;
+}
+
+.aux-4th-subtxtlist {
+  margin-top: -52px;
+  margin-left: 174px;
+}
+
+.bte-circle {
+  z-index: 0;
+    position: absolute;
+    margin-left: -372px;
+    margin-top: 51px;
 }

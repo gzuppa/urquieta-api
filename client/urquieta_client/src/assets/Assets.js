@@ -156,7 +156,14 @@ const examImages = {
 const auxImages = {
   background: require('./auxiliars/aux-1st-back.png'),
   itc: require('./auxiliars/ITC-Intracanal.png'),
-  bte: require('./auxiliars/BTE.png')
+  bte: require('./auxiliars/BTE.png'),
+  circle: require('./auxiliars/circle-back.png'),
+  rightLine: require('./auxiliars/connect-line.png'),
+  clock: require('./auxiliars/clock.png'),
+  app: require('./auxiliars/app.png'),
+  volume: require('./auxiliars/volume.png'),
+  voice: require('./auxiliars/voice.png'),
+  description: require('./auxiliars/description.png')
 }
 
   export default {
