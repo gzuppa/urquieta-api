@@ -31,7 +31,7 @@ class Services extends Component {
       </Grid.Column>
     </Grid.Row>
 
-    <Grid.Row>
+    <Grid.Row className="services-2nd-section">
       <Grid.Column width={11}>
       </Grid.Column>
       <Grid.Column width={5}>
@@ -122,7 +122,7 @@ class Services extends Component {
       </Grid.Column>
     </Grid.Row>
 
-    <Grid.Row>
+    <Grid.Row className="lonely-row">
       <div>
         <img src={Assets.servicesImgs.bullet4} alt="bullet4" className="bullet4" />
         <p className="bspans bulletspan4">Prueba de aparatos</p>
