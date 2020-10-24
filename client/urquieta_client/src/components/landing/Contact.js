@@ -5,7 +5,7 @@ import './landing.css'
 
 const Contact = () => (
     <Grid columns="equal">
-    <Grid.Row columns={3} only="computer">
+    <Grid.Row columns={3} only="computer" className="contact-margin">
         <Grid.Column>
         <div class="container">
         <div class="card">

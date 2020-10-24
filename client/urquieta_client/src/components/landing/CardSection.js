@@ -5,7 +5,7 @@ import './landing.css'
 
 const CardSection = () => (
     <Grid columns='equal'>
-    <Grid.Row columns={3} only="computer">
+    <Grid.Row columns={3} only="computer" className="cards-margin">
       <Grid.Column>
         <section class="hero-section">
       <div class="landing-card-grid">

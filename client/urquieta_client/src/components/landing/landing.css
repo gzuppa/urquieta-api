@@ -161,6 +161,9 @@
     margin-top: 100px !important;
 }
 
+.cards-margin {
+    margin-top: 100px;
+}
 .photo{
     position: absolute;
     top: 50%;
@@ -381,6 +384,10 @@
     margin-left: 35px;
 }
 
+.services-margin {
+    margin-left: 20px;
+}
+
 .services-title {
     font-family: "Exo-Regular", sans-serif !important; 
     font-size: 36px;
@@ -397,6 +404,10 @@
     font-weight: lighter;
     color: #245d8e;
     margin-top: -40px;
+}
+
+.contact-margin {
+    margin-left: 75px;
 }
 
 .container{

@@ -11,7 +11,7 @@ const Services = () => (
         <p className="advisory adv-serv-414">Servicios</p>
         </Grid.Column>
     </Grid.Row>
-    <Grid.Row>
+    <Grid.Row className="services-margin">
      <Grid.Column>
         <Link to="/services"><img src={Assets.generalImgs.avatar2} className="services-img" alt="avatar1"/></Link>
         <p className="services-title">Asesoría gratuita</p>
