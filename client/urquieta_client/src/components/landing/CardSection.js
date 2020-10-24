@@ -7,59 +7,33 @@ const CardSection = () => (
     <Grid columns='equal'>
     <Grid.Row columns={3} only="computer">
       <Grid.Column>
-      <div className="center">
-        <div className="property-card">
-          <a href="#">
-            <div className="property-image prop-img1">
-              <div className="property-image-title">
-              </div>
-            </div></a>
-          <div class="property-description">
-            <h5 className="property-card-title"> Intracanales </h5>
-            <p className="property-card-paragraph">Se coloca dentro del canal auditivo de forma discreta.
-                Son adecuados para pérdida auditiva de leve a ligeramente severa.
-                Se moldea para colocarse en el interior del conducto 
-                auditivo adaptandose a la perfección  </p>
-          </div>
-          </div>
+        <section class="hero-section">
+      <div class="landing-card-grid">
+    <a class="landing-card" href="#">
+      <div class="landing-card__background landing-card1"></div>
+      <div class="landing-card__content ">
+        <p class="landing-card__category">Intracanales</p>
+        <h3 class="landing-card__heading">Se coloca dentro del canal auditivo de forma discreta.</h3>
       </div>
-      </Grid.Column>
-      <Grid.Column>
-      <div class="center">
-        <div class="property-card">
-          <a href="#">
-            <div class="property-image prop-img2">
-              <div class="property-image-title">
-              </div>
-            </div></a>
-          <div class="property-description">
-            <h5 className="property-card-title"> Curveta </h5>
-            <p className="property-card-paragraph">Mayor potencia con una batería de larga duración. Hay
-                curvetas de diferentes tamaños y pueden cubrir desde la
-                baja auditiva más leve hasta la más profunda. Existe una 
-                generación de curvetas mini, que se esconden tras la 
-                oreja.</p>
-          </div>
-        </div>
+    </a>
+    <a class="landing-card" href="#">
+      <div class="landing-card__background landing-card2"></div>
+      <div class="landing-card__content">
+        <p class="landing-card__category">Curveta</p>
+        <h3 class="landing-card__heading">Mayor potencia con una batería de larga duración.Hay curvetas de diferentes tamaños y pueden cubrir desde la baja auditiva más leve
+          hasta la más profunda. Existe una generación de curvetas mini, que se esconden tras la oreja</h3>
       </div>
-      </Grid.Column>
-      <Grid.Column>
-      <div class="center">
-        <div class="property-card">
-          <a href="#">
-            <div class="property-image prop-img3">
-              <div class="property-image-title">
-              </div>
-            </div></a>
-          <div class="property-description">
-            <h5 className="property-card-title"> Sistemas de vibración osea </h5>
-            <p className="property-card-paragraph">El sistema vibratorio se coloca detrás de la oreja, transforma
-                las ondas sonoras en vibraciones y así amplifica el sonido. 
-                Estimula directamente a la cóclea o caracol sin necesidad de 
-                que pase el sonido por el conducto auditivo.</p>
-          </div>
-        </div>
+    </a>
+    <a class="landing-card" href="#">
+      <div class="landing-card__background landing-card3"></div>
+      <div class="landing-card__content">
+        <p class="landing-card__category">vibración ósea</p>
+        <h3 class="landing-card__heading">El sistema vibratorio se coloca detrás de la oreja, transforma las ondas sonoras en vibraciones y así amplica el sonido. Estimula
+         directamente a la cóclea o caracol sin necesidad de que pase el sonido po el conducto auditivo.</h3>
       </div>
+    </a>
+  </div>
+  </section>
       </Grid.Column>
     </Grid.Row>
 
