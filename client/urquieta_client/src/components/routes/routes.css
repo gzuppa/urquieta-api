@@ -59,16 +59,22 @@
 }
 
 .aboutus-btn {
-    width: 315px;
-    height: 135px;
+  width: 515px;
+  height: 210px;
+  z-index: 1;
+  position: absolute;
+  margin-left: 30px;
 }
 
 .aboutus-btn-txt {
-    font-family: 'Exo-Regular', sans-serif;
-    margin-left: -200px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
+  font-family: 'Exo-Regular', sans-serif;
+  margin-left: 209px;
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 92px;
 }
 
 .aboutus-icon {
@@ -78,9 +84,59 @@
 
 .aboutus-icon-txt {
     font-family: 'TheSans-Regular', sans-serif !important;
-    font-size: 24px !important;
+    font-size: 30px !important;
     font-weight: lighter;
     color: #245d8e;
+}
+
+.photo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+.photo img{
+  object-fit: cover;
+  display: block;
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-top: -10px;
+}
+
+.photo:hover img{
+  box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+
+.photo .glow-wrap{
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin-top: -10px;
+}
+
+.photo .glow{
+  display: block;
+  position:absolute;
+  width: 40%;
+  height: 200%;
+  background: rgba(255,255,255,.2);
+  top: 0;
+  filter: blur(5px);
+  transform: rotate(45deg) translate(-450%, 0);
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.photo:hover .glow{
+  transform: rotate(45deg) translate(450%, 0);
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.photo:hover img,
+.photo:hover .glow-wrap{
+  margin-top: 0;
 }
 
 .ear-icon {
@@ -112,7 +168,8 @@
 }
 
 .aboutus-foot-imgs {
-    margin-top: 100px;
+  margin-top: 210px;
+  margin-left: -593px;
 }
 
 .aboutus-imgs {

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Navbar from '../common/Navbar'
-import AccessMenu from '../landing/AccessMenu'
 import { Grid, List, Image, Header } from 'semantic-ui-react'
 import Assets from '../../assets/Assets'
 
@@ -9,22 +8,21 @@ class Presentation extends Component {
         return(
             <div>
             <Navbar />
-            <AccessMenu />
             <Grid>
     <Grid.Row>
       <Grid.Column width={5}>
             <img src={Assets.aboutImgs.background} alt="back" className="aboutus-background"/>
             <img src={Assets.aboutImgs.ear} alt="ear" className="aboutus-ear"/>
-      </Grid.Column>
-      <Grid.Column width={11}>
             <img src={Assets.layoutImgs.earbutton} alt="earbutton" className="aboutus-btn" />
             <span className="aboutus-btn-txt">¿Quienes somos?</span>
+      </Grid.Column>
+      <Grid.Column width={11}>
             <br/>
             <List animated verticalAlign='middle' className="sidebar-list">
             <List.Item>
               <Image className="ear-icon aboutus-icon" src={Assets.aboutImgs.earicon} alt="whatsapp" />
               <List.Content>
-                <span className="aboutus-icon-txt">Profesionales en la <br/>rehabilitación auditiva</span>
+                <span className="aboutus-icon-txt">Profesionales en la <br/><br/>rehabilitación auditiva</span>
               </List.Content>
             </List.Item>
             <List.Item>
@@ -36,19 +34,19 @@ class Presentation extends Component {
             <List.Item>
               <Image className="group-icon aboutus-icon" src={Assets.aboutImgs.groupicon} alt="group"/>
               <List.Content>
-                <span className="aboutus-icon-txt">Más de 15 mil personas <br/>beneficiadas</span>
+                <span className="aboutus-icon-txt">Más de 15 mil personas <br/><br/>beneficiadas</span>
               </List.Content>
             </List.Item>
             <List.Item>
               <Image className="device-icon aboutus-icon" src={Assets.aboutImgs.deviceicon} alt="device"/>
               <List.Content>
-                <span className="aboutus-icon-txt">Más de 250 modelos de <br/>aparatos auditivos</span>
+                <span className="aboutus-icon-txt">Más de 250 modelos de <br/><br/>aparatos auditivos</span>
               </List.Content>
             </List.Item>
             <List.Item>
               <Image className="headphone-icon aboutus-icon" src={Assets.aboutImgs.headphonesicon} alt="headphone"/>
               <List.Content>
-                <span className="aboutus-icon-txt">Orientación y solución a<br/>problemas auditivos</span>
+                <span className="aboutus-icon-txt">Orientación y solución a<br/><br/>problemas auditivos</span>
               </List.Content>
             </List.Item>
             <List.Item>
@@ -60,21 +58,30 @@ class Presentation extends Component {
             <List.Item>
               <Image className="scope-icon aboutus-icon" src={Assets.aboutImgs.scopeicon} alt="scope"/>
               <List.Content>
-                <span className="aboutus-icon-txt">Servicio de médicos audiólogos.<br/>Técnicos especialistas en adaptación</span>
+                <span className="aboutus-icon-txt">Servicio de médicos audiólogos.<br/><br/>Técnicos especialistas en adaptación</span>
               </List.Content>
             </List.Item>
       </List>
       </Grid.Column>
     </Grid.Row>
     <Grid.Row columns="equal" className="aboutus-foot-imgs">
-      <Grid.Column className="aboutus-column">
-          <Image src={Assets.aboutImgs.store} alt="store" className="aboutus-imgs"/>
+      <Grid.Column className="aboutus-column photo">
+          <img src={Assets.aboutImgs.store} alt="store" className="aboutus-imgs"/>
+          <div className="glow-wrap">
+          <i className="glow"></i>
+        </div>
       </Grid.Column>
-      <Grid.Column className="aboutus-column">
-          <Image src={Assets.aboutImgs.room} alt="room" className="aboutus-imgs"/>
+      <Grid.Column className="aboutus-column photo">
+          <img src={Assets.aboutImgs.room} alt="room" className="aboutus-imgs"/>
+          <div className="glow-wrap">
+          <i className="glow"></i>
+        </div>
       </Grid.Column>
-      <Grid.Column className="aboutus-column">
-          <Image src={Assets.aboutImgs.doctor} alt="doctor" className="aboutus-imgs"/>  
+      <Grid.Column className="aboutus-column photo">
+          <img src={Assets.aboutImgs.doctor} alt="doctor" className="aboutus-imgs"/>  
+          <div className="glow-wrap">
+          <i className="glow"></i>
+        </div>
       </Grid.Column>
     </Grid.Row>
     <Grid.Row>
