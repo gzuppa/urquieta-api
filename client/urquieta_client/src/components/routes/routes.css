@@ -1111,12 +1111,19 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   }
 
   .issues-graphic-section {
-      margin-top: 330px;
-      margin-left: 100px;
+    margin-top: 340px;
+    margin-left: 80px;
   }
 
   .issues-graph-pgph {
-      width: 910px;
+    width: 910px;
+    margin-top: 60px;
+    margin-left: -555px;
+  }
+
+  .graphic-items {
+    margin-top: 65px;
+    z-index: 1;
   }
 
   .issues-graphic, .issues-graphic-bar, .issues-graphic-board {
@@ -1216,38 +1223,37 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   }
 
   .issues-super {
-    margin-top: 385px;
-    margin-left: -180px;
-    font-size: 40px
+    margin-top: -26px !important;
+    margin-left: -163px;
+    font-size: 40px;
   }
 
   .issues-media {
-    margin-top: 480px;
-    margin-left: -146px;
+    margin-left: -126px;
     font-size: 40px;
   }
 
   .issues-hard {
-    margin-top: 573px;
-    margin-left: -111px;
+    margin-top: -5px;
+    margin-left: -130px;
     font-size: 40px;
   }
 
   .issues-deep {
-    margin-top: 665px;
-    margin-left: -137px;
+    margin-top: -5px;
+    margin-left: -152px;
     font-size: 40px;
   }
 
   .issues-rest {
-    margin-top: 736px;
-    margin-left: -152px;
+    margin-top: -25px;
+    margin-left: -480px;
     font-size: 35px;
     text-align: center;
   }
 
   .issues-lost {
-    margin-top: 846px;
+    margin-top: -25px;
     margin-left: -147px;
     font-size: 40px;
   }
@@ -1259,44 +1265,44 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   }
 
   .issues-normal1 {
-    margin-top: 297px;
+    margin-top: -646px;
     margin-left: 50px;
     font-size: 20px;
   }
 
   .issues-super1 {
-    margin-top: 395px;
-    margin-left: -78px;
+    margin-top: 70px;
+    margin-left: 50px;
     font-size: 20px;
   }
 
   .issues-media1 {
-    margin-top: 489px;
-    margin-left: -85px;
+    margin-top: 67px;
+    margin-left: 53px;
     font-size: 20px;
   }
 
   .issues-hard1 {
-    margin-top: 587px;
-    margin-left: -85px;
+    margin-top: 69px;
+    margin-left: 53px;
     font-size: 20px;
   }
 
   .issues-deep1 {
-    margin-top: 652px;
-    margin-left: -88px;
+    margin-top: 37px;
+    margin-left: 51px;
     font-size: 20px;
-  }
+}
 
   .issues-rest1 {
-    margin-top: 744px;
-    margin-left: -286px;
+    margin-top: -14px;
+    margin-left: 51px;
     font-size: 20px;
   }
 
   .issues-lost1 {
-    margin-top: 835px;
-    margin-left: -274px;
+    margin-top: -13px;
+    margin-left: 51px;
     font-size: 20px;
   }
 

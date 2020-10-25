@@ -255,6 +255,8 @@ class Issues extends Component {
                     <Grid.Column width={6}>
                     <img src={Assets.aboutImgs.background} alt="back" className="services-background"/>
                     <img src={Assets.issuesImgs.issues4} alt="ear" className="issues-4th-bkg"/>
+                    <img src={Assets.layoutImgs.earbutton} alt="earbutton" className="issues-2nd-btn" />
+                    <span className="issues-audio-txt">¿Qué es la hipoacusia?</span>
                     </Grid.Column>
                     <Grid.Column  width={10}>
                     <Container fluid>
@@ -360,6 +362,7 @@ class Issues extends Component {
                         <img src={Assets.issuesImgs.graphic} alt="graphic" className="issues-graphic" />
                         <img src={Assets.issuesImgs.board} alt="board" className="issues-graphic-board" />
                         <img src={Assets.issuesImgs.bar} alt="bar" className="issues-graphic-bar" />
+                        <div className="graphic-items">
                         <a href="#"><img src={Assets.issuesImgs.leafs} alt="leafs" className="issues-leafs" /></a>
                         <a href="#"><img src={Assets.issuesImgs.water} alt="water" className="issues-water" /></a>
                         <a href="#"><img src={Assets.issuesImgs.clock} alt="clock" className="issues-clock" /></a>
@@ -385,6 +388,7 @@ class Issues extends Component {
                         <p className="issues-graphic-texts1 issues-deep1">Más de 80 dB<br/>Presencia de umbrales en no más<br/>de tres frecuencias</p>
                         <p className="issues-graphic-texts1 issues-rest1">Sin respuesta a<br/>máximas intensidades en todas<br/>las frecuencias</p>
                         <p className="issues-graphic-texts1 issues-lost1">Sin respuesta a<br/>máximas intensidades en todas<br/>las frecuencias</p>
+                        </div>
                     </Grid.Row>
 
                     <Grid.Row>
