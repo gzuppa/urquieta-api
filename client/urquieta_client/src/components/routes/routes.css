@@ -593,6 +593,7 @@
 
 .issues-3rd-row {
     margin-top: 135px;
+    margin-left: 291px;
 }
 
 .issues-3rd-list {
@@ -602,8 +603,7 @@
 
 .issues-advisory {
     font-family: 'TheSans-Regular', sans-serif !important;
-    background-color: #294999;
-    color: white;
+    color: #294999;
     margin-top: 100px;
     margin-left: -105px;
     font-size: 45px;
@@ -611,12 +611,21 @@
     font-weight: bolder;
 }
 
-.issues-1st-btn {
-  width: 575px;
-  height: 210px;
+.issues-1st-btn,
+.issues-2nd-btn  {
   z-index: 1;
   position: absolute;
   margin-left: 30px;
+}
+
+.issues-1st-btn {
+  width: 575px;
+  height: 210px;
+}
+
+.issues-2nd-btn {
+  width: 715px;
+  height: 240px;
 }
 
 .issues-nocost {
@@ -627,15 +636,25 @@
     margin-bottom: -250px !important;
 }
 
-.issues-exam-txt {
+.issues-exam-txt,
+.issues-audio-txt {
   font-family: 'Exo-Regular', sans-serif;
-    margin-left: 231px;
     color: white;
     font-weight: bold;
-    font-size: 35px;
     position: absolute;
     z-index: 1;
-    margin-top: 92px;
+}
+
+.issues-exam-txt {
+  margin-left: 231px;
+  margin-top: 92px;
+  font-size: 35px;
+}
+
+.issues-audio-txt {
+  margin-left: 276px;
+  margin-top: 107px;
+  font-size: 30px;
 }
 
 .issues-btn3 {
@@ -656,7 +675,7 @@
 
 .landscape-inverted {
     margin-left: 27px;
-    width: 1520px;
+    width: 100%;
     margin-top: -150px;
     z-index: -2;
 }
@@ -665,7 +684,7 @@
     font-family: 'TheSans-Regular', sans-serif !important;
     font-size: 100px;
     font-weight: bolder;
-    margin-top: -380px;
+    margin-top: -480px;
     margin-left: 180px;
     color: white;
 }
@@ -673,7 +692,7 @@
 .landscape-2ndtxt {
     font-family: 'TheSans-Regular', sans-serif !important;
     font-size: 30px;
-    margin-top: -345px;
+    margin-top: -415px;
     color: white;
     margin-left: 654px;
 }

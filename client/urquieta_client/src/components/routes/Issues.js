@@ -76,6 +76,8 @@ class Issues extends Component {
                     <Grid.Column width={6}>
                     <img src={Assets.aboutImgs.background} alt="back" className="services-background"/>
                     <img src={Assets.issuesImgs.issues2} alt="ear" className="services-doctor issues-2nd-section"/>
+                    <img src={Assets.layoutImgs.earbutton} alt="earbutton" className="issues-2nd-btn" />
+                    <span className="issues-audio-txt">¿Qué es una audiometría?</span>
                     </Grid.Column>
                     <Grid.Column  width={10}>
                     <Container fluid>
@@ -178,7 +180,7 @@ class Issues extends Component {
                         <p className="landscape-1sttxt">¿Cómo <br/> oímos?</p>
                         <p className="landscape-2ndtxt">Los oídos son receptores auditivos que captan las ondas
                                                         sonoras, encargados de transmitir y transformar diferentes
-                                                        tipos de energía:
+                                                        tipos de energía:<br/>
                                                         Acústica: hasta que impacta el tímpano.<br/>
                                                         Mecánica: al vibrar con los huesecillos.<br/>
                                                         Hidráulica: al estimular fluidos dentro de la cóclea.
