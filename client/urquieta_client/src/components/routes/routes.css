@@ -1544,7 +1544,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 
 .aux-top-background {
   height: 400px;
-    width: 1492px;
+    width: 100%;
     margin-left: 28px;
 }
 
@@ -1558,39 +1558,44 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 }
 
 .aux-top-subtitle {
-font-family: 'Exo-Regular', sans-serif !important;
-font-size: 80px;
-margin-top: -90px;
-margin-left: 122px;
+  font-family: 'Exo-Regular', sans-serif !important;
+  font-size: 80px;
+  margin-top: 113px;
+  margin-left: 122px;
   font-weight: bolder;
   color: white;
+  position: absolute;
 }
 
 .aux-top-subsubtitle {
   font-family: 'Exo-Regular', sans-serif !important;
-  font-size: 70px;
-  margin-top: -115px;
-  margin-left: 103px;
+    font-size: 70px;
+    margin-top: 189px;
+    margin-left: 106px;
     font-weight: bolder;
     color: white;
+    position: absolute;
   }
 
 .aux-top-subquestion {
   font-family: 'Exo-Regular', sans-serif !important;
     color: white;
     font-size: 28px;
-    margin-top: -47px !important;
-    margin-left: 91px;
+    margin-top: 94px !important;
+    margin-left: 601px;
+    position: absolute;
 }
 
 .aux-background {
   z-index: -1;
   height: 440px;
     margin-left: 28px;
-    width: 1492px;
+    width: 100%;
 }
 
-
+.aux-prods {
+  margin-left: 200px;
+}
 
 .d-flex {
   display: -webkit-box;
@@ -1841,16 +1846,16 @@ margin-left: 122px;
 }
 
 .first-column {
-  margin-left: -150px;
+  margin-left: -350px;
 }
 
 .second-column {
-  margin-left: 270px;
+  margin-left: -350px;
     margin-top: -420px;
 }
 
 .third-column {
-  margin-left: 700px;
+  margin-left: -350px;
     margin-top: -420px;
 }
 
@@ -1989,8 +1994,8 @@ margin-left: 122px;
 .bte-circle {
   z-index: 0;
     position: absolute;
-    margin-left: -372px;
-    margin-top: 51px;
+    margin-left: 115px;
+    margin-top: -383px;
 }
 
 .glasses-row {
@@ -2047,4 +2052,8 @@ margin-left: 122px;
 .glasses-card .details p {
   margin: 20px 0 0;
   color: #fff;
+}
+
+.tree-section{
+  margin-left: 200px;
 }

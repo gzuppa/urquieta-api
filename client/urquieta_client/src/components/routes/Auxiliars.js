@@ -9,26 +9,22 @@ class Auxiliars extends Component {
     return (
         <div>
      <Navbar />
+     <Grid>
                  <Grid.Row>
-                    <div>
                     <img src={Assets.examImgs.topBackground} alt="topback" className="aux-top-background" />
                     <p className="aux-top-title">¿Qué es un</p>
                     <p className="aux-top-subtitle">auxiliar</p>
                     <p className="aux-top-subsubtitle">auditivo?</p>
-                    </div>
-                    <div className="exam-top-right-cont">
                     <p className="aux-top-subquestion">Es un aparato que ayuda a mejorar la baja auditiva que sufren algunas personas 
                     por diversos factores, como edad o un padecimiento. Ayuda al paciente a mejorar la audición de forma cómoda
                     y, por tanto, a comunicarse sin problemas y realizar sus actividades diarias como cualquier persona normoyente. </p>
-                    </div>
                 </Grid.Row>
 
                 <Grid.Row>
                     <img src={Assets.auxImgs.background} alt="background" className="aux-background" />
                 </Grid.Row>
 
-                <Grid.Row columns="equal">
-                  
+                <Grid.Row columns="equal" className="aux-prods">
                   <Grid.Column className="first-column">
                   <div class="container page-wrapper">
                       <div class="page-inner">
@@ -134,7 +130,7 @@ class Auxiliars extends Component {
                   <p className="aux-1st-txt">Características</p>
                 </Grid.Row>
 
-                <Grid.Row>
+                <Grid.Row className="tree-section">
                   <Grid.Column width={5}>
                     <img src={Assets.auxImgs.circle} className="aux-circle" />
                     <img src={Assets.auxImgs.bte} className="bte-circle" />
@@ -162,6 +158,7 @@ class Auxiliars extends Component {
                     
                   </Grid.Column>
                 </Grid.Row>
+                </Grid>
 </div>
     );
   }
