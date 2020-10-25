@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Grid, Container, List, Image } from 'semantic-ui-react'
 import Assets from '../../assets/Assets'
 import Navbar from '../common/Navbar'
-import AccessMenu from '../landing/AccessMenu'
 
 class Issues extends Component {
     render(){
@@ -15,6 +14,8 @@ class Issues extends Component {
                     <Grid.Column width={6}>
                     <img src={Assets.aboutImgs.background} alt="back" className="services-background"/>
                     <img src={Assets.issuesImgs.issues1} alt="ear" className="services-doctor"/>
+                    <img src={Assets.layoutImgs.earbutton} alt="earbutton" className="issues-1st-btn" />
+                    <span className="issues-exam-txt">Examen de audición</span>
                     </Grid.Column>
                     <Grid.Column  width={10}>
                     <Container fluid>
@@ -45,6 +46,7 @@ class Issues extends Component {
 
                     </Grid.Column>
                     <Grid.Column width={8}>
+                        <p className="issues-nocost">Sin costo</p>
                         <img src={Assets.issuesImgs.button} alt="button" className="issues-btn1" />
                         <p className="issues-btntxt1">Agenda tu cita <br/> GRATUITA</p>
                         <img src={Assets.issuesImgs.button} alt="button" className="issues-btn2" />
