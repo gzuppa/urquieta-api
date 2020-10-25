@@ -420,6 +420,8 @@ class Issues extends Component {
                     <Grid.Column width={6}>
                     <img src={Assets.aboutImgs.background} alt="back" className="services-background"/>
                     <img src={Assets.issuesImgs.issues6} alt="ear" className="issues-4th-bkg"/>
+                    <img src={Assets.layoutImgs.earbutton} alt="earbutton" className="issues-2nd-btn" />
+                    <span className="issues-audio-txt">Microtia - Atresia</span>
                     </Grid.Column>
                     <Grid.Column  width={10}>
                     <Container fluid>
@@ -440,6 +442,44 @@ class Issues extends Component {
                     oreja, la parte visible del oído, no está. Cuando el conducto auditivo externo presenta un diámetro igual o inferior a cuatro milímetros se le llama estenosis.
                     </p>
                     </Container>
+                    </Grid.Column>
+                </Grid.Row>
+
+                <Grid.Row className="glasses-row" columns='equal'>
+                    <Grid.Column>
+                <div class="glasses-card">
+                        <div class="imgBx">
+                            <img src={Assets.issuesImgs.glasses} />
+                        </div>
+                        <div class="details">
+                            <h2>Lentes</h2>
+                            <p>Descripción de lentes</p>
+                        </div>
+                    </div>
+                    </Grid.Column>
+
+                    <Grid.Column>
+                    <div class="glasses-card">
+                        <div class="imgBx">
+                            <img src={Assets.issuesImgs.ballerina} />
+                        </div>
+                        <div class="details">
+                            <h2>Balerina</h2>
+                            <p>Descripción de balerina</p>
+                        </div>
+                    </div>
+                    </Grid.Column>
+
+                    <Grid.Column>
+                    <div class="glasses-card">
+                        <div class="imgBx">
+                            <img src={Assets.issuesImgs.glasses2} />
+                        </div>
+                        <div class="details">
+                            <h2>Lentes 2</h2>
+                            <p>Descripción de lentes 2</p>
+                        </div>
+                    </div>
                     </Grid.Column>
                 </Grid.Row>
 

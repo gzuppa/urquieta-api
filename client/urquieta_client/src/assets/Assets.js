@@ -137,7 +137,10 @@ const issuesImages = {
   blueArrow: require('./issues/blue-arrow.png'),
   oneRed: require('./issues/one-red.png'),
   twoYellow: require('./issues/two-yellow.png'),
-  threeBlue: require('./issues/three-blue.png')
+  threeBlue: require('./issues/three-blue.png'),
+  glasses: require('./issues/glasses.png'),
+  glasses2: require('./issues/glasses2.png'),
+  ballerina: require('./issues/balerina.png')
 }
 
 const examImages = {
