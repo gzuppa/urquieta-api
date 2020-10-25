@@ -188,7 +188,7 @@ class Issues extends Component {
                     </Grid.Row>
 
                     <Grid.Row>
-                        <div>
+                        <div className="schema-1st-div">
                         <p className="ear-1stblt">1</p>
                         <p className="ear-1sttxt">Las ondas sonoras son recogidas por el pabellón auricular</p>
                         </div>
