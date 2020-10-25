@@ -398,13 +398,15 @@ class Issues extends Component {
                         <p className="issues-paragraph issues-topo-pgph">
                         La clasificación topográfica considera las hipoacusias
                         según el lugar en que se asienta la lesión que las origina.</p>
+                        <div className="brainschema">
                         <img src={Assets.issuesImgs.external} alt="external" className="issues-external" />
                         <img src={Assets.issuesImgs.brain} alt="brain" className="issues-brain" />
                         <img src={Assets.issuesImgs.redArrow} alt="redArrow" className="issues-red-arrow" />
                         <img src={Assets.issuesImgs.blueArrow} alt="blueArrow" className="issues-blue-arrow" />
+                        </div>
                     </Grid.Row>
 
-                    <Grid.Row>
+                    <Grid.Row className="brainschema">
                         <img src={Assets.issuesImgs.oneRed} alt="oneRed" className="issues-one-red" />
                         <p className="issues-red-text">De transmisión<br/>o de conducción</p>
                         <img src={Assets.issuesImgs.twoYellow} alt="twoYellow" className="issues-two-yellow" />
