@@ -11,12 +11,10 @@ class Exam extends Component {
             <Grid>
 
                 <Grid.Row>
-                    <div>
+                    
                     <img src={Assets.examImgs.topBackground} alt="topback" className="exam-top-background" />
                     <p className="exam-top-title">Examen de</p>
                     <p className="exam-top-subtitle">audición</p>
-                    </div>
-                    <div className="exam-top-right-cont">
                     <List bulleted className="exam-top-list">
                         <List.Item>Asesoría y orientación en su búsqueda de soluciones de audición </List.Item>
                         <List.Item>Valoramos si requiere un aparato auditivo</List.Item>
@@ -26,7 +24,6 @@ class Exam extends Component {
                     </List>
                     <p className="exam-top-question">¿Necesita que un especialista lo asesore?</p>
                     <p className="exam-top-subquestion">¿Requieres información de tecnología para la audición?</p>
-                    </div>
                 </Grid.Row>
                     
                 <Grid.Row className="exam-2nd-row">
@@ -62,6 +59,7 @@ class Exam extends Component {
                     </List>
                     </div>
                     <div className="exam-buttons">
+                    <p className="issues-nocost">Sin costo</p>
                     <img src={Assets.issuesImgs.button} alt="button" className="issues-btn1" />
                         <p className="exam-btntxt1">Agenda tu cita <br/> GRATUITA</p>
                         <img src={Assets.issuesImgs.button} alt="button" className="issues-btn2" />
