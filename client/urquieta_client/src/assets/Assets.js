@@ -177,7 +177,10 @@ const auxImages = {
   title: require('./auxiliars/title.png'),
   diadema: require('./auxiliars/diadema.jpg'),
   balerina: require('./auxiliars/balerina.jpg'),
-  lentes: require('./auxiliars/lentes.jpg')
+  lentes: require('./auxiliars/lentes.jpg'),
+  balerina1: require('./auxiliars/balerina_1.png'),
+  balerina2: require('./auxiliars/balerina_2.png'),
+  balerina3: require('./auxiliars/balerina_3.png')
 }
 
   export default {
