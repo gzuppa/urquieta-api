@@ -155,8 +155,23 @@ class Auxiliars extends Component {
                       <p className="aux-4th-txtlist">Capacidad de separar la voz del ruido</p>
                       <p className="aux-4th-subtxtlist">Incluso en caso de ruidos de fondo muy altos, el audífono<br/> reconoce el habla y la coloca en el primer plano.</p>
                     </div>
-                    
                   </Grid.Column>
+                </Grid.Row>
+
+                <Grid.Row>
+                    <img src={Assets.auxImgs.ip67} alt="ip67" className="ip67" />
+                    <img src={Assets.auxImgs.ip671} alt="ip671" />
+                    <img src={Assets.auxImgs.ip672} alt="ip672" />
+                    <img src={Assets.auxImgs.line} alt="line" className="line" />
+                    <img src={Assets.auxImgs.line} alt="line" className="line2" />
+                    <img src={Assets.auxImgs.line} alt="line" className="line3" />
+                    <img src={Assets.auxImgs.line} alt="line" className="line4" />
+                    <div className="ip67-list">
+                        <p className="ip67-txt">Protección del micrófono</p>
+                        <p className="ip67-txt">ComforSeal</p>
+                        <p className="ip67-txt">Sellado estanco</p>
+                        <p className="ip67-txt">Revestimiento</p>
+                    </div>
                 </Grid.Row>
                 </Grid>
 </div>

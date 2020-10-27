@@ -166,7 +166,11 @@ const auxImages = {
   app: require('./auxiliars/app.png'),
   volume: require('./auxiliars/volume.png'),
   voice: require('./auxiliars/voice.png'),
-  description: require('./auxiliars/description.png')
+  description: require('./auxiliars/description.png'),
+  ip67: require('./auxiliars/ip67.png'),
+  ip671: require('./auxiliars/ip67-1.png'),
+  ip672: require('./auxiliars/ip67-2.png'),
+  line: require('./auxiliars/linea.png')
 }
 
   export default {
