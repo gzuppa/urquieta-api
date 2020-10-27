@@ -173,6 +173,38 @@ class Auxiliars extends Component {
                         <p className="ip67-txt">Revestimiento</p>
                     </div>
                 </Grid.Row>
+
+                <Grid.Row>
+                <div class="auxear-box">
+                    <div class="auxear-card">
+                        <div class="auxear-imgBx">
+                            <img src={Assets.auxImgs.ear1} alt="images"/>
+                        </div>
+                        <div class="auxear-details">
+                            <h2>ITC<br/><span>Intracanal</span></h2>
+                        </div>
+                    </div>
+                    
+                    <div class="auxear-card">
+                        <div class="auxear-imgBx">
+                            <img src={Assets.auxImgs.ear2} alt="images"/>
+                        </div>
+                        <div class="auxear-details">
+                            <h2>BTE<br/><span>Curveta</span></h2>
+                        </div>
+                    </div>
+
+                    <div class="auxear-card">
+                        <div class="auxear-imgBx">
+                            <img src={Assets.auxImgs.ear3} alt="images"/>
+                        </div>
+                        <div class="auxear-details">
+                            <h2>RIC<br/><span>Receptor dentro del canal</span></h2>
+                        </div>
+                    </div>
+                
+                </div>
+                </Grid.Row>
                 </Grid>
 </div>
     );

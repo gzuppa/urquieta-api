@@ -170,7 +170,10 @@ const auxImages = {
   ip67: require('./auxiliars/ip67.png'),
   ip671: require('./auxiliars/ip67-1.png'),
   ip672: require('./auxiliars/ip67-2.png'),
-  line: require('./auxiliars/linea.png')
+  line: require('./auxiliars/linea.png'),
+  ear1: require('./auxiliars/ear1.jpg'),
+  ear2: require('./auxiliars/ear2.jpg'),
+  ear3: require('./auxiliars/ear3.jpg')
 }
 
   export default {
