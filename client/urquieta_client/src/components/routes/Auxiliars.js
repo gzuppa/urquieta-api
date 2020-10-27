@@ -202,8 +202,44 @@ class Auxiliars extends Component {
                             <h2>RIC<br/><span>Receptor dentro del canal</span></h2>
                         </div>
                     </div>
-                
                 </div>
+                </Grid.Row>
+
+                <Grid.Row>
+                    <div className="aux-title-btn" >
+                        <img src={Assets.auxImgs.title} alt="title" />
+                        <p className="aux-title-txt">Sistema de vibración ósea</p>
+                    </div>
+                  
+                    <div class="auxear-box">
+                    <div class="auxear-card">
+                        <div class="auxear-details">
+                            <h2>Diadema</h2>
+                        </div>
+                        <div class="auxear-imgBx">
+                            <img src={Assets.auxImgs.diadema} alt="images"/>
+                        </div>
+                    </div>
+                    
+                    <div class="auxear-card">
+                        <div class="auxear-details">
+                            <h2>Balerina</h2>
+                        </div>
+                        <div class="auxear-imgBx">
+                            <img src={Assets.auxImgs.balerina} alt="images"/>
+                        </div>
+                    </div>
+
+                    <div class="auxear-card">
+                        <div class="auxear-details">
+                            <h2>Lentes</h2>
+                        </div>
+                        <div class="auxear-imgBx">
+                            <img src={Assets.auxImgs.lentes} alt="images"/>
+                        </div>
+                    </div>
+                </div>
+                   
                 </Grid.Row>
                 </Grid>
 </div>

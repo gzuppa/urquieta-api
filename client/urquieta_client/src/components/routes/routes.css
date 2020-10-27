@@ -2190,3 +2190,17 @@ color: #294999;
 display: block;
 margin-top: 5px;
  } 
+
+ .aux-title-txt {
+  font-family: 'Exo-Regular', sans-serif;
+  position: absolute;
+  margin-top: -89px;
+  color: white;
+  font-size: 30px;
+  margin-left: 56px;
+  font-weight: bolder;
+ }
+
+ .aux-title-btn {
+   margin-left: 680px;
+ }
