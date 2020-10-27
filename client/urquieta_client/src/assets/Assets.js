@@ -180,7 +180,8 @@ const auxImages = {
   lentes: require('./auxiliars/lentes.jpg'),
   balerina1: require('./auxiliars/balerina_1.png'),
   balerina2: require('./auxiliars/balerina_2.png'),
-  balerina3: require('./auxiliars/balerina_3.png')
+  balerina3: require('./auxiliars/balerina_3.png'),
+  ricDevices: require('./auxiliars/ric-devices.png')
 }
 
   export default {

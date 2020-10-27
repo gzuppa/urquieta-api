@@ -264,6 +264,28 @@ class Auxiliars extends Component {
                     <div class="big-card-shadow"></div>
                     </div>
                 </Grid.Row>
+
+                <Grid.Row>
+                <div class="big-card-container">
+                    <div class="big-card big-u-clearfix">
+                        <div class="big-card-body">
+                        <span class="big-card-author big-subtle">Discreción y potencia en un mismo equipo</span>
+                        <h2 class="big-card-title">RIC- Receptor dentro del canal</h2>
+                        <span class="big-card-description big-subtle">Esta generación de auxiliares auditivos ha revolucionado la manera de
+                            usar un aparato auditivo. Se coloca detrás de la oreja, un cable delgado
+                            conecta un receptor dentro del oído. Al mantener los micrófonos lejos de
+                            la bocina logra mayor potencia, confort y estética. Los sistemas RIC son de
+                            tecnología avanzada. Pueden ser compatibles con Bluetooth, recargables
+                            o usar batería convencional.</span>
+                        <div class="big-card-read">
+                            <img src={Assets.auxImgs.ricDevices} class="ric-devices" alt="ric-devices" />
+                        </div>
+                        </div>
+                        <img src={Assets.auxImgs.ear1} alt="" class="big-card-media" />
+                    </div>
+                    <div class="big-card-shadow"></div>
+                    </div>
+                </Grid.Row>
                 </Grid>
 </div>
     );
