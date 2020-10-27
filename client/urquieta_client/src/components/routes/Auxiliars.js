@@ -286,6 +286,27 @@ class Auxiliars extends Component {
                     <div class="big-card-shadow"></div>
                     </div>
                 </Grid.Row>
+
+                <Grid.Row>
+                <div class="big-card-container">
+                    <div class="big-card big-u-clearfix">
+                        <div class="big-card-body">
+                        <span class="big-card-author big-subtle">La mayor potencia con una batería de larga duración</span>
+                        <h2 class="big-card-title">BTE - Curveta</h2>
+                        <span class="big-card-description big-subtle">Se usa colgado detrás de la oreja. Un tubo delgado lo conecta a un molde
+                        hecho al tamaño del conducto auditivo. Hay curvetas de diferentes tamaños y pueden cubrir desde la baja auditiva más leve hasta
+                        la más profunda. Existe una generación de curvetas mini, que se esconden tras la oreja.
+                        Cuentan con un tubo muy fino, prácticamente invisible, que se conecta
+                        dentro del conducto auditivo.</span>
+                        <div class="big-card-read">
+                            <img src={Assets.auxImgs.bteDevices} class="bte-devices" alt="bte-devices" />
+                        </div>
+                        </div>
+                        <img src={Assets.auxImgs.ear2} alt="" class="big-card-media" />
+                    </div>
+                    <div class="big-card-shadow"></div>
+                    </div>
+                </Grid.Row>
                 </Grid>
 </div>
     );

@@ -2326,3 +2326,10 @@ margin-top: 5px;
   margin-top: -120px;
   margin-bottom: -39px;
  }
+
+ .bte-devices {
+  z-index: 1;
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: -39px;
+ }
