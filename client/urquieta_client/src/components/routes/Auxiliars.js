@@ -307,6 +307,35 @@ class Auxiliars extends Component {
                     <div class="big-card-shadow"></div>
                     </div>
                 </Grid.Row>
+
+                <Grid.Row>
+                <div class="big-card-container">
+                    <div class="big-card big-u-clearfix">
+                        <div class="big-card-body">
+                        <span class="big-card-author big-subtle">La solución ideal para una discreción máxima</span>
+                        <h2 class="big-card-title">ITC - Intracanal</h2>
+                        <span class="big-card-description big-subtle">Los audífonos intracanales son especialmente pequeños y se colocan directamente
+                         en el canal auditivo. Este es tan único y exclusivo como una huella dactilar, por lo que los audífonos se fabrican de manera que se
+                        ajusten perfectamente a usted.<br/>
+                        <strong>ITC o Intracanal: </strong>Hecho a la medida del conducto auditivo.<br/>
+                        <strong>CIC o completamente dentro del canal</strong><br/>
+                        <strong>ITE o Intrauricular: </strong>Conocido en México como concha. Ocupa todo el pabellón auditivo y parte del conducto.
+                        Es el más grande de estos tres sistemas. <br/><br/>
+                        Para cualquiera de estos dispositivos de ayuda auditiva se hace un <strong>molde
+                        anatómico</strong> del conducto auditivo del paciente y se ensambla un circuito.
+                        Son ideales para personas que no segregan tanto cerumen y tienen
+                        buena motricidad para el manejo de un auditivo pequeño. Ideal para el
+                        paciente que busca no traer nada atrás del oído.
+                        </span>
+                        <div class="big-card-read">
+                            <img src={Assets.auxImgs.itcDevices} class="itc-devices" alt="itc-devices" />
+                        </div>
+                        </div>
+                        <img src={Assets.auxImgs.ear3} alt="" class="big-card-media" />
+                    </div>
+                    <div class="big-card-shadow"></div>
+                    </div>
+                </Grid.Row>
                 </Grid>
 </div>
     );

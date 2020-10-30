@@ -135,12 +135,18 @@ const issuesImages = {
   brain: require('./issues/brain.png'),
   redArrow: require('./issues/red-arrow.png'),
   blueArrow: require('./issues/blue-arrow.png'),
+  yellowArrow: require('./issues/yellow-arrow.png'),
   oneRed: require('./issues/one-red.png'),
   twoYellow: require('./issues/two-yellow.png'),
   threeBlue: require('./issues/three-blue.png'),
   glasses: require('./issues/glasses.png'),
   glasses2: require('./issues/glasses2.png'),
-  ballerina: require('./issues/balerina.png')
+  ballerina: require('./issues/balerina.png'),
+  icon1: require('./issues/issues-icon1.png'),
+  icon2: require('./issues/issues-icon2.png'),
+  icon3: require('./issues/issues-icon3.png'),
+  icon4: require('./issues/issues-icon4.png'),
+  icon5: require('./issues/issues-icon5.png')
 }
 
 const examImages = {
@@ -182,7 +188,8 @@ const auxImages = {
   balerina2: require('./auxiliars/balerina_2.png'),
   balerina3: require('./auxiliars/balerina_3.png'),
   ricDevices: require('./auxiliars/ric-devices.png'),
-  bteDevices: require('./auxiliars/bte-devices.png')
+  bteDevices: require('./auxiliars/bte-devices.png'),
+  itcDevices: require('./auxiliars/itc-devices.png')
 }
 
   export default {

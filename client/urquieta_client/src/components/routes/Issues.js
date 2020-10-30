@@ -113,14 +113,14 @@ class Issues extends Component {
                     </p>
                     <List animated verticalAlign='middle'>
                         <List.Item>
-                        <Image avatar src={Assets.aboutImgs.scopeicon} className="check first-list-icons" />
+                        <Image avatar src={Assets.issuesImgs.icon1} className="check first-list-icons" />
                         <List.Content className="issues-paragraph">
                         La audiometría precederá de una exploración otoscópica. Realizada por un especialista en el diagnóstico auditivo 
                         </List.Content>
                         </List.Item>
                         <br/><br/>
                         <List.Item>
-                        <Image avatar src={Assets.aboutImgs.scopeicon} className="check first-list-icons" />
+                        <Image avatar src={Assets.issuesImgs.icon2} className="check first-list-icons" />
                         <List.Content className="issues-paragraph">
                         Las pruebas de audiometría se llevan a cabo en una cabina audiométrica, un espacio sonoamortiguado que aísla al paciente
                         de otros sonidos del ambiente. 
@@ -135,7 +135,7 @@ class Issues extends Component {
                     <Grid.Column width={11}>
                     <List animated verticalAlign='middle' className="issues-3rd-list">
                         <List.Item>
-                        <Image avatar src={Assets.aboutImgs.scopeicon} className="check first-list-icons" />
+                        <Image avatar src={Assets.issuesImgs.icon3} className="check first-list-icons" />
                         <List.Content className="issues-paragraph">
                         A la persona a quien se le realiza la prueba se le colocan unos
                         audífonos, y el especialista usa un audiómetro para producir
@@ -145,7 +145,7 @@ class Issues extends Component {
                         </List.Item>
                         <br/><br/>
                         <List.Item>
-                        <Image avatar src={Assets.aboutImgs.scopeicon} className="check first-list-icons" />
+                        <Image avatar src={Assets.issuesImgs.icon4} className="check first-list-icons" />
                         <List.Content className="issues-paragraph">
                         La interpretación de resultados y asesoría se realizan en la
                         misma consulta. 
@@ -153,7 +153,7 @@ class Issues extends Component {
                         </List.Item>
                         <br/><br/>
                         <List.Item>
-                        <Image avatar src={Assets.aboutImgs.scopeicon} className="check first-list-icons" />
+                        <Image avatar src={Assets.issuesImgs.icon5} className="check first-list-icons" />
                         <List.Content className="issues-paragraph">
                         La audiometría no es en sí misma una técnica de prevención,
                         ya que no evita los daños congénitos, por la edad u ocasionados por la exposición al ruido, pero permite detectarlos en un
@@ -402,6 +402,7 @@ class Issues extends Component {
                         <img src={Assets.issuesImgs.external} alt="external" className="issues-external" />
                         <img src={Assets.issuesImgs.brain} alt="brain" className="issues-brain" />
                         <img src={Assets.issuesImgs.redArrow} alt="redArrow" className="issues-red-arrow" />
+                        <img src={Assets.issuesImgs.yellowArrow} alt="yellowArrow" className="issues-yellow-arrow" />
                         <img src={Assets.issuesImgs.blueArrow} alt="blueArrow" className="issues-blue-arrow" />
                         </div>
                     </Grid.Row>
