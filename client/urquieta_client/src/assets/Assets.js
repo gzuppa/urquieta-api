@@ -192,6 +192,10 @@ const auxImages = {
   itcDevices: require('./auxiliars/itc-devices.png')
 }
 
+const pricingImages = {
+  topBackground: require('./pricing/top-back.png')
+}
+
   export default {
     authImgs: authImages,
     layoutImgs: layoutImages,
@@ -201,5 +205,6 @@ const auxImages = {
     aboutImgs: aboutImages,
     issuesImgs: issuesImages,
     examImgs: examImages,
-    auxImgs: auxImages
+    auxImgs: auxImages,
+    pricingImgs: pricingImages
   }

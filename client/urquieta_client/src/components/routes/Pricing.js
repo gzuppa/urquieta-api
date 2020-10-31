@@ -1,14 +1,17 @@
 import React, { Component } from 'react'
 import Navbar from '../common/Navbar'
-import AccessMenu from '../landing/AccessMenu'
+import { Grid } from 'semantic-ui-react'
+import Assets from '../../assets/Assets'
 
 class Pricing extends Component {
     render(){
         return(
             <div>
             <Navbar />
-            <AccessMenu />
-            <h1>Pricing</h1>
+
+            <Grid.Row>
+                <img src={Assets.pricingImgs.topBackground} alt="top-back" className="pricing-top-back" />
+            </Grid.Row>
             </div>
         )
     }
