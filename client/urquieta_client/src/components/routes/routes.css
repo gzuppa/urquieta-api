@@ -2342,3 +2342,174 @@ margin-top: 5px;
    width: 100%;
    height: 450px;
  }
+
+.pricing-top-title, .pricing-top-subtitle, .pricing-top-subsubtitle, .pricing-top-subquestion {
+  font-family: 'Exo-Regular', sans-serif !important;
+  color: white;
+  position: absolute !important;
+}
+
+ .pricing-top-title {
+  font-size: 60px;
+    margin-top: 63px;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+
+.pricing-top-subtitle {
+  font-size: 80px;
+  margin-top: 113px;
+  margin-left: 122px;
+  font-weight: bolder;
+}
+
+.pricing-top-subsubtitle {
+    font-size: 70px;
+    margin-top: 189px;
+    margin-left: 160px;
+    font-weight: bolder;
+  }
+
+.pricing-top-subquestion {
+    font-size: 28px;
+    margin-top: 94px !important;
+    margin-left: 601px;
+}
+
+.pricing-1st-img{
+  width: 100%;
+  z-index: -1;
+  margin-top: -120px;
+  height: 800px;
+}
+
+.pricing-1st-title {
+  font-family: 'Exo-Regular', sans-serif !important;
+  font-weight: bolder;
+  font-size: 40px;
+  color: #294999;
+  margin-top: -120px !important;
+  margin-left: 760px;
+}
+
+.pricing-hypo-container {
+  position: absolute;
+  height: 300px;
+  width: 1200px;
+  top: 750px;
+  left: calc(50% - 580px);
+  display: flex;
+}
+
+.pricing-hypo-card {
+  display: flex;
+  height: 180px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  margin-top: 550px;
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.pricing-card1 {
+  background-color: #245d8e;
+}
+
+.pricing-card2 {
+  background-color: #408ccb;
+}
+
+.pricing-card3 {
+  background-color: #78acdb;
+}
+
+.pricing-card4 {
+  background-color: #98b9d6;
+}
+
+.pricing-hypo-card:not(:first-child) {
+    margin-left: 30px;
+}
+
+.pricing-hypo-card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.pricing-hypo-card:hover ~ .pricing-hypo-card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.pricing-hypo-title {
+  font-family:'TheSans-Regular', sans-serif !important;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.pricing-hypo-subtitle {
+  font-family:'TheSans-Regular', sans-serif !important;
+  color: white;
+  font-size: 34px;
+  margin-top: -25px !important;
+}
+
+.pricing-hypo-bar {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  height: 5px;
+  width: 150px;
+}
+
+.pricing-hypo-emptybar {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.pricing-hypo-filledbar {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: rgb(0,154,217);
+  background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+  transition: 0.6s ease-out;
+}
+
+.pricing-hypo-card:hover .pricing-hypo-filledbar {
+  width: 120px;
+  transition: 0.4s ease-out;
+}
+
+.pricing-hypo-circle {
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 60px);
+}
+
+.pricing-hypo-stroke {
+  stroke: white;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.6s ease-out;
+}
+
+svg {
+  fill: #17141d;
+  stroke-width: 2px;
+}
+
+.pricing-hypo-card:hover .pricing-hypo-stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}
