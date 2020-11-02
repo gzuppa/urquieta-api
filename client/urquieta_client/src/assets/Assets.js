@@ -194,7 +194,8 @@ const auxImages = {
 
 const pricingImages = {
   topBackground: require('./pricing/top-back.png'),
-  firstImage: require('./pricing/first-image.png')
+  firstImage: require('./pricing/first-image.png'),
+  button: require('./pricing/button.png')
 }
 
   export default {

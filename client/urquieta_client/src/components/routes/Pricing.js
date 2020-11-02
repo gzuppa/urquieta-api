@@ -67,6 +67,16 @@ class Pricing extends Component {
                             </div>
                             </div>
             </Grid.Row>
+
+            <Grid.Row className="pricing-cost"> 
+            <p className="issues-nocost pricing-nocost">Sin costo</p>
+            <p className="pricing-cost-subtitle">Nosotros te asesoramos</p>
+            <p className="pricing-cost-subsubtitle">Contáctanos y recibe la llamada de un especialista</p>
+            <img src={Assets.pricingImgs.button} alt="button" className="pricing-button1" />
+            <p className="pricing-txtbtn1">Solicitar cotización</p>
+            <img src={Assets.pricingImgs.button} alt="button" className="pricing-button2" />
+            <p className="pricing-txtbtn2">555677 9364</p>
+            </Grid.Row>
             </div>
         )
     }

@@ -2513,3 +2513,63 @@ svg {
   stroke-dashoffset: 100;
   transition: 0.6s ease-out;
 }
+
+.pricing-cost {
+  margin-top: 200px;
+}
+
+.pricing-nocost {
+  margin-left: 200px;
+}
+
+.pricing-cost-subtitle{
+  font-family: "TheSans-Regular", sans-serif;
+  font-weight: bolder;
+  font-size: 63px;
+  position: absolute;
+  color: #245d8e;
+  margin-top: 220px;
+  margin-left: 190px;
+}
+
+.pricing-cost-subsubtitle{
+  font-family: "TheSans-Regular", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  position: absolute;
+  color: #245d8e;
+  margin-top: 290px;
+  margin-left: 190px;
+}
+
+.pricing-button1, .pricing-button2, .pricing-txtbtn1, .pricing-txtbtn2 {
+  position: absolute;
+}
+
+.pricing-button1 {
+  margin-left: 1100px;
+  margin-top: 50px;
+}
+
+.pricing-button2 {
+  margin-left: 1100px;
+  margin-top: 200px;
+}
+
+.pricing-txtbtn1, .pricing-txtbtn2 {
+  font-family: "TheSans-Regular", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  position: absolute;
+  color: white;
+}
+
+.pricing-txtbtn1 {
+  margin-left: 1160px;
+  margin-top: 88px;
+}
+
+.pricing-txtbtn2 {
+  margin-left: 1200px;
+  margin-top: 232px;
+}
