@@ -77,6 +77,27 @@ class Pricing extends Component {
             <img src={Assets.pricingImgs.button} alt="button" className="pricing-button2" />
             <p className="pricing-txtbtn2">555677 9364</p>
             </Grid.Row>
+
+            <Grid.Row className="pricing-ear-sct">
+                <img src={Assets.layoutImgs.earbutton} className="aux-1st-ear" />
+                <p className="pricing-1st-txt">¿De qué depende el costo <br/> de un aparato auditivo?</p>
+            </Grid.Row>
+
+            <Grid.Row>
+                <img src={Assets.pricingImgs.circle1} alt="circle1" className="pricing-circle1" />
+                <img src={Assets.pricingImgs.one} alt="one" className="pricing-one" />
+                <img src={Assets.pricingImgs.two} alt="two" className="pricing-two" />
+                <img src={Assets.pricingImgs.three} alt="three" className="pricing-three" />
+                <img src={Assets.pricingImgs.four} alt="four" className="pricing-four" />
+                <img src={Assets.pricingImgs.bar} alt="bar" className="pricing-bar1" />
+                <img src={Assets.pricingImgs.bar} alt="bar" className="pricing-bar2" />
+                <img src={Assets.pricingImgs.bar} alt="bar" className="pricing-bar3" />
+                <img src={Assets.pricingImgs.bar} alt="bar" className="pricing-bar4" />
+                <p className="pricing-cost-txt1">Tipo de pérdida auditiva del paciente en<br/>base a un estudio de audición.</p>
+                <p className="pricing-cost-txt2">Nivel de tecnología del aparato auditivo.</p>
+                <p className="pricing-cost-txt3">Estilo de vida del paciente y necesidades<br/>particulares.</p>
+                <p className="pricing-cost-txt4">Nos adaptamos a sus posibilidades<br/> económicas.</p>
+            </Grid.Row>
             </div>
         )
     }

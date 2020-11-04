@@ -2573,3 +2573,91 @@ svg {
   margin-left: 1200px;
   margin-top: 232px;
 }
+
+.pricing-ear-sct {
+  margin-top: 280px;
+}
+
+.pricing-1st-txt {
+  font-family: 'Exo-Regular', sans-serif;
+  font-size: 18px;
+    font-weight: bolder;
+    margin-left: -295px;
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+}
+
+.pricing-circle1 {
+  margin-left: 200px;
+}
+
+.pricing-one, .pricing-two, .pricing-three, .pricing-four {
+  position: absolute;
+}
+
+.pricing-one {
+  margin-left: 600px;
+}
+
+.pricing-two {
+  margin-left: 640px;
+  margin-top: 150px;
+}
+
+.pricing-three {
+  margin-left: 600px;
+  margin-top: 300px;
+}
+
+.pricing-four {
+  margin-left: 500px;
+  margin-top: 430px;
+}
+
+.pricing-bar1, .pricing-bar2, .pricing-bar3, .pricing-bar4 {
+  position: absolute;
+  z-index: -1;
+  margin-left: 580px;
+}
+
+.pricing-bar1 {
+  margin-top: 20px;
+}
+
+.pricing-bar2 {
+  margin-top: 170px;
+}
+
+.pricing-bar3 {
+  margin-top: 323px;
+}
+
+.pricing-bar4 {
+  margin-top: 460px;
+}
+
+.pricing-cost-txt1, .pricing-cost-txt2, .pricing-cost-txt3, .pricing-cost-txt4 {
+  position: absolute;
+  font-family: 'Exo-Regular', sans-serif !important;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #245d8e;
+  margin-left: 850px;
+}
+
+.pricing-cost-txt1 {
+  margin-top: 60px;
+}
+
+.pricing-cost-txt2 {
+  margin-top: 230px;
+}
+
+.pricing-cost-txt3 {
+  margin-top: 360px;
+}
+
+.pricing-cost-txt4 {
+  margin-top: 500px;
+}
