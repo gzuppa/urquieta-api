@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
-import Navbar from '../common/Navbar'
+import Navbar from '../../common/Navbar'
 import { Grid } from 'semantic-ui-react'
-import Assets from '../../assets/Assets'
+import Assets from '../../../assets/Assets'
+import RicList from './RicList'
+import CurvetaList from './CurvetaList'
+import IntracanalList from './IntracanalList'
 
 class Pricing extends Component {
     render(){
@@ -97,6 +100,28 @@ class Pricing extends Component {
                 <p className="pricing-cost-txt2">Nivel de tecnología del aparato auditivo.</p>
                 <p className="pricing-cost-txt3">Estilo de vida del paciente y necesidades<br/>particulares.</p>
                 <p className="pricing-cost-txt4">Nos adaptamos a sus posibilidades<br/> económicas.</p>
+            </Grid.Row>
+
+            <Grid.Row className="pricing-table-section">
+                <img src={Assets.pricingImgs.table} alt="table" className="pricing-table" />
+                <img src={Assets.pricingImgs.table1} alt="table1" className="pricing-table-img1" />
+                <img src={Assets.pricingImgs.table2} alt="table2" className="pricing-table-img2" />
+                <img src={Assets.pricingImgs.table3} alt="table3" className="pricing-table-img3" />
+                <img src={Assets.pricingImgs.device1} alt="device1" className="pricing-device1" />
+                <img src={Assets.pricingImgs.device2} alt="device2" className="pricing-device2" />
+                <img src={Assets.pricingImgs.device3} alt="device3" className="pricing-device3" />
+                <img src={Assets.pricingImgs.ribbon1} alt="ribbon1" className="ribbon1" />
+                <img src={Assets.pricingImgs.ribbon2} alt="ribbon2" className="ribbon2" />
+                <img src={Assets.pricingImgs.ribbon3} alt="ribbon3" className="ribbon3" />
+                <p className="ribbontxt1"><strong>$825</strong><br/>(a meses)</p>
+                <p className="ribbontxt2"><strong>$3,125</strong><br/>(a meses)</p>
+                <p className="ribbontxt3"><strong>$2,250</strong><br/>(a meses)</p>
+                <p className="pricing-table-txt1">RIC</p>
+                <p className="pricing-table-txt2">Curveta</p>
+                <p className="pricing-table-txt3">Intracanal</p>
+                <RicList />
+                <CurvetaList />
+                <IntracanalList />
             </Grid.Row>
             </div>
         )

@@ -2661,3 +2661,126 @@ svg {
 .pricing-cost-txt4 {
   margin-top: 500px;
 }
+
+.pricing-table-section {
+  margin-top: 100px;
+}
+
+.pricing-table {
+  margin-left: 310px;
+}
+
+.pricing-table-img1, .pricing-table-img2, .pricing-table-img3 {
+  position: absolute;
+  width: 280px;
+  margin-left: 355px;
+}
+
+.pricing-table-img1 {
+  margin-top: 70px;
+}
+
+.pricing-table-img2 {
+  margin-top: 444px;
+}
+
+.pricing-table-img3 {
+  margin-top: 819px;
+}
+
+.pricing-device1, .pricing-device2, .pricing-device3 {
+  position: absolute;
+}
+
+.pricing-device1, .pricing-device2 {
+  margin-left: 535px;
+}
+
+.pricing-device2 {
+  margin-top: 410px;
+}
+
+.pricing-device3 {
+  margin-left: 635px;
+  margin-top: 835px;
+}
+
+.ribbon1, .ribbon2, .ribbon3 {
+  position: absolute;
+  margin-left: 1265px;
+}
+
+.ribbon1 {
+  margin-top: 230px;
+}
+
+.ribbon2 {
+  margin-top: 610px;
+}
+
+.ribbon3 {
+  margin-top: 989px;
+}
+
+.ribbontxt1, .ribbontxt2, .ribbontxt3 {
+  position: absolute;
+  margin-left: 1312px;
+  font-family: 'Exo-Regular', sans-serif !important;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  font-size: 30px;
+}
+
+.ribbontxt1 {
+  margin-top: 233px;
+}
+
+.ribbontxt2 {
+  margin-top: 613px;
+}
+
+.ribbontxt3 {
+  margin-top: 993px;
+}
+
+.pricing-table-txt1, .pricing-table-txt2, .pricing-table-txt3 {
+  position: absolute;
+  margin-left: 900px;
+  font-family: "TheSans-Regular", sans-serif !important;
+  font-weight: bolder;
+  font-size: 36px;
+  color: #245d8e;
+}
+
+.pricing-table-txt1 {
+  margin-top: 50px;
+}
+
+.pricing-table-txt2 {
+  margin-top: 430px;
+}
+
+.pricing-table-txt3 {
+  margin-top: 810px;
+}
+
+.ric-list, .curveta-list, .intracanal-list {
+  font-family: "TheSans-Regular", sans-serif !important;
+  font-size: 24px !important;
+  color: #245d8e;
+  position: absolute !important;
+  margin-left: -597px !important;
+}
+
+.ric-list {
+  margin-top: 130px !important;
+}
+
+.curveta-list {
+  margin-top: 500px !important;
+}
+
+.intracanal-list {
+  margin-top: 890px !important;
+}
