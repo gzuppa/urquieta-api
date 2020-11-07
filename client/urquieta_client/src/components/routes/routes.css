@@ -2893,3 +2893,26 @@ svg {
   margin-left: 760px !important;
   margin-top: 410px !important;
 }
+
+.pricing-ear-sct-3 {
+  margin-top: 500px;
+}
+
+.pricing-3rd-txt {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 222px;
+  font-family: "TheSans-Regular", sans-serif !important;
+  color: white;
+  font-size: 19px !important;
+}
+
+.pricing-prgp {
+  font-family: "TheSans-Regular", sans-serif !important;
+  color: #245d8e;
+  position: absolute;
+  font-size: 20px;
+  width: 800px;
+  margin-left: 550px;
+  margin-top: 190px;
+}

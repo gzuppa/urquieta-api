@@ -152,6 +152,19 @@ class Pricing extends Component {
                 <p className="ribbon-txt">Auditivos Urquieta es el único distribuidor en México</p>
                 <p className="ribbon-sub">Audioservice y Bruckhoff</p>
             </Grid.Row>
+
+            <Grid.Row className="pricing-ear-sct-3">
+                <img src={Assets.layoutImgs.earbutton} className="aux-1st-ear" />
+                <p className="pricing-3rd-txt">Diferencias entre un amplificador<br/>y un aparato auditivo</p>
+                <p className="pricing-prgp">Nosotros somos profesionales en audición. Idealmente podemos recibirlo en
+                nuestra sucursal y también contamos con servicio a domicilio contamos con una
+                unidad móvil que incluye cabina sonoamortiguada para garantizar un estudio de
+                calidad.<br/>
+                Un buen auxiliar auditivo no está por debajo de 6 mil pesos. Se trata de su salud,
+                un aparato que no es para usted o no atenderse podría dañar irreparablemente su
+                audición, siempre asesorarse con especialistas.</p>
+            </Grid.Row>
+
             </div>
 
             
