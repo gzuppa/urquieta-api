@@ -2784,3 +2784,41 @@ svg {
 .intracanal-list {
   margin-top: 890px !important;
 }
+
+.pricing-free {
+  margin-left: 500px !important;
+}
+
+.pricing-freesub {
+  position: absolute;
+  font-family: "TheSans-Regular", sans-serif !important;
+  font-weight: bolder;
+  color: #245d8e;
+  font-size: 32px;
+  text-align: center;
+  margin-left: 540px;
+  margin-top: 240px;
+}
+
+.whatsbutton {
+  margin-top: 90px;
+  margin-left: 100px;
+}
+
+.whatstxt, .whatssub {
+  color: white;
+  font-family: "TheSans-Regular", sans-serif !important;
+  font-weight: bolder;
+  position: absolute;
+}
+
+.whatstxt {
+  margin-left: 1230px;
+  margin-top: 115px;
+  font-size: 30px;
+}
+
+.whatssub {
+  margin-left: 1260px;
+  margin-top: 155px;
+}

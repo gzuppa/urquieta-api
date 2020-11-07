@@ -123,6 +123,14 @@ class Pricing extends Component {
                 <CurvetaList />
                 <IntracanalList />
             </Grid.Row>
+
+            <Grid.Row>
+            <p className="issues-nocost pricing-free">Gratis</p>
+            <p className="pricing-freesub">Examen de audición +<br/>prueba de aparatos gratuito</p>
+            <img src={Assets.pricingImgs.whatsbutton} alt="whats" className="whatsbutton" />
+            <p className="whatstxt">55 31993438</p>
+            <p className="whatssub">Enviar whatsapp</p>
+            </Grid.Row>
             </div>
         )
     }

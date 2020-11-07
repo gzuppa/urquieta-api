@@ -211,7 +211,8 @@ const pricingImages = {
   device3: require('./pricing/device3.png'),
   ribbon1: require('./pricing/ribbon1.png'),
   ribbon2: require('./pricing/ribbon2.png'),
-  ribbon3: require('./pricing/ribbon3.png')
+  ribbon3: require('./pricing/ribbon3.png'),
+  whatsbutton: require('./pricing/whatsbutton.png')
 }
 
   export default {
