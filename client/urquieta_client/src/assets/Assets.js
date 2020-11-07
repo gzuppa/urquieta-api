@@ -212,7 +212,12 @@ const pricingImages = {
   ribbon1: require('./pricing/ribbon1.png'),
   ribbon2: require('./pricing/ribbon2.png'),
   ribbon3: require('./pricing/ribbon3.png'),
-  whatsbutton: require('./pricing/whatsbutton.png')
+  whatsbutton: require('./pricing/whatsbutton.png'),
+  am: require('./pricing/am.png'),
+  as: require('./pricing/AS.png'),
+  phonak: require('./pricing/phonak.png'),
+  bruckhoff: require('./pricing/bruckhoff.png'),
+  largeRibbon: require('./pricing/large-ribbon.png')
 }
 
   export default {

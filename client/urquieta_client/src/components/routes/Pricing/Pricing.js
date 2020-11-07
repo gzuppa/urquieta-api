@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Navbar from '../../common/Navbar'
-import { Grid } from 'semantic-ui-react'
+import { Grid, List } from 'semantic-ui-react'
 import Assets from '../../../assets/Assets'
 import RicList from './RicList'
 import CurvetaList from './CurvetaList'
@@ -131,7 +131,30 @@ class Pricing extends Component {
             <p className="whatstxt">55 31993438</p>
             <p className="whatssub">Enviar whatsapp</p>
             </Grid.Row>
+
+            <Grid.Row className="pricing-ear-sct-2">
+                <img src={Assets.layoutImgs.earbutton} className="aux-1st-ear" />
+                <p className="pricing-2nd-txt">Nuestras marcas</p>
+            </Grid.Row>
+
+            <Grid.Row>
+                <img src={Assets.pricingImgs.am} alt="am" className="pricing-am" />
+                <img src={Assets.pricingImgs.phonak} alt="phonak" className="phonak" />
+                <img src={Assets.pricingImgs.as} alt="as" className="pricing-as" />
+                <img src={Assets.pricingImgs.bruckhoff} alt="bruckhoff" className="bruckhoff" />
+                <List bulleted className="branding-list">
+                    <List.Item>Calidad y tecnología alemana</List.Item>
+                    <List.Item>Más de 40 años desarrollando auxiliares auditivos</List.Item>
+                    <List.Item>Expertos en investigación, desarrollo y producción</List.Item>
+                    <List.Item>Marcas reconocidas mundialmente</List.Item>
+                </List>
+                <img src={Assets.pricingImgs.largeRibbon} alt="largeribbon" className="large-ribbon" />
+                <p className="ribbon-txt">Auditivos Urquieta es el único distribuidor en México</p>
+                <p className="ribbon-sub">Audioservice y Bruckhoff</p>
+            </Grid.Row>
             </div>
+
+            
         )
     }
 }
