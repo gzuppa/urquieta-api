@@ -165,6 +165,55 @@ class Pricing extends Component {
                 audición, siempre asesorarse con especialistas.</p>
             </Grid.Row>
 
+            <Grid.Row className="difsect">
+                <img src={Assets.pricingImgs.difHeader} alt="difheader" className="difs-header" />
+                <img src={Assets.pricingImgs.difBack} alt="difback" className="difs-back" />
+                <p className="difs-title difs-title1">Amplificador<br/>auditivo</p>
+                <p className="difs-title difs-title2">Aparato<br/>auditivo</p>
+                <img src={Assets.pricingImgs.difAmpli} alt="difampli" className="difs-ampli" />
+                <img src={Assets.pricingImgs.difDevice} alt="difdevice" className="difs-device" />
+                <img src={Assets.pricingImgs.fullStar} alt="fullstar" className="fullstar fullstar1" />
+                <img src={Assets.pricingImgs.fullStar} alt="fullstar" className="fullstar fullstar2" />
+                <img src={Assets.pricingImgs.fullStar} alt="fullstar" className="fullstar fullstar3" />
+                <img src={Assets.pricingImgs.fullStar} alt="fullstar" className="fullstar fullstar4" />
+                <img src={Assets.pricingImgs.emptyStar} alt="emptystar" className="emptystar emptystar1" />
+                <img src={Assets.pricingImgs.emptyStar} alt="emptystar" className="emptystar emptystar2" />
+
+                <p className="tabletxt tabletxt1">Venta poco regulada,<br/>sin supervisión médica</p>
+                <p className="tabletxt tabletxt2">Existe riesgo de daño al<br/>oído o molestia</p>
+                <p className="tabletxt tabletxt3">Apto para escuchar "más"<br/>pero no para una baja auditiva<br/>diagnosticada</p>
+                <p className="tabletxt tabletxt4">Frágil</p>
+                <p className="tabletxt tabletxt5">En su mayoría tiene una bocina<br/>grande que sobresale del oído más<br/>un equipo colgado tras de la oreja</p>
+                <p className="tabletxt tabletxt6">Amplifica los sonidos por igual,<br/>incluído el ruido,<br/> perjudicando el oído</p>
+                <p className="tabletxt tabletxt7"><strong>Adaptación bajo diagnóstico</strong><br/>Recetado por un especialista en <br/>audición después de revisar<br/> sus estudios</p>
+                <p className="tabletxt tabletxt8">Mantiene tu audición sana<br/> y protegida</p>
+                <p className="tabletxt tabletxt9">Escuchas lo que necesita tu audición.<br/>En bajas auditivas profundas puede<br/>ser muy potente y selectivo a la vez</p>
+                <p className="tabletxt tabletxt10"><strong>Duradero</strong><br/>Uso diario de hasta + 12 hrs.<br/>Nano protección: certificación ip67</p>
+                <p className="tabletxt tabletxt11"><strong>Estético</strong><br/>Incluso hay modelos invisibles.<br/>Molde a la medida exacta del oído</p>
+                <p className="tabletxt tabletxt12">En bajas auditivas moderadas<br/> selecciona oír solo la voz y controla <br/>rangos que podrían causar molestia</p>
+
+                <img src={Assets.pricingImgs.oneb} alt="oneb" className="oneb" />
+                <img src={Assets.pricingImgs.twob} alt="twob" className="twob" />
+                <img src={Assets.pricingImgs.threeb} alt="threeb" className="threeb" />
+
+                <p className="pricechecktxt pricechecktxt1">Adaptación personalizada</p>
+                <p className="pricechecktxt pricechecktxt2">Manipulación de<br/>compresores de sonido</p>
+                <p className="pricechecktxt pricechecktxt3">Selección de frecuencias</p>
+
+                <img src={Assets.pricingImgs.x} alt="x" className="pricingx pricingx1" />
+                <img src={Assets.pricingImgs.x} alt="x" className="pricingx pricingx2" />
+                <img src={Assets.pricingImgs.x} alt="x" className="pricingx pricingx3" />
+
+                <img src={Assets.pricingImgs.check} alt="check" className="pricingcheck pricingcheck1" />
+                <img src={Assets.pricingImgs.check} alt="check" className="pricingcheck pricingcheck2" />
+                <img src={Assets.pricingImgs.check} alt="check" className="pricingcheck pricingcheck3" />
+
+                <img src={Assets.pricingImgs.grayRibbon} alt="grayribbon" className="grayribbon" />
+                <img src={Assets.pricingImgs.tableRibbon} alt="tableribbon" className="tableribbon" />
+
+                <p className="tableprice tableprice1">$2,800</p>
+                <p className="tableprice tableprice2">$6,000</p>
+            </Grid.Row>
             </div>
 
             

@@ -2916,3 +2916,215 @@ svg {
   margin-left: 550px;
   margin-top: 190px;
 }
+
+.difsect {
+  margin-top: 200px;
+}
+
+.difs-header, .difs-back {
+  position: absolute;
+}
+
+.difs-header {
+  margin-left: 460px;
+}
+
+.difs-back {
+  margin-top: 568px;
+  margin-left: 422px;
+}
+
+.difs-title {
+  position: absolute;
+  color: white;
+  font-family: 'Exo-Regular', sans-serif !important;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-top: 57px;
+}
+
+.difs-title1 {
+  margin-left: 545px;
+}
+
+.difs-title2 {
+  margin-left: 1045px;
+}
+
+.difs-ampli, .difs-device {
+  position: absolute;
+}
+
+.difs-ampli {
+  margin-left: 581px;
+  margin-top: 250px;
+}
+
+.difs-device {
+  margin-left: 1050px;
+  margin-top: 250px;
+}
+
+.fullstar, .emptystar {
+  position: absolute;
+  margin-top: 525px;
+}
+
+.fullstar1 {
+  margin-left: 600px;
+}
+
+.fullstar2 {
+  margin-left: 1060px;
+}
+
+.fullstar3 {
+  margin-left: 1130px;
+}
+
+.fullstar4 {
+  margin-left: 1200px;
+}
+
+.emptystar1 {
+  margin-left: 670px;
+}
+
+.emptystar2 {
+  margin-left: 740px;
+}
+
+.tabletxt {
+  text-align: center;
+  position: absolute;
+  color: #245d8e;
+  font-family: "TheSans-Regular", sans-serif !important;
+  font-size: 26px;
+}
+
+.tabletxt1 {
+  margin-top: 630px;
+  margin-left: 573px;
+}
+.tabletxt2 {
+  margin-top: 800px;
+  margin-left: 573px;
+}
+.tabletxt3 {
+  margin-top: 910px;
+  margin-left: 534px;
+}
+.tabletxt4 {
+  margin-top: 1075px;
+  margin-left: 670px;
+}
+.tabletxt5 {
+  margin-top: 1170px;
+  margin-left: 510px;
+}
+.tabletxt6 {
+  margin-top: 1307px;
+  margin-left: 530px;
+}
+.tabletxt7 {
+  margin-top: 600px;
+  margin-left: 950px;
+}
+.tabletxt8 {
+  margin-top: 800px;
+  margin-left: 980px;
+}
+.tabletxt9 {
+  margin-top: 910px;
+  margin-left: 920px;
+}
+.tabletxt10 {
+  margin-top: 1040px;
+  margin-left: 930px;
+}
+.tabletxt11 {
+  margin-top: 1173px;
+  margin-left: 930px;
+}
+.tabletxt12 {
+  margin-top: 1307px;
+  margin-left: 930px;
+}
+
+.oneb, .twob, .threeb {
+  position: absolute;
+  margin-left: 380px;
+}
+.oneb{
+  margin-top: 1415px;
+}
+.twob{
+  margin-top: 1505px;
+}
+.threeb{
+  margin-top: 1590px;
+}
+
+.pricechecktxt {
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'Exo-Regular', sans-serif !important;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 490px;
+}
+.pricechecktxt1 {
+  margin-top: 1457px;
+}
+.pricechecktxt2, .pricingx2, .pricingcheck2 {
+  margin-top: 1529px;
+}
+.pricechecktxt3 {
+  margin-top: 1629px;
+}
+
+.pricingx {
+  position: absolute;
+  margin-left: 790px;
+}
+
+.pricingcheck1, .pricingcheck2, .pricingcheck3 {
+  position: absolute;
+  margin-left: 1100px;
+}
+.pricingx1, .pricingcheck1 {
+  margin-top: 1447px;
+}
+.pricingx3, .pricingcheck3 {
+  margin-top: 1619px;
+}
+
+.tableribbon, .grayribbon {
+  position: absolute;
+  margin-top: 1730px;
+}
+
+.grayribbon {
+  margin-left: 664px;
+}
+.tableribbon {
+  margin-left: 1088px;
+}
+
+.tableprice {
+  position: absolute;
+  margin-top: 1738px;
+  font-family: 'Exo-Regular', sans-serif !important;
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.tableprice1 {
+  margin-left: 700px;
+}
+.tableprice2 {
+  margin-left: 1127px;
+}
+
+

@@ -217,7 +217,20 @@ const pricingImages = {
   as: require('./pricing/AS.png'),
   phonak: require('./pricing/phonak.png'),
   bruckhoff: require('./pricing/bruckhoff.png'),
-  largeRibbon: require('./pricing/large-ribbon.png')
+  largeRibbon: require('./pricing/large-ribbon.png'),
+  difHeader: require('./pricing/dif-header.png'),
+  difBack: require('./pricing/dif-back.png'),
+  difAmpli: require('./pricing/dif-ampli.png'),
+  difDevice: require('./pricing/dif-device.png'),
+  fullStar: require('./pricing/fullstar.png'),
+  emptyStar: require('./pricing/emptystar.png'),
+  oneb: require('./pricing/1b.png'),
+  twob: require('./pricing/2b.png'),
+  threeb: require('./pricing/3b.png'),
+  x: require('./pricing/x.png'),
+  check: require('./pricing/check.png'),
+  tableRibbon: require('./pricing/tableribbon.png'),
+  grayRibbon: require('./pricing/grayribbon.png')
 }
 
   export default {
