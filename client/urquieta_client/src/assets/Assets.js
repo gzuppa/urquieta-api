@@ -244,7 +244,10 @@ const KidsImages = {
   devices: require('./kids/devices.png'),
   circle1: require('./kids/circle1.png'),
   circle2: require('./kids/circle2.png'),
-  colocation: require('./kids/colocate.jpg')
+  colocation: require('./kids/colocate.jpg'),
+  background2: require('./kids/back2.png'),
+  diadema: require('./kids/diadema.png'),
+  table: require('./kids/table.png')
 }
 
   export default {

@@ -3255,7 +3255,7 @@ svg {
   margin-top: 850px;
 }
 
-.kids-back-girl {
+.kids-back-girl, .kids-back2 {
   width: 100% !important;
   z-index: -1;
   height: 1000px;
@@ -3511,4 +3511,46 @@ margin-top: 5px;
 .kids-colocate {
   margin-left: 280px;
   margin-top: 1630px;
+}
+
+.backtxtk1, .backtxtk3 {
+  position: absolute;
+  color: white;
+  font-family: "Exo-Regular", sans-serif !important;
+  font-weight: bolder;
+}
+
+.backtxtk1 {
+  font-size: 60px;
+  margin-top: 100px !important;
+  margin-left: 100px;
+}
+
+.backtxtk3 {
+  font-size: 55px;
+  margin-top: 780px !important;
+  margin-left: 1120px;
+  text-align: center;
+}
+
+.kids-top-list {
+  color: white;
+  font-family: 'TheSans-Regular', sans-serif !important;
+  font-size: 28px !important;
+  position: absolute;
+  margin-left: 170px !important;
+  margin-top: 200px !important;
+}
+
+.kids-table {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 1060px;
+  height: 700px;
+}
+
+.kids-diadema {
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 550px;
 }
