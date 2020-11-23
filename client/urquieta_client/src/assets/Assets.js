@@ -233,6 +233,10 @@ const pricingImages = {
   grayRibbon: require('./pricing/grayribbon.png')
 }
 
+const KidsImages = {
+  logo: require('./kids/logokids.png')
+}
+
   export default {
     authImgs: authImages,
     layoutImgs: layoutImages,
@@ -243,5 +247,6 @@ const pricingImages = {
     issuesImgs: issuesImages,
     examImgs: examImages,
     auxImgs: auxImages,
-    pricingImgs: pricingImages
+    pricingImgs: pricingImages,
+    kidsImgs: KidsImages
   }

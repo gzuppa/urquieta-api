@@ -17,7 +17,7 @@ import Presentation from './components/routes/Presentation'
 import Issues from './components/routes/Issues'
 import Exam from './components/routes/Exam'
 import Pricing from './components/routes/Pricing/Pricing'
-import Kids from './components/routes/Kids'
+import Kids from './components/routes/Kids/Kids'
 import Upload from './components/dashboard/Upload'
 import Home from './components/dashboard/Home'
 

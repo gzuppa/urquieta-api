@@ -3127,4 +3127,20 @@ svg {
   margin-left: 1127px;
 }
 
+.kids-header {
+  font-family: 'TheSans-Regular', sans-serif !important;
+  font-size: 24px;
+  width: 800px;
+  text-align: justify;
+  position: absolute;
+  color: #245d8e;
+  margin-left: 750px;
+  margin-top: 50px;
+}
+
+.kids-logo {
+  position: absolute;
+  margin-left: 230px;
+  margin-top: 60px;
+}
 
