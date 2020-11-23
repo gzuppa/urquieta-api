@@ -4,6 +4,7 @@ import Navbar from '../../common/Navbar'
 import Header from './Header/Header'
 import Questions from './Questions/Questions'
 import Background from './Background/Background'
+import Cards from './Cards/Cards'
 import Assets from '../../../assets/Assets'
 
 class Kids extends Component {
@@ -21,6 +22,9 @@ class Kids extends Component {
                 <Grid.Row className="backsect">
                     <img src={Assets.kidsImgs.background} className="kids-back-girl" alt="kidsback" /> 
                     <Background />
+                </Grid.Row>
+                <Grid.Row className="cardkidsect">
+                    <Cards />
                 </Grid.Row>
             </Grid>
             </div>
