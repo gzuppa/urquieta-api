@@ -237,7 +237,11 @@ const KidsImages = {
   logo: require('./kids/logokids.png'),
   questionButton: require('./kids/questionButton.png'), 
   kids1: require('./kids/kids1.jpg'),
-  smallButton: require('./kids/smallButton.png')
+  smallButton: require('./kids/smallButton.png'), 
+  background: require('./kids/background.jpg'),
+  girl: require('./kids/girl.png'),
+  device1: require('./kids/device1.png'),
+  devices: require('./kids/devices.png')
 }
 
   export default {

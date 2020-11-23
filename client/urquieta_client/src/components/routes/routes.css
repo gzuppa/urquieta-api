@@ -3250,3 +3250,72 @@ svg {
 .smalltxt2 {
   margin-left: 1240px;
 }
+
+.backsect {
+  margin-top: 850px;
+}
+
+.kids-back-girl {
+  width: 100% !important;
+  z-index: -1;
+  height: 1000px;
+  position: absolute;
+}
+
+.kids-girl, .kids-device1, .kids-devices {
+  position: absolute;
+  z-index: 1;
+}
+
+.kids-girl {
+  margin-left: 100px;
+  margin-top: 230px;
+}
+
+.kids-device1 {
+  margin-left: 930px;
+  margin-top: 30px;
+}
+
+.kids-devices {
+  margin-left: 930px;
+  margin-top: 360px;
+}
+
+.txtbackids1, .txtbackids3 {
+  font-family: 'Exo-Regular', sans-serif !important;
+  font-weight: bolder;
+  font-size: 50px;
+  position: absolute;
+}
+
+.txtbackids2, .txtbackids4 {
+  font-family: 'Angelina-Demo', sans-serif !important;
+  font-weight: bolder;
+  font-size: 180px;
+  position: absolute;
+}
+
+.txtbackids1 {
+  color: #245d8e;
+  margin-top: 80px;
+  margin-left: 380px;
+}
+
+.txtbackids2 {
+  color: #245d8e;
+  margin-top: 80px;
+  margin-left: 200px;
+}
+
+.txtbackids3 {
+  color: white;
+  margin-top: 750px;
+  margin-left: 1100px;
+}
+
+.txtbackids4 {
+  color: white;
+  margin-top: 770px;
+  margin-left: 1100px;
+}

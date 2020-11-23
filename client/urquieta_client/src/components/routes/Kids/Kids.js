@@ -3,6 +3,8 @@ import {Grid} from 'semantic-ui-react'
 import Navbar from '../../common/Navbar'
 import Header from './Header/Header'
 import Questions from './Questions/Questions'
+import Background from './Background/Background'
+import Assets from '../../../assets/Assets'
 
 class Kids extends Component {
     render(){
@@ -15,6 +17,10 @@ class Kids extends Component {
                 </Grid.Row>
                 <Grid.Row className="questsect">
                     <Questions />
+                </Grid.Row>
+                <Grid.Row className="backsect">
+                    <img src={Assets.kidsImgs.background} className="kids-back-girl" alt="kidsback" /> 
+                    <Background />
                 </Grid.Row>
             </Grid>
             </div>
