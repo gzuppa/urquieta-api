@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Grid, List } from 'semantic-ui-react'
-import Assets from '../../../assets/Assets'
+import Assets from '../../../../assets/Assets'
 
-class Kids extends Component {
+class Header extends Component {
     render(){
         return(
             <div>
@@ -23,4 +23,4 @@ class Kids extends Component {
     }
 }
 
-export default Kids
+export default Header

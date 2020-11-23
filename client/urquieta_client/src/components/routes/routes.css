@@ -3144,3 +3144,109 @@ svg {
   margin-top: 60px;
 }
 
+.questsect {
+  margin-top: 350px;
+}
+
+.questbtn1, .questbtn2, .questbtn3, .questbtn4, .questbtn5 {
+  position: absolute;
+  margin-left: 145px;
+} 
+
+.questbtn2 {
+  margin-top: 150px;
+}
+
+.questbtn3 {
+  margin-top: 300px;
+}
+
+.questbtn4 {
+  margin-top: 450px;
+}
+
+.questbtn5 {
+  margin-top: 600px;
+}
+
+.questtxt1, .questtxt2, .questtxt3, .questtxt4, .questtxt5 {
+  position: absolute;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Exo-Regular', sans-serif !important;
+  color: white;
+}
+
+.questtxt1 {
+  margin-left: 180px;
+  margin-top: 47px;
+}
+
+.questtxt2 {
+  margin-left: 193px;
+  margin-top: 197px;
+}
+
+.questtxt3 {
+  margin-left: 208px;
+  margin-top: 350px;
+}
+
+.questtxt4 {
+  margin-left: 202px;
+  margin-top: 513px;
+}
+
+.questtxt5 {
+  margin-left: 212px;
+  margin-top: 647px;
+}
+
+.kids-back1 {
+  position: absolute;
+  margin-left: 200px;
+  z-index: -1;
+  margin-top: -100px;
+}
+
+.backtxt {
+  position: absolute;
+  font-family: 'Exo-Regular', sans-serif !important;
+  text-align: center;
+  font-size: 28px;
+  color: #245d8e;
+  font-weight: bolder;
+  margin-top: 640px;
+  margin-left: 880px;
+}
+
+.smallbtn1, .smallbtn2 {
+  position: absolute;
+  margin-top: 750px;
+}
+
+.smallbtn1 {
+  margin-left: 850px;
+}
+
+.smallbtn2 {
+  margin-left: 1200px;
+}
+
+.smalltxt1, .smalltxt2 {
+  margin-top: 770px;
+  position: absolute;
+  font-family: 'Exo-Regular', sans-serif !important;
+  font-weight: bolder;
+  font-size: 45px;
+  color: white;
+}
+
+.smalltxt1 {
+  margin-left: 888px;
+}
+
+.smalltxt2 {
+  margin-left: 1240px;
+}

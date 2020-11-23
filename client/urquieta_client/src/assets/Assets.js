@@ -234,7 +234,10 @@ const pricingImages = {
 }
 
 const KidsImages = {
-  logo: require('./kids/logokids.png')
+  logo: require('./kids/logokids.png'),
+  questionButton: require('./kids/questionButton.png'), 
+  kids1: require('./kids/kids1.jpg'),
+  smallButton: require('./kids/smallButton.png')
 }
 
   export default {
