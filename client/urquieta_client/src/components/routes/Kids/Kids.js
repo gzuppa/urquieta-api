@@ -5,6 +5,7 @@ import Header from './Header/Header'
 import Questions from './Questions/Questions'
 import Background from './Background/Background'
 import Cards from './Cards/Cards'
+import Vibration from './Vibration/Vibration'
 import Assets from '../../../assets/Assets'
 
 class Kids extends Component {
@@ -25,6 +26,9 @@ class Kids extends Component {
                 </Grid.Row>
                 <Grid.Row className="cardkidsect">
                     <Cards />
+                </Grid.Row>
+                <Grid.Row className="vibrationsect">
+                    <Vibration />
                 </Grid.Row>
             </Grid>
             </div>

@@ -3414,4 +3414,91 @@ font-size: 16px;
 color: #294999;
 display: block;
 margin-top: 5px;
- } 
+}
+
+.kids-head1, .kids-head2 {
+  position: absolute;
+  font-weight: bolder;
+  color: #294999;
+}
+.kids-head1 {
+  font-family: 'Exo-Regular', sans-serif !important;
+  font-size: 60px;
+  margin-left: 760px;
+}
+
+.kids-head2 {
+  font-family: 'Angelina-Demo', sans-serif !important;
+  font-size: 160px;
+  margin-left: 620px;
+  margin-top: 15px;
+}
+
+.kids-circle1, .kids-circle2 {
+  position: absolute;
+  margin-left: 250px;
+}
+
+.kids-circle1 {
+  margin-top: 200px;
+}
+
+.kids-circle2 {
+  margin-top: 900px;
+}
+
+.kids-circletxt1, .kids-circletxt6 {
+  position: absolute;
+  font-family: 'Exo-Regular', sans-serif !important;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #78acdb;
+}
+
+.kids-circletxt1 {
+  margin-left: 930px;
+  margin-top: 320px;
+}
+
+.kids-circletxt2, .kids-circletxt3, .kids-circletxt4, .kids-circletxt5, .kids-circletxt7, .kids-circletxt8 {
+  position: absolute;
+  font-size: 28px;
+  color: #245d8e;
+  font-family: 'TheSans-Regular', sans-serif !important;
+  font-weight: bold;
+}
+
+.kids-circletxt2 {
+  margin-left: 940px;
+  margin-top: 520px;
+}
+
+.kids-circletxt3 {
+  margin-left: 934px;
+  margin-top: 597px;
+}
+
+.kids-circletxt4 {
+  margin-left: 915px;
+  margin-top: 672px;
+}
+
+.kids-circletxt5 {
+  margin-left: 870px;
+  margin-top: 750px;
+}
+
+.kids-circletxt6 {
+  margin-left: 930px;
+  margin-top: 1000px;
+}
+
+.kids-circletxt7 {
+  margin-left: 950px;
+  margin-top: 1210px;
+}
+
+.kids-circletxt8 {
+  margin-left: 930px;
+  margin-top: 1300px;
+}

@@ -241,7 +241,9 @@ const KidsImages = {
   background: require('./kids/background.jpg'),
   girl: require('./kids/girl.png'),
   device1: require('./kids/device1.png'),
-  devices: require('./kids/devices.png')
+  devices: require('./kids/devices.png'),
+  circle1: require('./kids/circle1.png'),
+  circle2: require('./kids/circle2.png')
 }
 
   export default {
