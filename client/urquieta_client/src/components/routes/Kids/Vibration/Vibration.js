@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from './Header'
 import FirstSect from './FirstSect'
 import SecondSect from './SecondSect'
+import ThirdSect from './ThirdSect'
 
 class Vibration extends Component {
     render(){
@@ -10,6 +11,7 @@ class Vibration extends Component {
                <Header />
                <FirstSect />
                <SecondSect />
+               <ThirdSect />
             </div>
         )
     }

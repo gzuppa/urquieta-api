@@ -3447,7 +3447,7 @@ margin-top: 5px;
   margin-top: 900px;
 }
 
-.kids-circletxt1, .kids-circletxt6 {
+.kids-circletxt1, .kids-circletxt6, .kids-circletxt9 {
   position: absolute;
   font-family: 'Exo-Regular', sans-serif !important;
   font-size: 60px;
@@ -3501,4 +3501,14 @@ margin-top: 5px;
 .kids-circletxt8 {
   margin-left: 930px;
   margin-top: 1300px;
+}
+
+.kids-circletxt9 {
+  margin-left: 750px;
+  margin-top: 1580px !important;
+}
+
+.kids-colocate {
+  margin-left: 280px;
+  margin-top: 1630px;
 }
