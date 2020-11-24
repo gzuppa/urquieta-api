@@ -3551,6 +3551,51 @@ margin-top: 5px;
 
 .kids-diadema {
   position: absolute;
-  margin-top: 360px;
+  margin-top: 460px;
   margin-left: 550px;
+}
+
+.girl2 {
+  height: 370px;
+  position: absolute;
+  margin-top: 583px;
+  margin-left: 10px;
+}
+
+.bigsect {
+  margin-top: 1100px;
+} 
+
+.kids-balloon {
+  margin-left: 330px;
+  position: absolute;
+}
+
+.balloontitle, .balloonsubtitle {
+  font-family: 'Exo-Regular', sans-serif !important;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+}
+
+.balloontitle {
+  font-size: 42px;
+  margin-left: 415px;
+}
+
+.balloonsubtitle {
+  margin-left: 740px;
+  font-size: 26px;
+  margin-top: 60px;
+}
+
+.biginfosect {
+  margin-top: 160px;
+}
+.bigcardinfo {
+  margin-left: 360px;
+}
+
+.bigdevice1 {
+  height: 200px;
 }

@@ -247,7 +247,9 @@ const KidsImages = {
   colocation: require('./kids/colocate.jpg'),
   background2: require('./kids/back2.png'),
   diadema: require('./kids/diadema.png'),
-  table: require('./kids/table.png')
+  table: require('./kids/table.png'),
+  girl2: require('./kids/girl2.png'),
+  blueballoon: require('./kids/blueballoon.png')
 }
 
   export default {

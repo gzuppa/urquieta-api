@@ -7,6 +7,7 @@ class Images extends Component {
             <div>
                <img src={Assets.kidsImgs.diadema} className="kids-diadema" alt="diadema" />
                <img src={Assets.kidsImgs.table} className="kids-table" alt="table" />
+               <img src={Assets.kidsImgs.girl2} className="girl2" alt="girl2" />
             </div>
         )
     }
